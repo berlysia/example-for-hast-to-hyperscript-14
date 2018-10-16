@@ -86,6 +86,52 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/bail/index.js":
+/*!************************************!*\
+  !*** ./node_modules/bail/index.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = bail\n\nfunction bail(err) {\n  if (err) {\n    throw err\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/bail/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/character-entities-legacy/index.json":
+/*!***********************************************************!*\
+  !*** ./node_modules/character-entities-legacy/index.json ***!
+  \***********************************************************/
+/*! exports provided: AElig, AMP, Aacute, Acirc, Agrave, Aring, Atilde, Auml, COPY, Ccedil, ETH, Eacute, Ecirc, Egrave, Euml, GT, Iacute, Icirc, Igrave, Iuml, LT, Ntilde, Oacute, Ocirc, Ograve, Oslash, Otilde, Ouml, QUOT, REG, THORN, Uacute, Ucirc, Ugrave, Uuml, Yacute, aacute, acirc, acute, aelig, agrave, amp, aring, atilde, auml, brvbar, ccedil, cedil, cent, copy, curren, deg, divide, eacute, ecirc, egrave, eth, euml, frac12, frac14, frac34, gt, iacute, icirc, iexcl, igrave, iquest, iuml, laquo, lt, macr, micro, middot, nbsp, not, ntilde, oacute, ocirc, ograve, ordf, ordm, oslash, otilde, ouml, para, plusmn, pound, quot, raquo, reg, sect, shy, sup1, sup2, sup3, szlig, thorn, times, uacute, ucirc, ugrave, uml, uuml, yacute, yen, yuml, default */
+/***/ (function(module) {
+
+eval("module.exports = {\"AElig\":\"Æ\",\"AMP\":\"&\",\"Aacute\":\"Á\",\"Acirc\":\"Â\",\"Agrave\":\"À\",\"Aring\":\"Å\",\"Atilde\":\"Ã\",\"Auml\":\"Ä\",\"COPY\":\"©\",\"Ccedil\":\"Ç\",\"ETH\":\"Ð\",\"Eacute\":\"É\",\"Ecirc\":\"Ê\",\"Egrave\":\"È\",\"Euml\":\"Ë\",\"GT\":\">\",\"Iacute\":\"Í\",\"Icirc\":\"Î\",\"Igrave\":\"Ì\",\"Iuml\":\"Ï\",\"LT\":\"<\",\"Ntilde\":\"Ñ\",\"Oacute\":\"Ó\",\"Ocirc\":\"Ô\",\"Ograve\":\"Ò\",\"Oslash\":\"Ø\",\"Otilde\":\"Õ\",\"Ouml\":\"Ö\",\"QUOT\":\"\\\"\",\"REG\":\"®\",\"THORN\":\"Þ\",\"Uacute\":\"Ú\",\"Ucirc\":\"Û\",\"Ugrave\":\"Ù\",\"Uuml\":\"Ü\",\"Yacute\":\"Ý\",\"aacute\":\"á\",\"acirc\":\"â\",\"acute\":\"´\",\"aelig\":\"æ\",\"agrave\":\"à\",\"amp\":\"&\",\"aring\":\"å\",\"atilde\":\"ã\",\"auml\":\"ä\",\"brvbar\":\"¦\",\"ccedil\":\"ç\",\"cedil\":\"¸\",\"cent\":\"¢\",\"copy\":\"©\",\"curren\":\"¤\",\"deg\":\"°\",\"divide\":\"÷\",\"eacute\":\"é\",\"ecirc\":\"ê\",\"egrave\":\"è\",\"eth\":\"ð\",\"euml\":\"ë\",\"frac12\":\"½\",\"frac14\":\"¼\",\"frac34\":\"¾\",\"gt\":\">\",\"iacute\":\"í\",\"icirc\":\"î\",\"iexcl\":\"¡\",\"igrave\":\"ì\",\"iquest\":\"¿\",\"iuml\":\"ï\",\"laquo\":\"«\",\"lt\":\"<\",\"macr\":\"¯\",\"micro\":\"µ\",\"middot\":\"·\",\"nbsp\":\" \",\"not\":\"¬\",\"ntilde\":\"ñ\",\"oacute\":\"ó\",\"ocirc\":\"ô\",\"ograve\":\"ò\",\"ordf\":\"ª\",\"ordm\":\"º\",\"oslash\":\"ø\",\"otilde\":\"õ\",\"ouml\":\"ö\",\"para\":\"¶\",\"plusmn\":\"±\",\"pound\":\"£\",\"quot\":\"\\\"\",\"raquo\":\"»\",\"reg\":\"®\",\"sect\":\"§\",\"shy\":\"­\",\"sup1\":\"¹\",\"sup2\":\"²\",\"sup3\":\"³\",\"szlig\":\"ß\",\"thorn\":\"þ\",\"times\":\"×\",\"uacute\":\"ú\",\"ucirc\":\"û\",\"ugrave\":\"ù\",\"uml\":\"¨\",\"uuml\":\"ü\",\"yacute\":\"ý\",\"yen\":\"¥\",\"yuml\":\"ÿ\"};\n\n//# sourceURL=webpack:///./node_modules/character-entities-legacy/index.json?");
+
+/***/ }),
+
+/***/ "./node_modules/character-reference-invalid/index.json":
+/*!*************************************************************!*\
+  !*** ./node_modules/character-reference-invalid/index.json ***!
+  \*************************************************************/
+/*! exports provided: 0, 128, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 142, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 158, 159, default */
+/***/ (function(module) {
+
+eval("module.exports = {\"0\":\"�\",\"128\":\"€\",\"130\":\"‚\",\"131\":\"ƒ\",\"132\":\"„\",\"133\":\"…\",\"134\":\"†\",\"135\":\"‡\",\"136\":\"ˆ\",\"137\":\"‰\",\"138\":\"Š\",\"139\":\"‹\",\"140\":\"Œ\",\"142\":\"Ž\",\"145\":\"‘\",\"146\":\"’\",\"147\":\"“\",\"148\":\"”\",\"149\":\"•\",\"150\":\"–\",\"151\":\"—\",\"152\":\"˜\",\"153\":\"™\",\"154\":\"š\",\"155\":\"›\",\"156\":\"œ\",\"158\":\"ž\",\"159\":\"Ÿ\"};\n\n//# sourceURL=webpack:///./node_modules/character-reference-invalid/index.json?");
+
+/***/ }),
+
+/***/ "./node_modules/collapse-white-space/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/collapse-white-space/index.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = collapse\n\n/* collapse(' \\t\\nbar \\nbaz\\t'); // ' bar baz ' */\nfunction collapse(value) {\n  return String(value).replace(/\\s+/g, ' ')\n}\n\n\n//# sourceURL=webpack:///./node_modules/collapse-white-space/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/comma-separated-tokens/index.js":
 /*!******************************************************!*\
   !*** ./node_modules/comma-separated-tokens/index.js ***!
@@ -109,6 +155,30 @@ eval("// http://www.w3.org/TR/CSS21/grammar.html\n// https://github.com/visionme
 
 /***/ }),
 
+/***/ "./node_modules/detab/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/detab/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = detab;\n\nvar repeat = __webpack_require__(/*! repeat-string */ \"./node_modules/repeat-string/index.js\");\n\nvar TAB = 0x09;\nvar LF = 0x0A;\nvar CR = 0x0D;\n\n/* Replace tabs with spaces, being smart about which\n * column the tab is at and which size should be used. */\nfunction detab(value, size) {\n  var string = typeof value === 'string';\n  var length = string && value.length;\n  var start = 0;\n  var index = -1;\n  var column = -1;\n  var tabSize = size || 4;\n  var results = [];\n  var code;\n  var add;\n\n  if (!string) {\n    throw new Error('detab expected string');\n  }\n\n  while (++index < length) {\n    code = value.charCodeAt(index);\n\n    if (code === TAB) {\n      add = tabSize - ((column + 1) % tabSize);\n      column += add;\n      results.push(value.slice(start, index) + repeat(' ', add));\n      start = index + 1;\n    } else if (code === LF || code === CR) {\n      column = -1;\n    } else {\n      column++;\n    }\n  }\n\n  results.push(value.slice(start));\n\n  return results.join('');\n}\n\n\n//# sourceURL=webpack:///./node_modules/detab/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/extend/index.js":
+/*!**************************************!*\
+  !*** ./node_modules/extend/index.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar hasOwn = Object.prototype.hasOwnProperty;\nvar toStr = Object.prototype.toString;\nvar defineProperty = Object.defineProperty;\nvar gOPD = Object.getOwnPropertyDescriptor;\n\nvar isArray = function isArray(arr) {\n\tif (typeof Array.isArray === 'function') {\n\t\treturn Array.isArray(arr);\n\t}\n\n\treturn toStr.call(arr) === '[object Array]';\n};\n\nvar isPlainObject = function isPlainObject(obj) {\n\tif (!obj || toStr.call(obj) !== '[object Object]') {\n\t\treturn false;\n\t}\n\n\tvar hasOwnConstructor = hasOwn.call(obj, 'constructor');\n\tvar hasIsPrototypeOf = obj.constructor && obj.constructor.prototype && hasOwn.call(obj.constructor.prototype, 'isPrototypeOf');\n\t// Not own constructor property must be Object\n\tif (obj.constructor && !hasOwnConstructor && !hasIsPrototypeOf) {\n\t\treturn false;\n\t}\n\n\t// Own properties are enumerated firstly, so to speed up,\n\t// if last one is own, then all properties are own.\n\tvar key;\n\tfor (key in obj) { /**/ }\n\n\treturn typeof key === 'undefined' || hasOwn.call(obj, key);\n};\n\n// If name is '__proto__', and Object.defineProperty is available, define __proto__ as an own property on target\nvar setProperty = function setProperty(target, options) {\n\tif (defineProperty && options.name === '__proto__') {\n\t\tdefineProperty(target, options.name, {\n\t\t\tenumerable: true,\n\t\t\tconfigurable: true,\n\t\t\tvalue: options.newValue,\n\t\t\twritable: true\n\t\t});\n\t} else {\n\t\ttarget[options.name] = options.newValue;\n\t}\n};\n\n// Return undefined instead of __proto__ if '__proto__' is not an own property\nvar getProperty = function getProperty(obj, name) {\n\tif (name === '__proto__') {\n\t\tif (!hasOwn.call(obj, name)) {\n\t\t\treturn void 0;\n\t\t} else if (gOPD) {\n\t\t\t// In early versions of node, obj['__proto__'] is buggy when obj has\n\t\t\t// __proto__ as an own property. Object.getOwnPropertyDescriptor() works.\n\t\t\treturn gOPD(obj, name).value;\n\t\t}\n\t}\n\n\treturn obj[name];\n};\n\nmodule.exports = function extend() {\n\tvar options, name, src, copy, copyIsArray, clone;\n\tvar target = arguments[0];\n\tvar i = 1;\n\tvar length = arguments.length;\n\tvar deep = false;\n\n\t// Handle a deep copy situation\n\tif (typeof target === 'boolean') {\n\t\tdeep = target;\n\t\ttarget = arguments[1] || {};\n\t\t// skip the boolean and the target\n\t\ti = 2;\n\t}\n\tif (target == null || (typeof target !== 'object' && typeof target !== 'function')) {\n\t\ttarget = {};\n\t}\n\n\tfor (; i < length; ++i) {\n\t\toptions = arguments[i];\n\t\t// Only deal with non-null/undefined values\n\t\tif (options != null) {\n\t\t\t// Extend the base object\n\t\t\tfor (name in options) {\n\t\t\t\tsrc = getProperty(target, name);\n\t\t\t\tcopy = getProperty(options, name);\n\n\t\t\t\t// Prevent never-ending loop\n\t\t\t\tif (target !== copy) {\n\t\t\t\t\t// Recurse if we're merging plain objects or arrays\n\t\t\t\t\tif (deep && copy && (isPlainObject(copy) || (copyIsArray = isArray(copy)))) {\n\t\t\t\t\t\tif (copyIsArray) {\n\t\t\t\t\t\t\tcopyIsArray = false;\n\t\t\t\t\t\t\tclone = src && isArray(src) ? src : [];\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\tclone = src && isPlainObject(src) ? src : {};\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\t// Never move original objects, clone them\n\t\t\t\t\t\tsetProperty(target, { name: name, newValue: extend(deep, clone, copy) });\n\n\t\t\t\t\t// Don't bring in undefined values\n\t\t\t\t\t} else if (typeof copy !== 'undefined') {\n\t\t\t\t\t\tsetProperty(target, { name: name, newValue: copy });\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\n\t// Return the modified object\n\treturn target;\n};\n\n\n//# sourceURL=webpack:///./node_modules/extend/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/hast-to-hyperscript/index.js":
 /*!***************************************************!*\
   !*** ./node_modules/hast-to-hyperscript/index.js ***!
@@ -121,6 +191,519 @@ eval("\n\nvar html = __webpack_require__(/*! property-information/html */ \"./no
 
 /***/ }),
 
+/***/ "./node_modules/inherits/inherits_browser.js":
+/*!***************************************************!*\
+  !*** ./node_modules/inherits/inherits_browser.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("if (typeof Object.create === 'function') {\n  // implementation from standard node.js 'util' module\n  module.exports = function inherits(ctor, superCtor) {\n    ctor.super_ = superCtor\n    ctor.prototype = Object.create(superCtor.prototype, {\n      constructor: {\n        value: ctor,\n        enumerable: false,\n        writable: true,\n        configurable: true\n      }\n    });\n  };\n} else {\n  // old school shim for old browsers\n  module.exports = function inherits(ctor, superCtor) {\n    ctor.super_ = superCtor\n    var TempCtor = function () {}\n    TempCtor.prototype = superCtor.prototype\n    ctor.prototype = new TempCtor()\n    ctor.prototype.constructor = ctor\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/inherits/inherits_browser.js?");
+
+/***/ }),
+
+/***/ "./node_modules/is-alphabetical/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/is-alphabetical/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = alphabetical\n\n/* Check if the given character code, or the character\n * code at the first character, is alphabetical. */\nfunction alphabetical(character) {\n  var code = typeof character === 'string' ? character.charCodeAt(0) : character\n\n  return (\n    (code >= 97 && code <= 122) /* a-z */ ||\n    (code >= 65 && code <= 90) /* A-Z */\n  )\n}\n\n\n//# sourceURL=webpack:///./node_modules/is-alphabetical/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/is-alphanumerical/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/is-alphanumerical/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar alphabetical = __webpack_require__(/*! is-alphabetical */ \"./node_modules/is-alphabetical/index.js\")\nvar decimal = __webpack_require__(/*! is-decimal */ \"./node_modules/is-decimal/index.js\")\n\nmodule.exports = alphanumerical\n\n/* Check if the given character code, or the character\n * code at the first character, is alphanumerical. */\nfunction alphanumerical(character) {\n  return alphabetical(character) || decimal(character)\n}\n\n\n//# sourceURL=webpack:///./node_modules/is-alphanumerical/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/is-buffer/index.js":
+/*!*****************************************!*\
+  !*** ./node_modules/is-buffer/index.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/*!\n * Determine if an object is a Buffer\n *\n * @author   Feross Aboukhadijeh <https://feross.org>\n * @license  MIT\n */\n\nmodule.exports = function isBuffer (obj) {\n  return obj != null && obj.constructor != null &&\n    typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)\n}\n\n\n//# sourceURL=webpack:///./node_modules/is-buffer/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/is-decimal/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/is-decimal/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = decimal\n\n/* Check if the given character code, or the character\n * code at the first character, is decimal. */\nfunction decimal(character) {\n  var code = typeof character === 'string' ? character.charCodeAt(0) : character\n\n  return code >= 48 && code <= 57 /* 0-9 */\n}\n\n\n//# sourceURL=webpack:///./node_modules/is-decimal/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/is-hexadecimal/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/is-hexadecimal/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = hexadecimal\n\n/* Check if the given character code, or the character\n * code at the first character, is hexadecimal. */\nfunction hexadecimal(character) {\n  var code = typeof character === 'string' ? character.charCodeAt(0) : character\n\n  return (\n    (code >= 97 /* a */ && code <= 102) /* z */ ||\n    (code >= 65 /* A */ && code <= 70) /* Z */ ||\n    (code >= 48 /* A */ && code <= 57) /* Z */\n  )\n}\n\n\n//# sourceURL=webpack:///./node_modules/is-hexadecimal/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/is-plain-obj/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/is-plain-obj/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar toString = Object.prototype.toString;\n\nmodule.exports = function (x) {\n\tvar prototype;\n\treturn toString.call(x) === '[object Object]' && (prototype = Object.getPrototypeOf(x), prototype === null || prototype === Object.getPrototypeOf({}));\n};\n\n\n//# sourceURL=webpack:///./node_modules/is-plain-obj/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/is-whitespace-character/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/is-whitespace-character/index.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = whitespace\n\nvar fromCode = String.fromCharCode\nvar re = /\\s/\n\n/* Check if the given character code, or the character\n * code at the first character, is a whitespace character. */\nfunction whitespace(character) {\n  return re.test(\n    typeof character === 'number' ? fromCode(character) : character.charAt(0)\n  )\n}\n\n\n//# sourceURL=webpack:///./node_modules/is-whitespace-character/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/is-word-character/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/is-word-character/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = wordCharacter\n\nvar fromCode = String.fromCharCode\nvar re = /\\w/\n\n/* Check if the given character code, or the character\n * code at the first character, is a word character. */\nfunction wordCharacter(character) {\n  return re.test(\n    typeof character === 'number' ? fromCode(character) : character.charAt(0)\n  )\n}\n\n\n//# sourceURL=webpack:///./node_modules/is-word-character/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/markdown-escapes/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/markdown-escapes/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = escapes\n\nvar defaults = [\n  '\\\\',\n  '`',\n  '*',\n  '{',\n  '}',\n  '[',\n  ']',\n  '(',\n  ')',\n  '#',\n  '+',\n  '-',\n  '.',\n  '!',\n  '_',\n  '>'\n]\n\nvar gfm = defaults.concat(['~', '|'])\n\nvar commonmark = gfm.concat([\n  '\\n',\n  '\"',\n  '$',\n  '%',\n  '&',\n  \"'\",\n  ',',\n  '/',\n  ':',\n  ';',\n  '<',\n  '=',\n  '?',\n  '@',\n  '^'\n])\n\nescapes.default = defaults\nescapes.gfm = gfm\nescapes.commonmark = commonmark\n\n/* Get markdown escapes. */\nfunction escapes(options) {\n  var settings = options || {}\n\n  if (settings.commonmark) {\n    return commonmark\n  }\n\n  return settings.gfm ? gfm : defaults\n}\n\n\n//# sourceURL=webpack:///./node_modules/markdown-escapes/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-definitions/index.js":
+/*!******************************************************!*\
+  !*** ./node_modules/mdast-util-definitions/index.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar visit = __webpack_require__(/*! unist-util-visit */ \"./node_modules/unist-util-visit/index.js\")\n\nmodule.exports = getDefinitionFactory\n\nvar own = {}.hasOwnProperty\n\n/* Get a definition in `node` by `identifier`. */\nfunction getDefinitionFactory(node, options) {\n  return getterFactory(gather(node, options))\n}\n\n/* Gather all definitions in `node` */\nfunction gather(node, options) {\n  var cache = {}\n\n  if (!node || !node.type) {\n    throw new Error('mdast-util-definitions expected node')\n  }\n\n  visit(node, 'definition', options && options.commonmark ? commonmark : normal)\n\n  return cache\n\n  function commonmark(definition) {\n    var id = normalise(definition.identifier)\n    if (!own.call(cache, id)) {\n      cache[id] = definition\n    }\n  }\n\n  function normal(definition) {\n    cache[normalise(definition.identifier)] = definition\n  }\n}\n\n/* Factory to get a node from the given definition-cache. */\nfunction getterFactory(cache) {\n  return getter\n\n  /* Get a node from the bound definition-cache. */\n  function getter(identifier) {\n    var id = identifier && normalise(identifier)\n    return id && own.call(cache, id) ? cache[id] : null\n  }\n}\n\nfunction normalise(identifier) {\n  return identifier.toUpperCase()\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-definitions/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/index.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nmodule.exports = __webpack_require__(/*! ./lib */ \"./node_modules/mdast-util-to-hast/lib/index.js\")\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/all.js":
+/*!****************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/all.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = all\n\nvar trim = __webpack_require__(/*! trim */ \"./node_modules/trim/index.js\")\nvar one = __webpack_require__(/*! ./one */ \"./node_modules/mdast-util-to-hast/lib/one.js\")\n\n/* Transform the children of `parent`. */\nfunction all(h, parent) {\n  var nodes = parent.children || []\n  var length = nodes.length\n  var values = []\n  var index = -1\n  var result\n  var head\n\n  while (++index < length) {\n    result = one(h, nodes[index], parent)\n\n    if (result) {\n      if (index && nodes[index - 1].type === 'break') {\n        if (result.value) {\n          result.value = trim.left(result.value)\n        }\n\n        head = result.children && result.children[0]\n\n        if (head && head.value) {\n          head.value = trim.left(head.value)\n        }\n      }\n\n      values = values.concat(result)\n    }\n  }\n\n  return values\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/all.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/footer.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/footer.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = generateFootnotes\n\nvar thematicBreak = __webpack_require__(/*! ./handlers/thematic-break */ \"./node_modules/mdast-util-to-hast/lib/handlers/thematic-break.js\")\nvar list = __webpack_require__(/*! ./handlers/list */ \"./node_modules/mdast-util-to-hast/lib/handlers/list.js\")\nvar wrap = __webpack_require__(/*! ./wrap */ \"./node_modules/mdast-util-to-hast/lib/wrap.js\")\n\n/* Transform all footnote definitions, if any. */\nfunction generateFootnotes(h) {\n  var footnotes = h.footnotes\n  var length = footnotes.length\n  var index = -1\n  var listItems = []\n  var def\n\n  if (!length) {\n    return null\n  }\n\n  while (++index < length) {\n    def = footnotes[index]\n\n    listItems[index] = {\n      type: 'listItem',\n      data: {hProperties: {id: 'fn-' + def.identifier}},\n      children: def.children.concat({\n        type: 'link',\n        url: '#fnref-' + def.identifier,\n        data: {hProperties: {className: ['footnote-backref']}},\n        children: [{type: 'text', value: '↩'}]\n      }),\n      position: def.position\n    }\n  }\n\n  return h(\n    null,\n    'div',\n    {className: ['footnotes']},\n    wrap(\n      [\n        thematicBreak(h),\n        list(h, {\n          type: 'list',\n          ordered: true,\n          children: listItems\n        })\n      ],\n      true\n    )\n  )\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/footer.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/blockquote.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/blockquote.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = blockquote\n\nvar wrap = __webpack_require__(/*! ../wrap */ \"./node_modules/mdast-util-to-hast/lib/wrap.js\")\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform a block quote. */\nfunction blockquote(h, node) {\n  return h(node, 'blockquote', wrap(all(h, node), true))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/blockquote.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/break.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/break.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = hardBreak\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\n\n/* Transform an inline break. */\nfunction hardBreak(h, node) {\n  return [h(node, 'br'), u('text', '\\n')]\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/break.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/code.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/code.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = code\n\nvar detab = __webpack_require__(/*! detab */ \"./node_modules/detab/index.js\")\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\n\n/* Transform a code block. */\nfunction code(h, node) {\n  var value = node.value ? detab(node.value + '\\n') : ''\n  var lang = node.lang && node.lang.match(/^[^ \\t]+(?=[ \\t]|$)/)\n  var props = {}\n\n  if (lang) {\n    props.className = ['language-' + lang]\n  }\n\n  return h(node.position, 'pre', [h(node, 'code', props, [u('text', value)])])\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/code.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/delete.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/delete.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = strikethrough\n\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform deletions. */\nfunction strikethrough(h, node) {\n  return h(node, 'del', all(h, node))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/delete.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/emphasis.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/emphasis.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = emphasis\n\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform emphasis. */\nfunction emphasis(h, node) {\n  return h(node, 'em', all(h, node))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/emphasis.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/footnote-reference.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/footnote-reference.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = footnoteReference\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\n\n/* Transform a reference to a footnote. */\nfunction footnoteReference(h, node) {\n  var identifier = node.identifier\n\n  return h(node.position, 'sup', {id: 'fnref-' + identifier}, [\n    h(node, 'a', {href: '#fn-' + identifier, className: ['footnote-ref']}, [\n      u('text', identifier)\n    ])\n  ])\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/footnote-reference.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/footnote.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/footnote.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = footnote\n\nvar footnoteReference = __webpack_require__(/*! ./footnote-reference */ \"./node_modules/mdast-util-to-hast/lib/handlers/footnote-reference.js\")\n\n/* Transform an inline footnote. */\nfunction footnote(h, node) {\n  var identifiers = []\n  var identifier = 1\n  var footnotes = h.footnotes\n  var length = footnotes.length\n  var index = -1\n\n  while (++index < length) {\n    identifiers[index] = footnotes[index].identifier\n  }\n\n  while (identifiers.indexOf(String(identifier)) !== -1) {\n    identifier++\n  }\n\n  identifier = String(identifier)\n\n  footnotes.push({\n    type: 'footnoteDefinition',\n    identifier: identifier,\n    children: [{type: 'paragraph', children: node.children}],\n    position: node.position\n  })\n\n  return footnoteReference(h, {\n    type: 'footnoteReference',\n    identifier: identifier,\n    position: node.position\n  })\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/footnote.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/heading.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/heading.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = heading\n\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform a heading. */\nfunction heading(h, node) {\n  return h(node, 'h' + node.depth, all(h, node))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/heading.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/html.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/html.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = html\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\n\n/* Return either a `raw` node, in dangerous mode, or\n * nothing. */\nfunction html(h, node) {\n  return h.dangerous ? h.augment(node, u('raw', node.value)) : null\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/html.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/image-reference.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/image-reference.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = imageReference\n\nvar normalize = __webpack_require__(/*! mdurl/encode */ \"./node_modules/mdurl/encode.js\")\nvar revert = __webpack_require__(/*! ../revert */ \"./node_modules/mdast-util-to-hast/lib/revert.js\")\n\n/* Transform a reference to an image. */\nfunction imageReference(h, node) {\n  var def = h.definition(node.identifier)\n  var props\n\n  if (!def) {\n    return revert(h, node)\n  }\n\n  props = {src: normalize(def.url || ''), alt: node.alt}\n\n  if (def.title !== null && def.title !== undefined) {\n    props.title = def.title\n  }\n\n  return h(node, 'img', props)\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/image-reference.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/image.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/image.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar normalize = __webpack_require__(/*! mdurl/encode */ \"./node_modules/mdurl/encode.js\")\n\nmodule.exports = image\n\n/* Transform an image. */\nfunction image(h, node) {\n  var props = {src: normalize(node.url), alt: node.alt}\n\n  if (node.title !== null && node.title !== undefined) {\n    props.title = node.title\n  }\n\n  return h(node, 'img', props)\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/image.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/index.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/index.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = {\n  blockquote: __webpack_require__(/*! ./blockquote */ \"./node_modules/mdast-util-to-hast/lib/handlers/blockquote.js\"),\n  break: __webpack_require__(/*! ./break */ \"./node_modules/mdast-util-to-hast/lib/handlers/break.js\"),\n  code: __webpack_require__(/*! ./code */ \"./node_modules/mdast-util-to-hast/lib/handlers/code.js\"),\n  delete: __webpack_require__(/*! ./delete */ \"./node_modules/mdast-util-to-hast/lib/handlers/delete.js\"),\n  emphasis: __webpack_require__(/*! ./emphasis */ \"./node_modules/mdast-util-to-hast/lib/handlers/emphasis.js\"),\n  footnoteReference: __webpack_require__(/*! ./footnote-reference */ \"./node_modules/mdast-util-to-hast/lib/handlers/footnote-reference.js\"),\n  footnote: __webpack_require__(/*! ./footnote */ \"./node_modules/mdast-util-to-hast/lib/handlers/footnote.js\"),\n  heading: __webpack_require__(/*! ./heading */ \"./node_modules/mdast-util-to-hast/lib/handlers/heading.js\"),\n  html: __webpack_require__(/*! ./html */ \"./node_modules/mdast-util-to-hast/lib/handlers/html.js\"),\n  imageReference: __webpack_require__(/*! ./image-reference */ \"./node_modules/mdast-util-to-hast/lib/handlers/image-reference.js\"),\n  image: __webpack_require__(/*! ./image */ \"./node_modules/mdast-util-to-hast/lib/handlers/image.js\"),\n  inlineCode: __webpack_require__(/*! ./inline-code */ \"./node_modules/mdast-util-to-hast/lib/handlers/inline-code.js\"),\n  linkReference: __webpack_require__(/*! ./link-reference */ \"./node_modules/mdast-util-to-hast/lib/handlers/link-reference.js\"),\n  link: __webpack_require__(/*! ./link */ \"./node_modules/mdast-util-to-hast/lib/handlers/link.js\"),\n  listItem: __webpack_require__(/*! ./list-item */ \"./node_modules/mdast-util-to-hast/lib/handlers/list-item.js\"),\n  list: __webpack_require__(/*! ./list */ \"./node_modules/mdast-util-to-hast/lib/handlers/list.js\"),\n  paragraph: __webpack_require__(/*! ./paragraph */ \"./node_modules/mdast-util-to-hast/lib/handlers/paragraph.js\"),\n  root: __webpack_require__(/*! ./root */ \"./node_modules/mdast-util-to-hast/lib/handlers/root.js\"),\n  strong: __webpack_require__(/*! ./strong */ \"./node_modules/mdast-util-to-hast/lib/handlers/strong.js\"),\n  table: __webpack_require__(/*! ./table */ \"./node_modules/mdast-util-to-hast/lib/handlers/table.js\"),\n  text: __webpack_require__(/*! ./text */ \"./node_modules/mdast-util-to-hast/lib/handlers/text.js\"),\n  thematicBreak: __webpack_require__(/*! ./thematic-break */ \"./node_modules/mdast-util-to-hast/lib/handlers/thematic-break.js\"),\n  toml: ignore,\n  yaml: ignore,\n  definition: ignore,\n  footnoteDefinition: ignore\n}\n\n/* Return nothing for nodes which are ignored. */\nfunction ignore() {\n  return null\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/inline-code.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/inline-code.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = inlineCode\n\nvar collapse = __webpack_require__(/*! collapse-white-space */ \"./node_modules/collapse-white-space/index.js\")\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\n\n/* Transform inline code. */\nfunction inlineCode(h, node) {\n  return h(node, 'code', [u('text', collapse(node.value))])\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/inline-code.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/link-reference.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/link-reference.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = linkReference\n\nvar normalize = __webpack_require__(/*! mdurl/encode */ \"./node_modules/mdurl/encode.js\")\nvar revert = __webpack_require__(/*! ../revert */ \"./node_modules/mdast-util-to-hast/lib/revert.js\")\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform a reference to a link. */\nfunction linkReference(h, node) {\n  var def = h.definition(node.identifier)\n  var props\n\n  if (!def) {\n    return revert(h, node)\n  }\n\n  props = {href: normalize(def.url || '')}\n\n  if (def.title !== null && def.title !== undefined) {\n    props.title = def.title\n  }\n\n  return h(node, 'a', props, all(h, node))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/link-reference.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/link.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/link.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar normalize = __webpack_require__(/*! mdurl/encode */ \"./node_modules/mdurl/encode.js\")\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\nmodule.exports = link\n\n/* Transform a link. */\nfunction link(h, node) {\n  var props = {href: normalize(node.url)}\n\n  if (node.title !== null && node.title !== undefined) {\n    props.title = node.title\n  }\n\n  return h(node, 'a', props, all(h, node))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/link.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/list-item.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/list-item.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = listItem\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\nvar wrap = __webpack_require__(/*! ../wrap */ \"./node_modules/mdast-util-to-hast/lib/wrap.js\")\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform a list-item. */\nfunction listItem(h, node, parent) {\n  var children = node.children\n  var head = children[0]\n  var props = {}\n  var single = false\n  var result\n  var container\n\n  if (\n    (!parent || !parent.loose) &&\n    children.length === 1 &&\n    head.type === 'paragraph'\n  ) {\n    single = true\n  }\n\n  result = all(h, single ? head : node)\n\n  if (typeof node.checked === 'boolean') {\n    if (!single && (!head || head.type !== 'paragraph')) {\n      result.unshift(h(null, 'p', []))\n    }\n\n    container = single ? result : result[0].children\n\n    if (container.length !== 0) {\n      container.unshift(u('text', ' '))\n    }\n\n    container.unshift(\n      h(null, 'input', {\n        type: 'checkbox',\n        checked: node.checked,\n        disabled: true\n      })\n    )\n\n    /* According to github-markdown-css, this class hides bullet. */\n    props.className = ['task-list-item']\n  }\n\n  if (!single && result.length !== 0) {\n    result = wrap(result, true)\n  }\n\n  return h(node, 'li', props, result)\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/list-item.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/list.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/list.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = list\n\nvar wrap = __webpack_require__(/*! ../wrap */ \"./node_modules/mdast-util-to-hast/lib/wrap.js\")\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform a list. */\nfunction list(h, node) {\n  var props = {}\n  var name = node.ordered ? 'ol' : 'ul'\n\n  if (typeof node.start === 'number' && node.start !== 1) {\n    props.start = node.start\n  }\n\n  return h(node, name, props, wrap(all(h, node), true))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/list.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/paragraph.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/paragraph.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = paragraph\n\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform a paragraph. */\nfunction paragraph(h, node) {\n  return h(node, 'p', all(h, node))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/paragraph.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/root.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/root.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = root\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\nvar wrap = __webpack_require__(/*! ../wrap */ \"./node_modules/mdast-util-to-hast/lib/wrap.js\")\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform a `root`. */\nfunction root(h, node) {\n  return h.augment(node, u('root', wrap(all(h, node))))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/root.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/strong.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/strong.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = strong\n\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform importance. */\nfunction strong(h, node) {\n  return h(node, 'strong', all(h, node))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/strong.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/table.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/table.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = table\n\nvar position = __webpack_require__(/*! unist-util-position */ \"./node_modules/unist-util-position/index.js\")\nvar wrap = __webpack_require__(/*! ../wrap */ \"./node_modules/mdast-util-to-hast/lib/wrap.js\")\nvar all = __webpack_require__(/*! ../all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Transform a table. */\nfunction table(h, node) {\n  var rows = node.children\n  var index = rows.length\n  var align = node.align\n  var alignLength = align.length\n  var result = []\n  var pos\n  var row\n  var out\n  var name\n  var cell\n\n  while (index--) {\n    row = rows[index].children\n    name = index === 0 ? 'th' : 'td'\n    pos = alignLength\n    out = []\n\n    while (pos--) {\n      cell = row[pos]\n      out[pos] = h(cell, name, {align: align[pos]}, cell ? all(h, cell) : [])\n    }\n\n    result[index] = h(rows[index], 'tr', wrap(out, true))\n  }\n\n  return h(\n    node,\n    'table',\n    wrap(\n      [\n        h(result[0].position, 'thead', wrap([result[0]], true)),\n        h(\n          {\n            start: position.start(result[1]),\n            end: position.end(result[result.length - 1])\n          },\n          'tbody',\n          wrap(result.slice(1), true)\n        )\n      ],\n      true\n    )\n  )\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/table.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/text.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/text.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = text\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\nvar trimLines = __webpack_require__(/*! trim-lines */ \"./node_modules/trim-lines/index.js\")\n\n/* Transform text. */\nfunction text(h, node) {\n  return h.augment(node, u('text', trimLines(node.value)))\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/text.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/handlers/thematic-break.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/handlers/thematic-break.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = thematicBreak\n\n/* Transform a thematic break / horizontal rule. */\nfunction thematicBreak(h, node) {\n  return h(node, 'hr')\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/handlers/thematic-break.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/index.js":
+/*!******************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/index.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = toHAST\n\nvar xtend = __webpack_require__(/*! xtend */ \"./node_modules/xtend/immutable.js\")\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\nvar visit = __webpack_require__(/*! unist-util-visit */ \"./node_modules/unist-util-visit/index.js\")\nvar position = __webpack_require__(/*! unist-util-position */ \"./node_modules/unist-util-position/index.js\")\nvar generated = __webpack_require__(/*! unist-util-generated */ \"./node_modules/unist-util-generated/index.js\")\nvar definitions = __webpack_require__(/*! mdast-util-definitions */ \"./node_modules/mdast-util-definitions/index.js\")\nvar one = __webpack_require__(/*! ./one */ \"./node_modules/mdast-util-to-hast/lib/one.js\")\nvar footer = __webpack_require__(/*! ./footer */ \"./node_modules/mdast-util-to-hast/lib/footer.js\")\nvar handlers = __webpack_require__(/*! ./handlers */ \"./node_modules/mdast-util-to-hast/lib/handlers/index.js\")\n\n/* Factory to transform. */\nfunction factory(tree, options) {\n  var settings = options || {}\n  var dangerous = settings.allowDangerousHTML\n\n  h.dangerous = dangerous\n  h.definition = definitions(tree, settings)\n  h.footnotes = []\n  h.augment = augment\n  h.handlers = xtend(handlers, settings.handlers || {})\n\n  visit(tree, 'footnoteDefinition', visitor)\n\n  return h\n\n  /* Finalise the created `right`, a HAST node, from\n   * `left`, an MDAST node.   */\n  function augment(left, right) {\n    var data\n    var ctx\n\n    /* Handle `data.hName`, `data.hProperties, `hChildren`. */\n    if (left && 'data' in left) {\n      data = left.data\n\n      if (right.type === 'element' && data.hName) {\n        right.tagName = data.hName\n      }\n\n      if (right.type === 'element' && data.hProperties) {\n        right.properties = xtend(right.properties, data.hProperties)\n      }\n\n      if (right.children && data.hChildren) {\n        right.children = data.hChildren\n      }\n    }\n\n    ctx = left && left.position ? left : {position: left}\n\n    if (!generated(ctx)) {\n      right.position = {\n        start: position.start(ctx),\n        end: position.end(ctx)\n      }\n    }\n\n    return right\n  }\n\n  /* Create an element for a `node`. */\n  function h(node, tagName, props, children) {\n    if (\n      (children === undefined || children === null) &&\n      typeof props === 'object' &&\n      'length' in props\n    ) {\n      children = props\n      props = {}\n    }\n\n    return augment(node, {\n      type: 'element',\n      tagName: tagName,\n      properties: props || {},\n      children: children || []\n    })\n  }\n\n  function visitor(definition) {\n    h.footnotes.push(definition)\n  }\n}\n\n/* Transform `tree`, which is an MDAST node, to a HAST node. */\nfunction toHAST(tree, options) {\n  var h = factory(tree, options)\n  var node = one(h, tree)\n  var footnotes = footer(h)\n\n  if (node && node.children && footnotes) {\n    node.children = node.children.concat(u('text', '\\n'), footnotes)\n  }\n\n  return node\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/one.js":
+/*!****************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/one.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = one\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\nvar all = __webpack_require__(/*! ./all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\nvar own = {}.hasOwnProperty\n\n/* Transform an unknown node. */\nfunction unknown(h, node) {\n  if (text(node)) {\n    return h.augment(node, u('text', node.value))\n  }\n\n  return h(node, 'div', all(h, node))\n}\n\n/* Visit a node. */\nfunction one(h, node, parent) {\n  var type = node && node.type\n  var fn = own.call(h.handlers, type) ? h.handlers[type] : null\n\n  /* Fail on non-nodes. */\n  if (!type) {\n    throw new Error('Expected node, got `' + node + '`')\n  }\n\n  return (typeof fn === 'function' ? fn : unknown)(h, node, parent)\n}\n\n/* Check if the node should be renderered a text node. */\nfunction text(node) {\n  var data = node.data || {}\n\n  if (\n    own.call(data, 'hName') ||\n    own.call(data, 'hProperties') ||\n    own.call(data, 'hChildren')\n  ) {\n    return false\n  }\n\n  return 'value' in node\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/one.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/revert.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/revert.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = revert\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\nvar all = __webpack_require__(/*! ./all */ \"./node_modules/mdast-util-to-hast/lib/all.js\")\n\n/* Return the content of a reference without definition as markdown. */\nfunction revert(h, node) {\n  var subtype = node.referenceType\n  var suffix = ']'\n  var contents\n  var head\n  var tail\n\n  if (subtype === 'collapsed') {\n    suffix += '[]'\n  } else if (subtype === 'full') {\n    suffix += '[' + node.identifier + ']'\n  }\n\n  if (node.type === 'imageReference') {\n    return u('text', '![' + node.alt + suffix)\n  }\n\n  contents = all(h, node)\n  head = contents[0]\n\n  if (head && head.type === 'text') {\n    head.value = '[' + head.value\n  } else {\n    contents.unshift(u('text', '['))\n  }\n\n  tail = contents[contents.length - 1]\n\n  if (tail && tail.type === 'text') {\n    tail.value += suffix\n  } else {\n    contents.push(u('text', suffix))\n  }\n\n  return contents\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/revert.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdast-util-to-hast/lib/wrap.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/mdast-util-to-hast/lib/wrap.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = wrap\n\nvar u = __webpack_require__(/*! unist-builder */ \"./node_modules/unist-builder/index.js\")\n\n/* Wrap `nodes` with newlines between each entry.\n * Optionally adds newlines at the start and end. */\nfunction wrap(nodes, loose) {\n  var result = []\n  var index = -1\n  var length = nodes.length\n\n  if (loose) {\n    result.push(u('text', '\\n'))\n  }\n\n  while (++index < length) {\n    if (index) {\n      result.push(u('text', '\\n'))\n    }\n\n    result.push(nodes[index])\n  }\n\n  if (loose && nodes.length !== 0) {\n    result.push(u('text', '\\n'))\n  }\n\n  return result\n}\n\n\n//# sourceURL=webpack:///./node_modules/mdast-util-to-hast/lib/wrap.js?");
+
+/***/ }),
+
+/***/ "./node_modules/mdurl/encode.js":
+/*!**************************************!*\
+  !*** ./node_modules/mdurl/encode.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n\n\nvar encodeCache = {};\n\n\n// Create a lookup array where anything but characters in `chars` string\n// and alphanumeric chars is percent-encoded.\n//\nfunction getEncodeCache(exclude) {\n  var i, ch, cache = encodeCache[exclude];\n  if (cache) { return cache; }\n\n  cache = encodeCache[exclude] = [];\n\n  for (i = 0; i < 128; i++) {\n    ch = String.fromCharCode(i);\n\n    if (/^[0-9a-z]$/i.test(ch)) {\n      // always allow unencoded alphanumeric characters\n      cache.push(ch);\n    } else {\n      cache.push('%' + ('0' + i.toString(16).toUpperCase()).slice(-2));\n    }\n  }\n\n  for (i = 0; i < exclude.length; i++) {\n    cache[exclude.charCodeAt(i)] = exclude[i];\n  }\n\n  return cache;\n}\n\n\n// Encode unsafe characters with percent-encoding, skipping already\n// encoded sequences.\n//\n//  - string       - string to encode\n//  - exclude      - list of characters to ignore (in addition to a-zA-Z0-9)\n//  - keepEscaped  - don't encode '%' in a correct escape sequence (default: true)\n//\nfunction encode(string, exclude, keepEscaped) {\n  var i, l, code, nextCode, cache,\n      result = '';\n\n  if (typeof exclude !== 'string') {\n    // encode(string, keepEscaped)\n    keepEscaped  = exclude;\n    exclude = encode.defaultChars;\n  }\n\n  if (typeof keepEscaped === 'undefined') {\n    keepEscaped = true;\n  }\n\n  cache = getEncodeCache(exclude);\n\n  for (i = 0, l = string.length; i < l; i++) {\n    code = string.charCodeAt(i);\n\n    if (keepEscaped && code === 0x25 /* % */ && i + 2 < l) {\n      if (/^[0-9a-f]{2}$/i.test(string.slice(i + 1, i + 3))) {\n        result += string.slice(i, i + 3);\n        i += 2;\n        continue;\n      }\n    }\n\n    if (code < 128) {\n      result += cache[code];\n      continue;\n    }\n\n    if (code >= 0xD800 && code <= 0xDFFF) {\n      if (code >= 0xD800 && code <= 0xDBFF && i + 1 < l) {\n        nextCode = string.charCodeAt(i + 1);\n        if (nextCode >= 0xDC00 && nextCode <= 0xDFFF) {\n          result += encodeURIComponent(string[i] + string[i + 1]);\n          i++;\n          continue;\n        }\n      }\n      result += '%EF%BF%BD';\n      continue;\n    }\n\n    result += encodeURIComponent(string[i]);\n  }\n\n  return result;\n}\n\nencode.defaultChars   = \";/?:@&=+$,-_.!~*'()#\";\nencode.componentChars = \"-_.!~*'()\";\n\n\nmodule.exports = encode;\n\n\n//# sourceURL=webpack:///./node_modules/mdurl/encode.js?");
+
+/***/ }),
+
+/***/ "./node_modules/node-libs-browser/node_modules/process/browser.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/node-libs-browser/node_modules/process/browser.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// shim for using process in browser\nvar process = module.exports = {};\n\n// cached from whatever global is present so that test runners that stub it\n// don't break things.  But we need to wrap it in a try catch in case it is\n// wrapped in strict mode code which doesn't define any globals.  It's inside a\n// function because try/catches deoptimize in certain engines.\n\nvar cachedSetTimeout;\nvar cachedClearTimeout;\n\nfunction defaultSetTimout() {\n    throw new Error('setTimeout has not been defined');\n}\nfunction defaultClearTimeout () {\n    throw new Error('clearTimeout has not been defined');\n}\n(function () {\n    try {\n        if (typeof setTimeout === 'function') {\n            cachedSetTimeout = setTimeout;\n        } else {\n            cachedSetTimeout = defaultSetTimout;\n        }\n    } catch (e) {\n        cachedSetTimeout = defaultSetTimout;\n    }\n    try {\n        if (typeof clearTimeout === 'function') {\n            cachedClearTimeout = clearTimeout;\n        } else {\n            cachedClearTimeout = defaultClearTimeout;\n        }\n    } catch (e) {\n        cachedClearTimeout = defaultClearTimeout;\n    }\n} ())\nfunction runTimeout(fun) {\n    if (cachedSetTimeout === setTimeout) {\n        //normal enviroments in sane situations\n        return setTimeout(fun, 0);\n    }\n    // if setTimeout wasn't available but was latter defined\n    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {\n        cachedSetTimeout = setTimeout;\n        return setTimeout(fun, 0);\n    }\n    try {\n        // when when somebody has screwed with setTimeout but no I.E. maddness\n        return cachedSetTimeout(fun, 0);\n    } catch(e){\n        try {\n            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally\n            return cachedSetTimeout.call(null, fun, 0);\n        } catch(e){\n            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error\n            return cachedSetTimeout.call(this, fun, 0);\n        }\n    }\n\n\n}\nfunction runClearTimeout(marker) {\n    if (cachedClearTimeout === clearTimeout) {\n        //normal enviroments in sane situations\n        return clearTimeout(marker);\n    }\n    // if clearTimeout wasn't available but was latter defined\n    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {\n        cachedClearTimeout = clearTimeout;\n        return clearTimeout(marker);\n    }\n    try {\n        // when when somebody has screwed with setTimeout but no I.E. maddness\n        return cachedClearTimeout(marker);\n    } catch (e){\n        try {\n            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally\n            return cachedClearTimeout.call(null, marker);\n        } catch (e){\n            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.\n            // Some versions of I.E. have different rules for clearTimeout vs setTimeout\n            return cachedClearTimeout.call(this, marker);\n        }\n    }\n\n\n\n}\nvar queue = [];\nvar draining = false;\nvar currentQueue;\nvar queueIndex = -1;\n\nfunction cleanUpNextTick() {\n    if (!draining || !currentQueue) {\n        return;\n    }\n    draining = false;\n    if (currentQueue.length) {\n        queue = currentQueue.concat(queue);\n    } else {\n        queueIndex = -1;\n    }\n    if (queue.length) {\n        drainQueue();\n    }\n}\n\nfunction drainQueue() {\n    if (draining) {\n        return;\n    }\n    var timeout = runTimeout(cleanUpNextTick);\n    draining = true;\n\n    var len = queue.length;\n    while(len) {\n        currentQueue = queue;\n        queue = [];\n        while (++queueIndex < len) {\n            if (currentQueue) {\n                currentQueue[queueIndex].run();\n            }\n        }\n        queueIndex = -1;\n        len = queue.length;\n    }\n    currentQueue = null;\n    draining = false;\n    runClearTimeout(timeout);\n}\n\nprocess.nextTick = function (fun) {\n    var args = new Array(arguments.length - 1);\n    if (arguments.length > 1) {\n        for (var i = 1; i < arguments.length; i++) {\n            args[i - 1] = arguments[i];\n        }\n    }\n    queue.push(new Item(fun, args));\n    if (queue.length === 1 && !draining) {\n        runTimeout(drainQueue);\n    }\n};\n\n// v8 likes predictible objects\nfunction Item(fun, array) {\n    this.fun = fun;\n    this.array = array;\n}\nItem.prototype.run = function () {\n    this.fun.apply(null, this.array);\n};\nprocess.title = 'browser';\nprocess.browser = true;\nprocess.env = {};\nprocess.argv = [];\nprocess.version = ''; // empty string to avoid regexp issues\nprocess.versions = {};\n\nfunction noop() {}\n\nprocess.on = noop;\nprocess.addListener = noop;\nprocess.once = noop;\nprocess.off = noop;\nprocess.removeListener = noop;\nprocess.removeAllListeners = noop;\nprocess.emit = noop;\nprocess.prependListener = noop;\nprocess.prependOnceListener = noop;\n\nprocess.listeners = function (name) { return [] }\n\nprocess.binding = function (name) {\n    throw new Error('process.binding is not supported');\n};\n\nprocess.cwd = function () { return '/' };\nprocess.chdir = function (dir) {\n    throw new Error('process.chdir is not supported');\n};\nprocess.umask = function() { return 0; };\n\n\n//# sourceURL=webpack:///./node_modules/node-libs-browser/node_modules/process/browser.js?");
+
+/***/ }),
+
 /***/ "./node_modules/object-assign/index.js":
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
@@ -130,6 +713,41 @@ eval("\n\nvar html = __webpack_require__(/*! property-information/html */ \"./no
 
 "use strict";
 eval("/*\nobject-assign\n(c) Sindre Sorhus\n@license MIT\n*/\n\n\n/* eslint-disable no-unused-vars */\nvar getOwnPropertySymbols = Object.getOwnPropertySymbols;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\nvar propIsEnumerable = Object.prototype.propertyIsEnumerable;\n\nfunction toObject(val) {\n\tif (val === null || val === undefined) {\n\t\tthrow new TypeError('Object.assign cannot be called with null or undefined');\n\t}\n\n\treturn Object(val);\n}\n\nfunction shouldUseNative() {\n\ttry {\n\t\tif (!Object.assign) {\n\t\t\treturn false;\n\t\t}\n\n\t\t// Detect buggy property enumeration order in older V8 versions.\n\n\t\t// https://bugs.chromium.org/p/v8/issues/detail?id=4118\n\t\tvar test1 = new String('abc');  // eslint-disable-line no-new-wrappers\n\t\ttest1[5] = 'de';\n\t\tif (Object.getOwnPropertyNames(test1)[0] === '5') {\n\t\t\treturn false;\n\t\t}\n\n\t\t// https://bugs.chromium.org/p/v8/issues/detail?id=3056\n\t\tvar test2 = {};\n\t\tfor (var i = 0; i < 10; i++) {\n\t\t\ttest2['_' + String.fromCharCode(i)] = i;\n\t\t}\n\t\tvar order2 = Object.getOwnPropertyNames(test2).map(function (n) {\n\t\t\treturn test2[n];\n\t\t});\n\t\tif (order2.join('') !== '0123456789') {\n\t\t\treturn false;\n\t\t}\n\n\t\t// https://bugs.chromium.org/p/v8/issues/detail?id=3056\n\t\tvar test3 = {};\n\t\t'abcdefghijklmnopqrst'.split('').forEach(function (letter) {\n\t\t\ttest3[letter] = letter;\n\t\t});\n\t\tif (Object.keys(Object.assign({}, test3)).join('') !==\n\t\t\t\t'abcdefghijklmnopqrst') {\n\t\t\treturn false;\n\t\t}\n\n\t\treturn true;\n\t} catch (err) {\n\t\t// We don't expect any of the above to throw, but better to be safe.\n\t\treturn false;\n\t}\n}\n\nmodule.exports = shouldUseNative() ? Object.assign : function (target, source) {\n\tvar from;\n\tvar to = toObject(target);\n\tvar symbols;\n\n\tfor (var s = 1; s < arguments.length; s++) {\n\t\tfrom = Object(arguments[s]);\n\n\t\tfor (var key in from) {\n\t\t\tif (hasOwnProperty.call(from, key)) {\n\t\t\t\tto[key] = from[key];\n\t\t\t}\n\t\t}\n\n\t\tif (getOwnPropertySymbols) {\n\t\t\tsymbols = getOwnPropertySymbols(from);\n\t\t\tfor (var i = 0; i < symbols.length; i++) {\n\t\t\t\tif (propIsEnumerable.call(from, symbols[i])) {\n\t\t\t\t\tto[symbols[i]] = from[symbols[i]];\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\n\treturn to;\n};\n\n\n//# sourceURL=webpack:///./node_modules/object-assign/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/parse-entities/decode-entity.browser.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/parse-entities/decode-entity.browser.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/* eslint-env browser */\n\nvar el\n\nmodule.exports = decodeEntity\n\nfunction decodeEntity(characters) {\n  var entity = '&' + characters + ';'\n  var char\n\n  el = el || document.createElement('i')\n  el.innerHTML = entity\n  char = el.textContent\n\n  // Some entities do not require the closing semicolon (&not - for instance),\n  // which leads to situations where parsing the assumed entity of &notit; will\n  // result in the string `¬it;`.  When we encounter a trailing semicolon after\n  // parsing and the entity to decode was not a semicolon (&semi;), we can\n  // assume that the matching was incomplete\n  if (char.slice(-1) === ';' && characters !== 'semi') {\n    return false\n  }\n\n  // If the decoded string is equal to the input, the entity was not valid\n  return char === entity ? false : char\n}\n\n\n//# sourceURL=webpack:///./node_modules/parse-entities/decode-entity.browser.js?");
+
+/***/ }),
+
+/***/ "./node_modules/parse-entities/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/parse-entities/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar legacy = __webpack_require__(/*! character-entities-legacy */ \"./node_modules/character-entities-legacy/index.json\")\nvar invalid = __webpack_require__(/*! character-reference-invalid */ \"./node_modules/character-reference-invalid/index.json\")\nvar decimal = __webpack_require__(/*! is-decimal */ \"./node_modules/is-decimal/index.js\")\nvar hexadecimal = __webpack_require__(/*! is-hexadecimal */ \"./node_modules/is-hexadecimal/index.js\")\nvar alphanumerical = __webpack_require__(/*! is-alphanumerical */ \"./node_modules/is-alphanumerical/index.js\")\nvar decodeEntity = __webpack_require__(/*! ./decode-entity */ \"./node_modules/parse-entities/decode-entity.browser.js\")\n\nmodule.exports = parseEntities\n\nvar own = {}.hasOwnProperty\nvar fromCharCode = String.fromCharCode\nvar noop = Function.prototype\n\n/* Default settings. */\nvar defaults = {\n  warning: null,\n  reference: null,\n  text: null,\n  warningContext: null,\n  referenceContext: null,\n  textContext: null,\n  position: {},\n  additional: null,\n  attribute: false,\n  nonTerminated: true\n}\n\n/* Reference types. */\nvar NAMED = 'named'\nvar HEXADECIMAL = 'hexadecimal'\nvar DECIMAL = 'decimal'\n\n/* Map of bases. */\nvar BASE = {}\n\nBASE[HEXADECIMAL] = 16\nBASE[DECIMAL] = 10\n\n/* Map of types to tests. Each type of character reference\n * accepts different characters. This test is used to\n * detect whether a reference has ended (as the semicolon\n * is not strictly needed). */\nvar TESTS = {}\n\nTESTS[NAMED] = alphanumerical\nTESTS[DECIMAL] = decimal\nTESTS[HEXADECIMAL] = hexadecimal\n\n/* Warning messages. */\nvar NAMED_NOT_TERMINATED = 1\nvar NUMERIC_NOT_TERMINATED = 2\nvar NAMED_EMPTY = 3\nvar NUMERIC_EMPTY = 4\nvar NAMED_UNKNOWN = 5\nvar NUMERIC_DISALLOWED = 6\nvar NUMERIC_PROHIBITED = 7\n\nvar MESSAGES = {}\n\nMESSAGES[NAMED_NOT_TERMINATED] =\n  'Named character references must be terminated by a semicolon'\nMESSAGES[NUMERIC_NOT_TERMINATED] =\n  'Numeric character references must be terminated by a semicolon'\nMESSAGES[NAMED_EMPTY] = 'Named character references cannot be empty'\nMESSAGES[NUMERIC_EMPTY] = 'Numeric character references cannot be empty'\nMESSAGES[NAMED_UNKNOWN] = 'Named character references must be known'\nMESSAGES[NUMERIC_DISALLOWED] =\n  'Numeric character references cannot be disallowed'\nMESSAGES[NUMERIC_PROHIBITED] =\n  'Numeric character references cannot be outside the permissible Unicode range'\n\n/* Wrap to ensure clean parameters are given to `parse`. */\nfunction parseEntities(value, options) {\n  var settings = {}\n  var option\n  var key\n\n  if (!options) {\n    options = {}\n  }\n\n  for (key in defaults) {\n    option = options[key]\n    settings[key] =\n      option === null || option === undefined ? defaults[key] : option\n  }\n\n  if (settings.position.indent || settings.position.start) {\n    settings.indent = settings.position.indent || []\n    settings.position = settings.position.start\n  }\n\n  return parse(value, settings)\n}\n\n/* Parse entities. */\nfunction parse(value, settings) {\n  var additional = settings.additional\n  var nonTerminated = settings.nonTerminated\n  var handleText = settings.text\n  var handleReference = settings.reference\n  var handleWarning = settings.warning\n  var textContext = settings.textContext\n  var referenceContext = settings.referenceContext\n  var warningContext = settings.warningContext\n  var pos = settings.position\n  var indent = settings.indent || []\n  var length = value.length\n  var index = 0\n  var lines = -1\n  var column = pos.column || 1\n  var line = pos.line || 1\n  var queue = ''\n  var result = []\n  var entityCharacters\n  var namedEntity\n  var terminated\n  var characters\n  var character\n  var reference\n  var following\n  var warning\n  var reason\n  var output\n  var entity\n  var begin\n  var start\n  var type\n  var test\n  var prev\n  var next\n  var diff\n  var end\n\n  /* Cache the current point. */\n  prev = now()\n\n  /* Wrap `handleWarning`. */\n  warning = handleWarning ? parseError : noop\n\n  /* Ensure the algorithm walks over the first character\n   * and the end (inclusive). */\n  index--\n  length++\n\n  while (++index < length) {\n    /* If the previous character was a newline. */\n    if (character === '\\n') {\n      column = indent[lines] || 1\n    }\n\n    character = at(index)\n\n    /* Handle anything other than an ampersand,\n     * including newlines and EOF. */\n    if (character !== '&') {\n      if (character === '\\n') {\n        line++\n        lines++\n        column = 0\n      }\n\n      if (character) {\n        queue += character\n        column++\n      } else {\n        flush()\n      }\n    } else {\n      following = at(index + 1)\n\n      /* The behaviour depends on the identity of the next\n       * character. */\n      if (\n        following === '\\t' /* Tab */ ||\n        following === '\\n' /* Newline */ ||\n        following === '\\f' /* Form feed */ ||\n        following === ' ' /* Space */ ||\n        following === '<' /* Less-than */ ||\n        following === '&' /* Ampersand */ ||\n        following === '' ||\n        (additional && following === additional)\n      ) {\n        /* Not a character reference. No characters\n         * are consumed, and nothing is returned.\n         * This is not an error, either. */\n        queue += character\n        column++\n\n        continue\n      }\n\n      start = index + 1\n      begin = start\n      end = start\n\n      /* Numerical entity. */\n      if (following !== '#') {\n        type = NAMED\n      } else {\n        end = ++begin\n\n        /* The behaviour further depends on the\n         * character after the U+0023 NUMBER SIGN. */\n        following = at(end)\n\n        if (following === 'x' || following === 'X') {\n          /* ASCII hex digits. */\n          type = HEXADECIMAL\n          end = ++begin\n        } else {\n          /* ASCII digits. */\n          type = DECIMAL\n        }\n      }\n\n      entityCharacters = ''\n      entity = ''\n      characters = ''\n      test = TESTS[type]\n      end--\n\n      while (++end < length) {\n        following = at(end)\n\n        if (!test(following)) {\n          break\n        }\n\n        characters += following\n\n        /* Check if we can match a legacy named\n         * reference.  If so, we cache that as the\n         * last viable named reference.  This\n         * ensures we do not need to walk backwards\n         * later. */\n        if (type === NAMED && own.call(legacy, characters)) {\n          entityCharacters = characters\n          entity = legacy[characters]\n        }\n      }\n\n      terminated = at(end) === ';'\n\n      if (terminated) {\n        end++\n\n        namedEntity = type === NAMED ? decodeEntity(characters) : false\n\n        if (namedEntity) {\n          entityCharacters = characters\n          entity = namedEntity\n        }\n      }\n\n      diff = 1 + end - start\n\n      if (!terminated && !nonTerminated) {\n        /* Empty. */\n      } else if (!characters) {\n        /* An empty (possible) entity is valid, unless\n         * its numeric (thus an ampersand followed by\n         * an octothorp). */\n        if (type !== NAMED) {\n          warning(NUMERIC_EMPTY, diff)\n        }\n      } else if (type === NAMED) {\n        /* An ampersand followed by anything\n         * unknown, and not terminated, is invalid. */\n        if (terminated && !entity) {\n          warning(NAMED_UNKNOWN, 1)\n        } else {\n          /* If theres something after an entity\n           * name which is not known, cap the\n           * reference. */\n          if (entityCharacters !== characters) {\n            end = begin + entityCharacters.length\n            diff = 1 + end - begin\n            terminated = false\n          }\n\n          /* If the reference is not terminated,\n           * warn. */\n          if (!terminated) {\n            reason = entityCharacters ? NAMED_NOT_TERMINATED : NAMED_EMPTY\n\n            if (!settings.attribute) {\n              warning(reason, diff)\n            } else {\n              following = at(end)\n\n              if (following === '=') {\n                warning(reason, diff)\n                entity = null\n              } else if (alphanumerical(following)) {\n                entity = null\n              } else {\n                warning(reason, diff)\n              }\n            }\n          }\n        }\n\n        reference = entity\n      } else {\n        if (!terminated) {\n          /* All non-terminated numeric entities are\n           * not rendered, and trigger a warning. */\n          warning(NUMERIC_NOT_TERMINATED, diff)\n        }\n\n        /* When terminated and number, parse as\n         * either hexadecimal or decimal. */\n        reference = parseInt(characters, BASE[type])\n\n        /* Trigger a warning when the parsed number\n         * is prohibited, and replace with\n         * replacement character. */\n        if (prohibited(reference)) {\n          warning(NUMERIC_PROHIBITED, diff)\n          reference = '\\uFFFD'\n        } else if (reference in invalid) {\n          /* Trigger a warning when the parsed number\n           * is disallowed, and replace by an\n           * alternative. */\n          warning(NUMERIC_DISALLOWED, diff)\n          reference = invalid[reference]\n        } else {\n          /* Parse the number. */\n          output = ''\n\n          /* Trigger a warning when the parsed\n           * number should not be used. */\n          if (disallowed(reference)) {\n            warning(NUMERIC_DISALLOWED, diff)\n          }\n\n          /* Stringify the number. */\n          if (reference > 0xffff) {\n            reference -= 0x10000\n            output += fromCharCode((reference >>> (10 & 0x3ff)) | 0xd800)\n            reference = 0xdc00 | (reference & 0x3ff)\n          }\n\n          reference = output + fromCharCode(reference)\n        }\n      }\n\n      /* If we could not find a reference, queue the\n       * checked characters (as normal characters),\n       * and move the pointer to their end. This is\n       * possible because we can be certain neither\n       * newlines nor ampersands are included. */\n      if (!reference) {\n        characters = value.slice(start - 1, end)\n        queue += characters\n        column += characters.length\n        index = end - 1\n      } else {\n        /* Found it! First eat the queued\n         * characters as normal text, then eat\n         * an entity. */\n        flush()\n\n        prev = now()\n        index = end - 1\n        column += end - start + 1\n        result.push(reference)\n        next = now()\n        next.offset++\n\n        if (handleReference) {\n          handleReference.call(\n            referenceContext,\n            reference,\n            {start: prev, end: next},\n            value.slice(start - 1, end)\n          )\n        }\n\n        prev = next\n      }\n    }\n  }\n\n  /* Return the reduced nodes, and any possible warnings. */\n  return result.join('')\n\n  /* Get current position. */\n  function now() {\n    return {\n      line: line,\n      column: column,\n      offset: index + (pos.offset || 0)\n    }\n  }\n\n  /* “Throw” a parse-error: a warning. */\n  function parseError(code, offset) {\n    var position = now()\n\n    position.column += offset\n    position.offset += offset\n\n    handleWarning.call(warningContext, MESSAGES[code], position, code)\n  }\n\n  /* Get character at position. */\n  function at(position) {\n    return value.charAt(position)\n  }\n\n  /* Flush `queue` (normal text). Macro invoked before\n   * each entity and at the end of `value`.\n   * Does nothing when `queue` is empty. */\n  function flush() {\n    if (queue) {\n      result.push(queue)\n\n      if (handleText) {\n        handleText.call(textContext, queue, {start: prev, end: now()})\n      }\n\n      queue = ''\n    }\n  }\n}\n\n/* Check if `character` is outside the permissible unicode range. */\nfunction prohibited(code) {\n  return (code >= 0xd800 && code <= 0xdfff) || code > 0x10ffff\n}\n\n/* Check if `character` is disallowed. */\nfunction disallowed(code) {\n  return (\n    (code >= 0x0001 && code <= 0x0008) ||\n    code === 0x000b ||\n    (code >= 0x000d && code <= 0x001f) ||\n    (code >= 0x007f && code <= 0x009f) ||\n    (code >= 0xfdd0 && code <= 0xfdef) ||\n    (code & 0xffff) === 0xffff ||\n    (code & 0xffff) === 0xfffe\n  )\n}\n\n\n//# sourceURL=webpack:///./node_modules/parse-entities/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/path-browserify/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/path-browserify/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("/* WEBPACK VAR INJECTION */(function(process) {// Copyright Joyent, Inc. and other Node contributors.\n//\n// Permission is hereby granted, free of charge, to any person obtaining a\n// copy of this software and associated documentation files (the\n// \"Software\"), to deal in the Software without restriction, including\n// without limitation the rights to use, copy, modify, merge, publish,\n// distribute, sublicense, and/or sell copies of the Software, and to permit\n// persons to whom the Software is furnished to do so, subject to the\n// following conditions:\n//\n// The above copyright notice and this permission notice shall be included\n// in all copies or substantial portions of the Software.\n//\n// THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\n// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN\n// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\n// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\n// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE\n// USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n// resolves . and .. elements in a path array with directory names there\n// must be no slashes, empty elements, or device names (c:\\) in the array\n// (so also no leading and trailing slashes - it does not distinguish\n// relative and absolute paths)\nfunction normalizeArray(parts, allowAboveRoot) {\n  // if the path tries to go above the root, `up` ends up > 0\n  var up = 0;\n  for (var i = parts.length - 1; i >= 0; i--) {\n    var last = parts[i];\n    if (last === '.') {\n      parts.splice(i, 1);\n    } else if (last === '..') {\n      parts.splice(i, 1);\n      up++;\n    } else if (up) {\n      parts.splice(i, 1);\n      up--;\n    }\n  }\n\n  // if the path is allowed to go above the root, restore leading ..s\n  if (allowAboveRoot) {\n    for (; up--; up) {\n      parts.unshift('..');\n    }\n  }\n\n  return parts;\n}\n\n// Split a filename into [root, dir, basename, ext], unix version\n// 'root' is just a slash, or nothing.\nvar splitPathRe =\n    /^(\\/?|)([\\s\\S]*?)((?:\\.{1,2}|[^\\/]+?|)(\\.[^.\\/]*|))(?:[\\/]*)$/;\nvar splitPath = function(filename) {\n  return splitPathRe.exec(filename).slice(1);\n};\n\n// path.resolve([from ...], to)\n// posix version\nexports.resolve = function() {\n  var resolvedPath = '',\n      resolvedAbsolute = false;\n\n  for (var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--) {\n    var path = (i >= 0) ? arguments[i] : process.cwd();\n\n    // Skip empty and invalid entries\n    if (typeof path !== 'string') {\n      throw new TypeError('Arguments to path.resolve must be strings');\n    } else if (!path) {\n      continue;\n    }\n\n    resolvedPath = path + '/' + resolvedPath;\n    resolvedAbsolute = path.charAt(0) === '/';\n  }\n\n  // At this point the path should be resolved to a full absolute path, but\n  // handle relative paths to be safe (might happen when process.cwd() fails)\n\n  // Normalize the path\n  resolvedPath = normalizeArray(filter(resolvedPath.split('/'), function(p) {\n    return !!p;\n  }), !resolvedAbsolute).join('/');\n\n  return ((resolvedAbsolute ? '/' : '') + resolvedPath) || '.';\n};\n\n// path.normalize(path)\n// posix version\nexports.normalize = function(path) {\n  var isAbsolute = exports.isAbsolute(path),\n      trailingSlash = substr(path, -1) === '/';\n\n  // Normalize the path\n  path = normalizeArray(filter(path.split('/'), function(p) {\n    return !!p;\n  }), !isAbsolute).join('/');\n\n  if (!path && !isAbsolute) {\n    path = '.';\n  }\n  if (path && trailingSlash) {\n    path += '/';\n  }\n\n  return (isAbsolute ? '/' : '') + path;\n};\n\n// posix version\nexports.isAbsolute = function(path) {\n  return path.charAt(0) === '/';\n};\n\n// posix version\nexports.join = function() {\n  var paths = Array.prototype.slice.call(arguments, 0);\n  return exports.normalize(filter(paths, function(p, index) {\n    if (typeof p !== 'string') {\n      throw new TypeError('Arguments to path.join must be strings');\n    }\n    return p;\n  }).join('/'));\n};\n\n\n// path.relative(from, to)\n// posix version\nexports.relative = function(from, to) {\n  from = exports.resolve(from).substr(1);\n  to = exports.resolve(to).substr(1);\n\n  function trim(arr) {\n    var start = 0;\n    for (; start < arr.length; start++) {\n      if (arr[start] !== '') break;\n    }\n\n    var end = arr.length - 1;\n    for (; end >= 0; end--) {\n      if (arr[end] !== '') break;\n    }\n\n    if (start > end) return [];\n    return arr.slice(start, end - start + 1);\n  }\n\n  var fromParts = trim(from.split('/'));\n  var toParts = trim(to.split('/'));\n\n  var length = Math.min(fromParts.length, toParts.length);\n  var samePartsLength = length;\n  for (var i = 0; i < length; i++) {\n    if (fromParts[i] !== toParts[i]) {\n      samePartsLength = i;\n      break;\n    }\n  }\n\n  var outputParts = [];\n  for (var i = samePartsLength; i < fromParts.length; i++) {\n    outputParts.push('..');\n  }\n\n  outputParts = outputParts.concat(toParts.slice(samePartsLength));\n\n  return outputParts.join('/');\n};\n\nexports.sep = '/';\nexports.delimiter = ':';\n\nexports.dirname = function(path) {\n  var result = splitPath(path),\n      root = result[0],\n      dir = result[1];\n\n  if (!root && !dir) {\n    // No dirname whatsoever\n    return '.';\n  }\n\n  if (dir) {\n    // It has a dirname, strip trailing slash\n    dir = dir.substr(0, dir.length - 1);\n  }\n\n  return root + dir;\n};\n\n\nexports.basename = function(path, ext) {\n  var f = splitPath(path)[2];\n  // TODO: make this comparison case-insensitive on windows?\n  if (ext && f.substr(-1 * ext.length) === ext) {\n    f = f.substr(0, f.length - ext.length);\n  }\n  return f;\n};\n\n\nexports.extname = function(path) {\n  return splitPath(path)[3];\n};\n\nfunction filter (xs, f) {\n    if (xs.filter) return xs.filter(f);\n    var res = [];\n    for (var i = 0; i < xs.length; i++) {\n        if (f(xs[i], i, xs)) res.push(xs[i]);\n    }\n    return res;\n}\n\n// String.prototype.substr - negative index don't work in IE8\nvar substr = 'ab'.substr(-1) === 'b'\n    ? function (str, start, len) { return str.substr(start, len) }\n    : function (str, start, len) {\n        if (start < 0) start = str.length + start;\n        return str.substr(start, len);\n    }\n;\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/node_modules/process/browser.js */ \"./node_modules/node-libs-browser/node_modules/process/browser.js\")))\n\n//# sourceURL=webpack:///./node_modules/path-browserify/index.js?");
 
 /***/ }),
 
@@ -421,6 +1039,617 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+/***/ "./node_modules/remark-parse/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/remark-parse/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar unherit = __webpack_require__(/*! unherit */ \"./node_modules/unherit/index.js\");\nvar xtend = __webpack_require__(/*! xtend */ \"./node_modules/xtend/immutable.js\");\nvar Parser = __webpack_require__(/*! ./lib/parser.js */ \"./node_modules/remark-parse/lib/parser.js\");\n\nmodule.exports = parse;\nparse.Parser = Parser;\n\nfunction parse(options) {\n  var Local = unherit(Parser);\n  Local.prototype.options = xtend(Local.prototype.options, this.data('settings'), options);\n  this.Parser = Local;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/block-elements.json":
+/*!***********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/block-elements.json ***!
+  \***********************************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, default */
+/***/ (function(module) {
+
+eval("module.exports = [\"address\",\"article\",\"aside\",\"base\",\"basefont\",\"blockquote\",\"body\",\"caption\",\"center\",\"col\",\"colgroup\",\"dd\",\"details\",\"dialog\",\"dir\",\"div\",\"dl\",\"dt\",\"fieldset\",\"figcaption\",\"figure\",\"footer\",\"form\",\"frame\",\"frameset\",\"h1\",\"h2\",\"h3\",\"h4\",\"h5\",\"h6\",\"head\",\"header\",\"hgroup\",\"hr\",\"html\",\"iframe\",\"legend\",\"li\",\"link\",\"main\",\"menu\",\"menuitem\",\"meta\",\"nav\",\"noframes\",\"ol\",\"optgroup\",\"option\",\"p\",\"param\",\"pre\",\"section\",\"source\",\"title\",\"summary\",\"table\",\"tbody\",\"td\",\"tfoot\",\"th\",\"thead\",\"title\",\"tr\",\"track\",\"ul\"];\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/block-elements.json?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/decode.js":
+/*!*************************************************!*\
+  !*** ./node_modules/remark-parse/lib/decode.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar xtend = __webpack_require__(/*! xtend */ \"./node_modules/xtend/immutable.js\");\nvar entities = __webpack_require__(/*! parse-entities */ \"./node_modules/parse-entities/index.js\");\n\nmodule.exports = factory;\n\n/* Factory to create an entity decoder. */\nfunction factory(ctx) {\n  decoder.raw = decodeRaw;\n\n  return decoder;\n\n  /* Normalize `position` to add an `indent`. */\n  function normalize(position) {\n    var offsets = ctx.offset;\n    var line = position.line;\n    var result = [];\n\n    while (++line) {\n      if (!(line in offsets)) {\n        break;\n      }\n\n      result.push((offsets[line] || 0) + 1);\n    }\n\n    return {\n      start: position,\n      indent: result\n    };\n  }\n\n  /* Handle a warning.\n   * See https://github.com/wooorm/parse-entities\n   * for the warnings. */\n  function handleWarning(reason, position, code) {\n    if (code === 3) {\n      return;\n    }\n\n    ctx.file.message(reason, position);\n  }\n\n  /* Decode `value` (at `position`) into text-nodes. */\n  function decoder(value, position, handler) {\n    entities(value, {\n      position: normalize(position),\n      warning: handleWarning,\n      text: handler,\n      reference: handler,\n      textContext: ctx,\n      referenceContext: ctx\n    });\n  }\n\n  /* Decode `value` (at `position`) into a string. */\n  function decodeRaw(value, position, options) {\n    return entities(value, xtend(options, {\n      position: normalize(position),\n      warning: handleWarning\n    }));\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/decode.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/defaults.js":
+/*!***************************************************!*\
+  !*** ./node_modules/remark-parse/lib/defaults.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = {\n  position: true,\n  gfm: true,\n  commonmark: false,\n  footnotes: false,\n  pedantic: false,\n  blocks: __webpack_require__(/*! ./block-elements.json */ \"./node_modules/remark-parse/lib/block-elements.json\")\n};\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/defaults.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/break.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/break.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nfunction locate(value, fromIndex) {\n  var index = value.indexOf('\\n', fromIndex);\n\n  while (index > fromIndex) {\n    if (value.charAt(index - 1) !== ' ') {\n      break;\n    }\n\n    index--;\n  }\n\n  return index;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/break.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/code-inline.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/code-inline.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nfunction locate(value, fromIndex) {\n  return value.indexOf('`', fromIndex);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/code-inline.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/delete.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/delete.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nfunction locate(value, fromIndex) {\n  return value.indexOf('~~', fromIndex);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/delete.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/emphasis.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/emphasis.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nfunction locate(value, fromIndex) {\n  var asterisk = value.indexOf('*', fromIndex);\n  var underscore = value.indexOf('_', fromIndex);\n\n  if (underscore === -1) {\n    return asterisk;\n  }\n\n  if (asterisk === -1) {\n    return underscore;\n  }\n\n  return underscore < asterisk ? underscore : asterisk;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/emphasis.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/escape.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/escape.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nfunction locate(value, fromIndex) {\n  return value.indexOf('\\\\', fromIndex);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/escape.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/link.js":
+/*!******************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/link.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nfunction locate(value, fromIndex) {\n  var link = value.indexOf('[', fromIndex);\n  var image = value.indexOf('![', fromIndex);\n\n  if (image === -1) {\n    return link;\n  }\n\n  /* Link can never be `-1` if an image is found, so we don’t need\n   * to check for that :) */\n  return link < image ? link : image;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/link.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/strong.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/strong.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nfunction locate(value, fromIndex) {\n  var asterisk = value.indexOf('**', fromIndex);\n  var underscore = value.indexOf('__', fromIndex);\n\n  if (underscore === -1) {\n    return asterisk;\n  }\n\n  if (asterisk === -1) {\n    return underscore;\n  }\n\n  return underscore < asterisk ? underscore : asterisk;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/strong.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/tag.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/tag.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nfunction locate(value, fromIndex) {\n  return value.indexOf('<', fromIndex);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/tag.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/locate/url.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/remark-parse/lib/locate/url.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = locate;\n\nvar PROTOCOLS = ['https://', 'http://', 'mailto:'];\n\nfunction locate(value, fromIndex) {\n  var length = PROTOCOLS.length;\n  var index = -1;\n  var min = -1;\n  var position;\n\n  if (!this.options.gfm) {\n    return -1;\n  }\n\n  while (++index < length) {\n    position = value.indexOf(PROTOCOLS[index], fromIndex);\n\n    if (position !== -1 && (position < min || min === -1)) {\n      min = position;\n    }\n  }\n\n  return min;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/locate/url.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/parse.js":
+/*!************************************************!*\
+  !*** ./node_modules/remark-parse/lib/parse.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar xtend = __webpack_require__(/*! xtend */ \"./node_modules/xtend/immutable.js\");\nvar removePosition = __webpack_require__(/*! unist-util-remove-position */ \"./node_modules/unist-util-remove-position/index.js\");\n\nmodule.exports = parse;\n\nvar C_NEWLINE = '\\n';\nvar EXPRESSION_LINE_BREAKS = /\\r\\n|\\r/g;\n\n/* Parse the bound file. */\nfunction parse() {\n  var self = this;\n  var value = String(self.file);\n  var start = {line: 1, column: 1, offset: 0};\n  var content = xtend(start);\n  var node;\n\n  /* Clean non-unix newlines: `\\r\\n` and `\\r` are all\n   * changed to `\\n`.  This should not affect positional\n   * information. */\n  value = value.replace(EXPRESSION_LINE_BREAKS, C_NEWLINE);\n\n  if (value.charCodeAt(0) === 0xFEFF) {\n    value = value.slice(1);\n\n    content.column++;\n    content.offset++;\n  }\n\n  node = {\n    type: 'root',\n    children: self.tokenizeBlock(value, content),\n    position: {\n      start: start,\n      end: self.eof || xtend(start)\n    }\n  };\n\n  if (!self.options.position) {\n    removePosition(node, true);\n  }\n\n  return node;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/parse.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/parser.js":
+/*!*************************************************!*\
+  !*** ./node_modules/remark-parse/lib/parser.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar xtend = __webpack_require__(/*! xtend */ \"./node_modules/xtend/immutable.js\");\nvar toggle = __webpack_require__(/*! state-toggle */ \"./node_modules/state-toggle/index.js\");\nvar vfileLocation = __webpack_require__(/*! vfile-location */ \"./node_modules/vfile-location/index.js\");\nvar unescape = __webpack_require__(/*! ./unescape */ \"./node_modules/remark-parse/lib/unescape.js\");\nvar decode = __webpack_require__(/*! ./decode */ \"./node_modules/remark-parse/lib/decode.js\");\nvar tokenizer = __webpack_require__(/*! ./tokenizer */ \"./node_modules/remark-parse/lib/tokenizer.js\");\n\nmodule.exports = Parser;\n\nfunction Parser(doc, file) {\n  this.file = file;\n  this.offset = {};\n  this.options = xtend(this.options);\n  this.setOptions({});\n\n  this.inList = false;\n  this.inBlock = false;\n  this.inLink = false;\n  this.atStart = true;\n\n  this.toOffset = vfileLocation(file).toOffset;\n  this.unescape = unescape(this, 'escape');\n  this.decode = decode(this);\n}\n\nvar proto = Parser.prototype;\n\n/* Expose core. */\nproto.setOptions = __webpack_require__(/*! ./set-options */ \"./node_modules/remark-parse/lib/set-options.js\");\nproto.parse = __webpack_require__(/*! ./parse */ \"./node_modules/remark-parse/lib/parse.js\");\n\n/* Expose `defaults`. */\nproto.options = __webpack_require__(/*! ./defaults */ \"./node_modules/remark-parse/lib/defaults.js\");\n\n/* Enter and exit helpers. */\nproto.exitStart = toggle('atStart', true);\nproto.enterList = toggle('inList', false);\nproto.enterLink = toggle('inLink', false);\nproto.enterBlock = toggle('inBlock', false);\n\n/* Nodes that can interupt a paragraph:\n *\n * ```markdown\n * A paragraph, followed by a thematic break.\n * ___\n * ```\n *\n * In the above example, the thematic break “interupts”\n * the paragraph. */\nproto.interruptParagraph = [\n  ['thematicBreak'],\n  ['atxHeading'],\n  ['fencedCode'],\n  ['blockquote'],\n  ['html'],\n  ['setextHeading', {commonmark: false}],\n  ['definition', {commonmark: false}],\n  ['footnote', {commonmark: false}]\n];\n\n/* Nodes that can interupt a list:\n *\n * ```markdown\n * - One\n * ___\n * ```\n *\n * In the above example, the thematic break “interupts”\n * the list. */\nproto.interruptList = [\n  ['atxHeading', {pedantic: false}],\n  ['fencedCode', {pedantic: false}],\n  ['thematicBreak', {pedantic: false}],\n  ['definition', {commonmark: false}],\n  ['footnote', {commonmark: false}]\n];\n\n/* Nodes that can interupt a blockquote:\n *\n * ```markdown\n * > A paragraph.\n * ___\n * ```\n *\n * In the above example, the thematic break “interupts”\n * the blockquote. */\nproto.interruptBlockquote = [\n  ['indentedCode', {commonmark: true}],\n  ['fencedCode', {commonmark: true}],\n  ['atxHeading', {commonmark: true}],\n  ['setextHeading', {commonmark: true}],\n  ['thematicBreak', {commonmark: true}],\n  ['html', {commonmark: true}],\n  ['list', {commonmark: true}],\n  ['definition', {commonmark: false}],\n  ['footnote', {commonmark: false}]\n];\n\n/* Handlers. */\nproto.blockTokenizers = {\n  newline: __webpack_require__(/*! ./tokenize/newline */ \"./node_modules/remark-parse/lib/tokenize/newline.js\"),\n  indentedCode: __webpack_require__(/*! ./tokenize/code-indented */ \"./node_modules/remark-parse/lib/tokenize/code-indented.js\"),\n  fencedCode: __webpack_require__(/*! ./tokenize/code-fenced */ \"./node_modules/remark-parse/lib/tokenize/code-fenced.js\"),\n  blockquote: __webpack_require__(/*! ./tokenize/blockquote */ \"./node_modules/remark-parse/lib/tokenize/blockquote.js\"),\n  atxHeading: __webpack_require__(/*! ./tokenize/heading-atx */ \"./node_modules/remark-parse/lib/tokenize/heading-atx.js\"),\n  thematicBreak: __webpack_require__(/*! ./tokenize/thematic-break */ \"./node_modules/remark-parse/lib/tokenize/thematic-break.js\"),\n  list: __webpack_require__(/*! ./tokenize/list */ \"./node_modules/remark-parse/lib/tokenize/list.js\"),\n  setextHeading: __webpack_require__(/*! ./tokenize/heading-setext */ \"./node_modules/remark-parse/lib/tokenize/heading-setext.js\"),\n  html: __webpack_require__(/*! ./tokenize/html-block */ \"./node_modules/remark-parse/lib/tokenize/html-block.js\"),\n  footnote: __webpack_require__(/*! ./tokenize/footnote-definition */ \"./node_modules/remark-parse/lib/tokenize/footnote-definition.js\"),\n  definition: __webpack_require__(/*! ./tokenize/definition */ \"./node_modules/remark-parse/lib/tokenize/definition.js\"),\n  table: __webpack_require__(/*! ./tokenize/table */ \"./node_modules/remark-parse/lib/tokenize/table.js\"),\n  paragraph: __webpack_require__(/*! ./tokenize/paragraph */ \"./node_modules/remark-parse/lib/tokenize/paragraph.js\")\n};\n\nproto.inlineTokenizers = {\n  escape: __webpack_require__(/*! ./tokenize/escape */ \"./node_modules/remark-parse/lib/tokenize/escape.js\"),\n  autoLink: __webpack_require__(/*! ./tokenize/auto-link */ \"./node_modules/remark-parse/lib/tokenize/auto-link.js\"),\n  url: __webpack_require__(/*! ./tokenize/url */ \"./node_modules/remark-parse/lib/tokenize/url.js\"),\n  html: __webpack_require__(/*! ./tokenize/html-inline */ \"./node_modules/remark-parse/lib/tokenize/html-inline.js\"),\n  link: __webpack_require__(/*! ./tokenize/link */ \"./node_modules/remark-parse/lib/tokenize/link.js\"),\n  reference: __webpack_require__(/*! ./tokenize/reference */ \"./node_modules/remark-parse/lib/tokenize/reference.js\"),\n  strong: __webpack_require__(/*! ./tokenize/strong */ \"./node_modules/remark-parse/lib/tokenize/strong.js\"),\n  emphasis: __webpack_require__(/*! ./tokenize/emphasis */ \"./node_modules/remark-parse/lib/tokenize/emphasis.js\"),\n  deletion: __webpack_require__(/*! ./tokenize/delete */ \"./node_modules/remark-parse/lib/tokenize/delete.js\"),\n  code: __webpack_require__(/*! ./tokenize/code-inline */ \"./node_modules/remark-parse/lib/tokenize/code-inline.js\"),\n  break: __webpack_require__(/*! ./tokenize/break */ \"./node_modules/remark-parse/lib/tokenize/break.js\"),\n  text: __webpack_require__(/*! ./tokenize/text */ \"./node_modules/remark-parse/lib/tokenize/text.js\")\n};\n\n/* Expose precedence. */\nproto.blockMethods = keys(proto.blockTokenizers);\nproto.inlineMethods = keys(proto.inlineTokenizers);\n\n/* Tokenizers. */\nproto.tokenizeBlock = tokenizer('block');\nproto.tokenizeInline = tokenizer('inline');\nproto.tokenizeFactory = tokenizer;\n\n/* Get all keys in `value`. */\nfunction keys(value) {\n  var result = [];\n  var key;\n\n  for (key in value) {\n    result.push(key);\n  }\n\n  return result;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/parser.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/set-options.js":
+/*!******************************************************!*\
+  !*** ./node_modules/remark-parse/lib/set-options.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar xtend = __webpack_require__(/*! xtend */ \"./node_modules/xtend/immutable.js\");\nvar escapes = __webpack_require__(/*! markdown-escapes */ \"./node_modules/markdown-escapes/index.js\");\nvar defaults = __webpack_require__(/*! ./defaults */ \"./node_modules/remark-parse/lib/defaults.js\");\n\nmodule.exports = setOptions;\n\nfunction setOptions(options) {\n  var self = this;\n  var current = self.options;\n  var key;\n  var value;\n\n  if (options == null) {\n    options = {};\n  } else if (typeof options === 'object') {\n    options = xtend(options);\n  } else {\n    throw new Error(\n      'Invalid value `' + options + '` ' +\n      'for setting `options`'\n    );\n  }\n\n  for (key in defaults) {\n    value = options[key];\n\n    if (value == null) {\n      value = current[key];\n    }\n\n    if (\n      (key !== 'blocks' && typeof value !== 'boolean') ||\n      (key === 'blocks' && typeof value !== 'object')\n    ) {\n      throw new Error('Invalid value `' + value + '` for setting `options.' + key + '`');\n    }\n\n    options[key] = value;\n  }\n\n  self.options = options;\n  self.escape = escapes(options);\n\n  return self;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/set-options.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/auto-link.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/auto-link.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar decode = __webpack_require__(/*! parse-entities */ \"./node_modules/parse-entities/index.js\");\nvar locate = __webpack_require__(/*! ../locate/tag */ \"./node_modules/remark-parse/lib/locate/tag.js\");\n\nmodule.exports = autoLink;\nautoLink.locator = locate;\nautoLink.notInLink = true;\n\nvar C_LT = '<';\nvar C_GT = '>';\nvar C_AT_SIGN = '@';\nvar C_SLASH = '/';\nvar MAILTO = 'mailto:';\nvar MAILTO_LENGTH = MAILTO.length;\n\n/* Tokenise a link. */\nfunction autoLink(eat, value, silent) {\n  var self;\n  var subvalue;\n  var length;\n  var index;\n  var queue;\n  var character;\n  var hasAtCharacter;\n  var link;\n  var now;\n  var content;\n  var tokenizers;\n  var exit;\n\n  if (value.charAt(0) !== C_LT) {\n    return;\n  }\n\n  self = this;\n  subvalue = '';\n  length = value.length;\n  index = 0;\n  queue = '';\n  hasAtCharacter = false;\n  link = '';\n\n  index++;\n  subvalue = C_LT;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (\n      whitespace(character) ||\n      character === C_GT ||\n      character === C_AT_SIGN ||\n      (character === ':' && value.charAt(index + 1) === C_SLASH)\n    ) {\n      break;\n    }\n\n    queue += character;\n    index++;\n  }\n\n  if (!queue) {\n    return;\n  }\n\n  link += queue;\n  queue = '';\n\n  character = value.charAt(index);\n  link += character;\n  index++;\n\n  if (character === C_AT_SIGN) {\n    hasAtCharacter = true;\n  } else {\n    if (\n      character !== ':' ||\n      value.charAt(index + 1) !== C_SLASH\n    ) {\n      return;\n    }\n\n    link += C_SLASH;\n    index++;\n  }\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (whitespace(character) || character === C_GT) {\n      break;\n    }\n\n    queue += character;\n    index++;\n  }\n\n  character = value.charAt(index);\n\n  if (!queue || character !== C_GT) {\n    return;\n  }\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  link += queue;\n  content = link;\n  subvalue += link + character;\n  now = eat.now();\n  now.column++;\n  now.offset++;\n\n  if (hasAtCharacter) {\n    if (link.slice(0, MAILTO_LENGTH).toLowerCase() === MAILTO) {\n      content = content.substr(MAILTO_LENGTH);\n      now.column += MAILTO_LENGTH;\n      now.offset += MAILTO_LENGTH;\n    } else {\n      link = MAILTO + link;\n    }\n  }\n\n  /* Temporarily remove all tokenizers except text in autolinks. */\n  tokenizers = self.inlineTokenizers;\n  self.inlineTokenizers = {text: tokenizers.text};\n\n  exit = self.enterLink();\n\n  content = self.tokenizeInline(content, now);\n\n  self.inlineTokenizers = tokenizers;\n  exit();\n\n  return eat(subvalue)({\n    type: 'link',\n    title: null,\n    url: decode(link, {nonTerminated: false}),\n    children: content\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/auto-link.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/blockquote.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/blockquote.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar trim = __webpack_require__(/*! trim */ \"./node_modules/trim/index.js\");\nvar interrupt = __webpack_require__(/*! ../util/interrupt */ \"./node_modules/remark-parse/lib/util/interrupt.js\");\n\nmodule.exports = blockquote;\n\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\nvar C_GT = '>';\n\n/* Tokenise a blockquote. */\nfunction blockquote(eat, value, silent) {\n  var self = this;\n  var offsets = self.offset;\n  var tokenizers = self.blockTokenizers;\n  var interruptors = self.interruptBlockquote;\n  var now = eat.now();\n  var currentLine = now.line;\n  var length = value.length;\n  var values = [];\n  var contents = [];\n  var indents = [];\n  var add;\n  var index = 0;\n  var character;\n  var rest;\n  var nextIndex;\n  var content;\n  var line;\n  var startIndex;\n  var prefixed;\n  var exit;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_SPACE && character !== C_TAB) {\n      break;\n    }\n\n    index++;\n  }\n\n  if (value.charAt(index) !== C_GT) {\n    return;\n  }\n\n  if (silent) {\n    return true;\n  }\n\n  index = 0;\n\n  while (index < length) {\n    nextIndex = value.indexOf(C_NEWLINE, index);\n    startIndex = index;\n    prefixed = false;\n\n    if (nextIndex === -1) {\n      nextIndex = length;\n    }\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (character !== C_SPACE && character !== C_TAB) {\n        break;\n      }\n\n      index++;\n    }\n\n    if (value.charAt(index) === C_GT) {\n      index++;\n      prefixed = true;\n\n      if (value.charAt(index) === C_SPACE) {\n        index++;\n      }\n    } else {\n      index = startIndex;\n    }\n\n    content = value.slice(index, nextIndex);\n\n    if (!prefixed && !trim(content)) {\n      index = startIndex;\n      break;\n    }\n\n    if (!prefixed) {\n      rest = value.slice(index);\n\n      /* Check if the following code contains a possible\n       * block. */\n      if (interrupt(interruptors, tokenizers, self, [eat, rest, true])) {\n        break;\n      }\n    }\n\n    line = startIndex === index ? content : value.slice(startIndex, nextIndex);\n\n    indents.push(index - startIndex);\n    values.push(line);\n    contents.push(content);\n\n    index = nextIndex + 1;\n  }\n\n  index = -1;\n  length = indents.length;\n  add = eat(values.join(C_NEWLINE));\n\n  while (++index < length) {\n    offsets[currentLine] = (offsets[currentLine] || 0) + indents[index];\n    currentLine++;\n  }\n\n  exit = self.enterBlock();\n  contents = self.tokenizeBlock(contents.join(C_NEWLINE), now);\n  exit();\n\n  return add({\n    type: 'blockquote',\n    children: contents\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/blockquote.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/break.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/break.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar locate = __webpack_require__(/*! ../locate/break */ \"./node_modules/remark-parse/lib/locate/break.js\");\n\nmodule.exports = hardBreak;\nhardBreak.locator = locate;\n\nvar MIN_BREAK_LENGTH = 2;\n\nfunction hardBreak(eat, value, silent) {\n  var length = value.length;\n  var index = -1;\n  var queue = '';\n  var character;\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (character === '\\n') {\n      if (index < MIN_BREAK_LENGTH) {\n        return;\n      }\n\n      /* istanbul ignore if - never used (yet) */\n      if (silent) {\n        return true;\n      }\n\n      queue += character;\n\n      return eat(queue)({type: 'break'});\n    }\n\n    if (character !== ' ') {\n      return;\n    }\n\n    queue += character;\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/break.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/code-fenced.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/code-fenced.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar trim = __webpack_require__(/*! trim-trailing-lines */ \"./node_modules/trim-trailing-lines/index.js\");\n\nmodule.exports = fencedCode;\n\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\nvar C_TILDE = '~';\nvar C_TICK = '`';\n\nvar MIN_FENCE_COUNT = 3;\nvar CODE_INDENT_COUNT = 4;\n\nfunction fencedCode(eat, value, silent) {\n  var self = this;\n  var settings = self.options;\n  var length = value.length + 1;\n  var index = 0;\n  var subvalue = '';\n  var fenceCount;\n  var marker;\n  var character;\n  var flag;\n  var queue;\n  var content;\n  var exdentedContent;\n  var closing;\n  var exdentedClosing;\n  var indent;\n  var now;\n\n  if (!settings.gfm) {\n    return;\n  }\n\n  /* Eat initial spacing. */\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_SPACE && character !== C_TAB) {\n      break;\n    }\n\n    subvalue += character;\n    index++;\n  }\n\n  indent = index;\n\n  /* Eat the fence. */\n  character = value.charAt(index);\n\n  if (character !== C_TILDE && character !== C_TICK) {\n    return;\n  }\n\n  index++;\n  marker = character;\n  fenceCount = 1;\n  subvalue += character;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character !== marker) {\n      break;\n    }\n\n    subvalue += character;\n    fenceCount++;\n    index++;\n  }\n\n  if (fenceCount < MIN_FENCE_COUNT) {\n    return;\n  }\n\n  /* Eat spacing before flag. */\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_SPACE && character !== C_TAB) {\n      break;\n    }\n\n    subvalue += character;\n    index++;\n  }\n\n  /* Eat flag. */\n  flag = '';\n  queue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (\n      character === C_NEWLINE ||\n      character === C_TILDE ||\n      character === C_TICK\n    ) {\n      break;\n    }\n\n    if (character === C_SPACE || character === C_TAB) {\n      queue += character;\n    } else {\n      flag += queue + character;\n      queue = '';\n    }\n\n    index++;\n  }\n\n  character = value.charAt(index);\n\n  if (character && character !== C_NEWLINE) {\n    return;\n  }\n\n  if (silent) {\n    return true;\n  }\n\n  now = eat.now();\n  now.column += subvalue.length;\n  now.offset += subvalue.length;\n\n  subvalue += flag;\n  flag = self.decode.raw(self.unescape(flag), now);\n\n  if (queue) {\n    subvalue += queue;\n  }\n\n  queue = '';\n  closing = '';\n  exdentedClosing = '';\n  content = '';\n  exdentedContent = '';\n\n  /* Eat content. */\n  while (index < length) {\n    character = value.charAt(index);\n    content += closing;\n    exdentedContent += exdentedClosing;\n    closing = '';\n    exdentedClosing = '';\n\n    if (character !== C_NEWLINE) {\n      content += character;\n      exdentedClosing += character;\n      index++;\n      continue;\n    }\n\n    /* Add the newline to `subvalue` if its the first\n     * character.  Otherwise, add it to the `closing`\n     * queue. */\n    if (content) {\n      closing += character;\n      exdentedClosing += character;\n    } else {\n      subvalue += character;\n    }\n\n    queue = '';\n    index++;\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (character !== C_SPACE) {\n        break;\n      }\n\n      queue += character;\n      index++;\n    }\n\n    closing += queue;\n    exdentedClosing += queue.slice(indent);\n\n    if (queue.length >= CODE_INDENT_COUNT) {\n      continue;\n    }\n\n    queue = '';\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (character !== marker) {\n        break;\n      }\n\n      queue += character;\n      index++;\n    }\n\n    closing += queue;\n    exdentedClosing += queue;\n\n    if (queue.length < fenceCount) {\n      continue;\n    }\n\n    queue = '';\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (character !== C_SPACE && character !== C_TAB) {\n        break;\n      }\n\n      closing += character;\n      exdentedClosing += character;\n      index++;\n    }\n\n    if (!character || character === C_NEWLINE) {\n      break;\n    }\n  }\n\n  subvalue += content + closing;\n\n  return eat(subvalue)({\n    type: 'code',\n    lang: flag || null,\n    value: trim(exdentedContent)\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/code-fenced.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/code-indented.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/code-indented.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar repeat = __webpack_require__(/*! repeat-string */ \"./node_modules/repeat-string/index.js\");\nvar trim = __webpack_require__(/*! trim-trailing-lines */ \"./node_modules/trim-trailing-lines/index.js\");\n\nmodule.exports = indentedCode;\n\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\n\nvar CODE_INDENT_COUNT = 4;\nvar CODE_INDENT = repeat(C_SPACE, CODE_INDENT_COUNT);\n\n/* Tokenise indented code. */\nfunction indentedCode(eat, value, silent) {\n  var index = -1;\n  var length = value.length;\n  var subvalue = '';\n  var content = '';\n  var subvalueQueue = '';\n  var contentQueue = '';\n  var character;\n  var blankQueue;\n  var indent;\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (indent) {\n      indent = false;\n\n      subvalue += subvalueQueue;\n      content += contentQueue;\n      subvalueQueue = '';\n      contentQueue = '';\n\n      if (character === C_NEWLINE) {\n        subvalueQueue = character;\n        contentQueue = character;\n      } else {\n        subvalue += character;\n        content += character;\n\n        while (++index < length) {\n          character = value.charAt(index);\n\n          if (!character || character === C_NEWLINE) {\n            contentQueue = character;\n            subvalueQueue = character;\n            break;\n          }\n\n          subvalue += character;\n          content += character;\n        }\n      }\n    } else if (\n      character === C_SPACE &&\n      value.charAt(index + 1) === character &&\n      value.charAt(index + 2) === character &&\n      value.charAt(index + 3) === character\n    ) {\n      subvalueQueue += CODE_INDENT;\n      index += 3;\n      indent = true;\n    } else if (character === C_TAB) {\n      subvalueQueue += character;\n      indent = true;\n    } else {\n      blankQueue = '';\n\n      while (character === C_TAB || character === C_SPACE) {\n        blankQueue += character;\n        character = value.charAt(++index);\n      }\n\n      if (character !== C_NEWLINE) {\n        break;\n      }\n\n      subvalueQueue += blankQueue + character;\n      contentQueue += character;\n    }\n  }\n\n  if (content) {\n    if (silent) {\n      return true;\n    }\n\n    return eat(subvalue)({\n      type: 'code',\n      lang: null,\n      value: trim(content)\n    });\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/code-indented.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/code-inline.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/code-inline.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar locate = __webpack_require__(/*! ../locate/code-inline */ \"./node_modules/remark-parse/lib/locate/code-inline.js\");\n\nmodule.exports = inlineCode;\ninlineCode.locator = locate;\n\nvar C_TICK = '`';\n\n/* Tokenise inline code. */\nfunction inlineCode(eat, value, silent) {\n  var length = value.length;\n  var index = 0;\n  var queue = '';\n  var tickQueue = '';\n  var contentQueue;\n  var subqueue;\n  var count;\n  var openingCount;\n  var subvalue;\n  var character;\n  var found;\n  var next;\n\n  while (index < length) {\n    if (value.charAt(index) !== C_TICK) {\n      break;\n    }\n\n    queue += C_TICK;\n    index++;\n  }\n\n  if (!queue) {\n    return;\n  }\n\n  subvalue = queue;\n  openingCount = index;\n  queue = '';\n  next = value.charAt(index);\n  count = 0;\n\n  while (index < length) {\n    character = next;\n    next = value.charAt(index + 1);\n\n    if (character === C_TICK) {\n      count++;\n      tickQueue += character;\n    } else {\n      count = 0;\n      queue += character;\n    }\n\n    if (count && next !== C_TICK) {\n      if (count === openingCount) {\n        subvalue += queue + tickQueue;\n        found = true;\n        break;\n      }\n\n      queue += tickQueue;\n      tickQueue = '';\n    }\n\n    index++;\n  }\n\n  if (!found) {\n    if (openingCount % 2 !== 0) {\n      return;\n    }\n\n    queue = '';\n  }\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  contentQueue = '';\n  subqueue = '';\n  length = queue.length;\n  index = -1;\n\n  while (++index < length) {\n    character = queue.charAt(index);\n\n    if (whitespace(character)) {\n      subqueue += character;\n      continue;\n    }\n\n    if (subqueue) {\n      if (contentQueue) {\n        contentQueue += subqueue;\n      }\n\n      subqueue = '';\n    }\n\n    contentQueue += character;\n  }\n\n  return eat(subvalue)({\n    type: 'inlineCode',\n    value: contentQueue\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/code-inline.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/definition.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/definition.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar normalize = __webpack_require__(/*! ../util/normalize */ \"./node_modules/remark-parse/lib/util/normalize.js\");\n\nmodule.exports = definition;\ndefinition.notInList = true;\ndefinition.notInBlock = true;\n\nvar C_DOUBLE_QUOTE = '\"';\nvar C_SINGLE_QUOTE = '\\'';\nvar C_BACKSLASH = '\\\\';\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\nvar C_BRACKET_OPEN = '[';\nvar C_BRACKET_CLOSE = ']';\nvar C_PAREN_OPEN = '(';\nvar C_PAREN_CLOSE = ')';\nvar C_COLON = ':';\nvar C_LT = '<';\nvar C_GT = '>';\n\nfunction definition(eat, value, silent) {\n  var self = this;\n  var commonmark = self.options.commonmark;\n  var index = 0;\n  var length = value.length;\n  var subvalue = '';\n  var beforeURL;\n  var beforeTitle;\n  var queue;\n  var character;\n  var test;\n  var identifier;\n  var url;\n  var title;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_SPACE && character !== C_TAB) {\n      break;\n    }\n\n    subvalue += character;\n    index++;\n  }\n\n  character = value.charAt(index);\n\n  if (character !== C_BRACKET_OPEN) {\n    return;\n  }\n\n  index++;\n  subvalue += character;\n  queue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character === C_BRACKET_CLOSE) {\n      break;\n    } else if (character === C_BACKSLASH) {\n      queue += character;\n      index++;\n      character = value.charAt(index);\n    }\n\n    queue += character;\n    index++;\n  }\n\n  if (\n    !queue ||\n    value.charAt(index) !== C_BRACKET_CLOSE ||\n    value.charAt(index + 1) !== C_COLON\n  ) {\n    return;\n  }\n\n  identifier = queue;\n  subvalue += queue + C_BRACKET_CLOSE + C_COLON;\n  index = subvalue.length;\n  queue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (\n      character !== C_TAB &&\n      character !== C_SPACE &&\n      character !== C_NEWLINE\n    ) {\n      break;\n    }\n\n    subvalue += character;\n    index++;\n  }\n\n  character = value.charAt(index);\n  queue = '';\n  beforeURL = subvalue;\n\n  if (character === C_LT) {\n    index++;\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (!isEnclosedURLCharacter(character)) {\n        break;\n      }\n\n      queue += character;\n      index++;\n    }\n\n    character = value.charAt(index);\n\n    if (character === isEnclosedURLCharacter.delimiter) {\n      subvalue += C_LT + queue + character;\n      index++;\n    } else {\n      if (commonmark) {\n        return;\n      }\n\n      index -= queue.length + 1;\n      queue = '';\n    }\n  }\n\n  if (!queue) {\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (!isUnclosedURLCharacter(character)) {\n        break;\n      }\n\n      queue += character;\n      index++;\n    }\n\n    subvalue += queue;\n  }\n\n  if (!queue) {\n    return;\n  }\n\n  url = queue;\n  queue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (\n      character !== C_TAB &&\n      character !== C_SPACE &&\n      character !== C_NEWLINE\n    ) {\n      break;\n    }\n\n    queue += character;\n    index++;\n  }\n\n  character = value.charAt(index);\n  test = null;\n\n  if (character === C_DOUBLE_QUOTE) {\n    test = C_DOUBLE_QUOTE;\n  } else if (character === C_SINGLE_QUOTE) {\n    test = C_SINGLE_QUOTE;\n  } else if (character === C_PAREN_OPEN) {\n    test = C_PAREN_CLOSE;\n  }\n\n  if (!test) {\n    queue = '';\n    index = subvalue.length;\n  } else if (queue) {\n    subvalue += queue + character;\n    index = subvalue.length;\n    queue = '';\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (character === test) {\n        break;\n      }\n\n      if (character === C_NEWLINE) {\n        index++;\n        character = value.charAt(index);\n\n        if (character === C_NEWLINE || character === test) {\n          return;\n        }\n\n        queue += C_NEWLINE;\n      }\n\n      queue += character;\n      index++;\n    }\n\n    character = value.charAt(index);\n\n    if (character !== test) {\n      return;\n    }\n\n    beforeTitle = subvalue;\n    subvalue += queue + character;\n    index++;\n    title = queue;\n    queue = '';\n  } else {\n    return;\n  }\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_TAB && character !== C_SPACE) {\n      break;\n    }\n\n    subvalue += character;\n    index++;\n  }\n\n  character = value.charAt(index);\n\n  if (!character || character === C_NEWLINE) {\n    if (silent) {\n      return true;\n    }\n\n    beforeURL = eat(beforeURL).test().end;\n    url = self.decode.raw(self.unescape(url), beforeURL, {nonTerminated: false});\n\n    if (title) {\n      beforeTitle = eat(beforeTitle).test().end;\n      title = self.decode.raw(self.unescape(title), beforeTitle);\n    }\n\n    return eat(subvalue)({\n      type: 'definition',\n      identifier: normalize(identifier),\n      title: title || null,\n      url: url\n    });\n  }\n}\n\n/* Check if `character` can be inside an enclosed URI. */\nfunction isEnclosedURLCharacter(character) {\n  return character !== C_GT &&\n    character !== C_BRACKET_OPEN &&\n    character !== C_BRACKET_CLOSE;\n}\n\nisEnclosedURLCharacter.delimiter = C_GT;\n\n/* Check if `character` can be inside an unclosed URI. */\nfunction isUnclosedURLCharacter(character) {\n  return character !== C_BRACKET_OPEN &&\n    character !== C_BRACKET_CLOSE &&\n    !whitespace(character);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/definition.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/delete.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/delete.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar locate = __webpack_require__(/*! ../locate/delete */ \"./node_modules/remark-parse/lib/locate/delete.js\");\n\nmodule.exports = strikethrough;\nstrikethrough.locator = locate;\n\nvar C_TILDE = '~';\nvar DOUBLE = '~~';\n\nfunction strikethrough(eat, value, silent) {\n  var self = this;\n  var character = '';\n  var previous = '';\n  var preceding = '';\n  var subvalue = '';\n  var index;\n  var length;\n  var now;\n\n  if (\n    !self.options.gfm ||\n    value.charAt(0) !== C_TILDE ||\n    value.charAt(1) !== C_TILDE ||\n    whitespace(value.charAt(2))\n  ) {\n    return;\n  }\n\n  index = 1;\n  length = value.length;\n  now = eat.now();\n  now.column += 2;\n  now.offset += 2;\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (\n      character === C_TILDE &&\n      previous === C_TILDE &&\n      (!preceding || !whitespace(preceding))\n    ) {\n      /* istanbul ignore if - never used (yet) */\n      if (silent) {\n        return true;\n      }\n\n      return eat(DOUBLE + subvalue + DOUBLE)({\n        type: 'delete',\n        children: self.tokenizeInline(subvalue, now)\n      });\n    }\n\n    subvalue += previous;\n    preceding = previous;\n    previous = character;\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/delete.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/emphasis.js":
+/*!************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/emphasis.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar trim = __webpack_require__(/*! trim */ \"./node_modules/trim/index.js\");\nvar word = __webpack_require__(/*! is-word-character */ \"./node_modules/is-word-character/index.js\");\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar locate = __webpack_require__(/*! ../locate/emphasis */ \"./node_modules/remark-parse/lib/locate/emphasis.js\");\n\nmodule.exports = emphasis;\nemphasis.locator = locate;\n\nvar C_ASTERISK = '*';\nvar C_UNDERSCORE = '_';\n\nfunction emphasis(eat, value, silent) {\n  var self = this;\n  var index = 0;\n  var character = value.charAt(index);\n  var now;\n  var pedantic;\n  var marker;\n  var queue;\n  var subvalue;\n  var length;\n  var prev;\n\n  if (character !== C_ASTERISK && character !== C_UNDERSCORE) {\n    return;\n  }\n\n  pedantic = self.options.pedantic;\n  subvalue = character;\n  marker = character;\n  length = value.length;\n  index++;\n  queue = '';\n  character = '';\n\n  if (pedantic && whitespace(value.charAt(index))) {\n    return;\n  }\n\n  while (index < length) {\n    prev = character;\n    character = value.charAt(index);\n\n    if (character === marker && (!pedantic || !whitespace(prev))) {\n      character = value.charAt(++index);\n\n      if (character !== marker) {\n        if (!trim(queue) || prev === marker) {\n          return;\n        }\n\n        if (!pedantic && marker === C_UNDERSCORE && word(character)) {\n          queue += marker;\n          continue;\n        }\n\n        /* istanbul ignore if - never used (yet) */\n        if (silent) {\n          return true;\n        }\n\n        now = eat.now();\n        now.column++;\n        now.offset++;\n\n        return eat(subvalue + queue + marker)({\n          type: 'emphasis',\n          children: self.tokenizeInline(queue, now)\n        });\n      }\n\n      queue += marker;\n    }\n\n    if (!pedantic && character === '\\\\') {\n      queue += character;\n      character = value.charAt(++index);\n    }\n\n    queue += character;\n    index++;\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/emphasis.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/escape.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/escape.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar locate = __webpack_require__(/*! ../locate/escape */ \"./node_modules/remark-parse/lib/locate/escape.js\");\n\nmodule.exports = escape;\nescape.locator = locate;\n\nfunction escape(eat, value, silent) {\n  var self = this;\n  var character;\n  var node;\n\n  if (value.charAt(0) === '\\\\') {\n    character = value.charAt(1);\n\n    if (self.escape.indexOf(character) !== -1) {\n      /* istanbul ignore if - never used (yet) */\n      if (silent) {\n        return true;\n      }\n\n      if (character === '\\n') {\n        node = {type: 'break'};\n      } else {\n        node = {\n          type: 'text',\n          value: character\n        };\n      }\n\n      return eat('\\\\' + character)(node);\n    }\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/escape.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/footnote-definition.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/footnote-definition.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar normalize = __webpack_require__(/*! ../util/normalize */ \"./node_modules/remark-parse/lib/util/normalize.js\");\n\nmodule.exports = footnoteDefinition;\nfootnoteDefinition.notInList = true;\nfootnoteDefinition.notInBlock = true;\n\nvar C_BACKSLASH = '\\\\';\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\nvar C_BRACKET_OPEN = '[';\nvar C_BRACKET_CLOSE = ']';\nvar C_CARET = '^';\nvar C_COLON = ':';\n\nvar EXPRESSION_INITIAL_TAB = /^( {4}|\\t)?/gm;\n\nfunction footnoteDefinition(eat, value, silent) {\n  var self = this;\n  var offsets = self.offset;\n  var index;\n  var length;\n  var subvalue;\n  var now;\n  var currentLine;\n  var content;\n  var queue;\n  var subqueue;\n  var character;\n  var identifier;\n  var add;\n  var exit;\n\n  if (!self.options.footnotes) {\n    return;\n  }\n\n  index = 0;\n  length = value.length;\n  subvalue = '';\n  now = eat.now();\n  currentLine = now.line;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (!whitespace(character)) {\n      break;\n    }\n\n    subvalue += character;\n    index++;\n  }\n\n  if (\n    value.charAt(index) !== C_BRACKET_OPEN ||\n    value.charAt(index + 1) !== C_CARET\n  ) {\n    return;\n  }\n\n  subvalue += C_BRACKET_OPEN + C_CARET;\n  index = subvalue.length;\n  queue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character === C_BRACKET_CLOSE) {\n      break;\n    } else if (character === C_BACKSLASH) {\n      queue += character;\n      index++;\n      character = value.charAt(index);\n    }\n\n    queue += character;\n    index++;\n  }\n\n  if (\n    !queue ||\n    value.charAt(index) !== C_BRACKET_CLOSE ||\n    value.charAt(index + 1) !== C_COLON\n  ) {\n    return;\n  }\n\n  if (silent) {\n    return true;\n  }\n\n  identifier = normalize(queue);\n  subvalue += queue + C_BRACKET_CLOSE + C_COLON;\n  index = subvalue.length;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_TAB && character !== C_SPACE) {\n      break;\n    }\n\n    subvalue += character;\n    index++;\n  }\n\n  now.column += subvalue.length;\n  now.offset += subvalue.length;\n  queue = '';\n  content = '';\n  subqueue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character === C_NEWLINE) {\n      subqueue = character;\n      index++;\n\n      while (index < length) {\n        character = value.charAt(index);\n\n        if (character !== C_NEWLINE) {\n          break;\n        }\n\n        subqueue += character;\n        index++;\n      }\n\n      queue += subqueue;\n      subqueue = '';\n\n      while (index < length) {\n        character = value.charAt(index);\n\n        if (character !== C_SPACE) {\n          break;\n        }\n\n        subqueue += character;\n        index++;\n      }\n\n      if (subqueue.length === 0) {\n        break;\n      }\n\n      queue += subqueue;\n    }\n\n    if (queue) {\n      content += queue;\n      queue = '';\n    }\n\n    content += character;\n    index++;\n  }\n\n  subvalue += content;\n\n  content = content.replace(EXPRESSION_INITIAL_TAB, function (line) {\n    offsets[currentLine] = (offsets[currentLine] || 0) + line.length;\n    currentLine++;\n\n    return '';\n  });\n\n  add = eat(subvalue);\n\n  exit = self.enterBlock();\n  content = self.tokenizeBlock(content, now);\n  exit();\n\n  return add({\n    type: 'footnoteDefinition',\n    identifier: identifier,\n    children: content\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/footnote-definition.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/heading-atx.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/heading-atx.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = atxHeading;\n\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\nvar C_HASH = '#';\n\nvar MAX_ATX_COUNT = 6;\n\nfunction atxHeading(eat, value, silent) {\n  var self = this;\n  var settings = self.options;\n  var length = value.length + 1;\n  var index = -1;\n  var now = eat.now();\n  var subvalue = '';\n  var content = '';\n  var character;\n  var queue;\n  var depth;\n\n  /* Eat initial spacing. */\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_SPACE && character !== C_TAB) {\n      index--;\n      break;\n    }\n\n    subvalue += character;\n  }\n\n  /* Eat hashes. */\n  depth = 0;\n\n  while (++index <= length) {\n    character = value.charAt(index);\n\n    if (character !== C_HASH) {\n      index--;\n      break;\n    }\n\n    subvalue += character;\n    depth++;\n  }\n\n  if (depth > MAX_ATX_COUNT) {\n    return;\n  }\n\n  if (\n    !depth ||\n    (!settings.pedantic && value.charAt(index + 1) === C_HASH)\n  ) {\n    return;\n  }\n\n  length = value.length + 1;\n\n  /* Eat intermediate white-space. */\n  queue = '';\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_SPACE && character !== C_TAB) {\n      index--;\n      break;\n    }\n\n    queue += character;\n  }\n\n  /* Exit when not in pedantic mode without spacing. */\n  if (\n    !settings.pedantic &&\n    queue.length === 0 &&\n    character &&\n    character !== C_NEWLINE\n  ) {\n    return;\n  }\n\n  if (silent) {\n    return true;\n  }\n\n  /* Eat content. */\n  subvalue += queue;\n  queue = '';\n  content = '';\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (!character || character === C_NEWLINE) {\n      break;\n    }\n\n    if (\n      character !== C_SPACE &&\n      character !== C_TAB &&\n      character !== C_HASH\n    ) {\n      content += queue + character;\n      queue = '';\n      continue;\n    }\n\n    while (character === C_SPACE || character === C_TAB) {\n      queue += character;\n      character = value.charAt(++index);\n    }\n\n    while (character === C_HASH) {\n      queue += character;\n      character = value.charAt(++index);\n    }\n\n    while (character === C_SPACE || character === C_TAB) {\n      queue += character;\n      character = value.charAt(++index);\n    }\n\n    index--;\n  }\n\n  now.column += subvalue.length;\n  now.offset += subvalue.length;\n  subvalue += content + queue;\n\n  return eat(subvalue)({\n    type: 'heading',\n    depth: depth,\n    children: self.tokenizeInline(content, now)\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/heading-atx.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/heading-setext.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/heading-setext.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = setextHeading;\n\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\nvar C_EQUALS = '=';\nvar C_DASH = '-';\n\nvar MAX_HEADING_INDENT = 3;\n\n/* Map of characters which can be used to mark setext\n * headers, mapping to their corresponding depth. */\nvar SETEXT_MARKERS = {};\n\nSETEXT_MARKERS[C_EQUALS] = 1;\nSETEXT_MARKERS[C_DASH] = 2;\n\nfunction setextHeading(eat, value, silent) {\n  var self = this;\n  var now = eat.now();\n  var length = value.length;\n  var index = -1;\n  var subvalue = '';\n  var content;\n  var queue;\n  var character;\n  var marker;\n  var depth;\n\n  /* Eat initial indentation. */\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_SPACE || index >= MAX_HEADING_INDENT) {\n      index--;\n      break;\n    }\n\n    subvalue += character;\n  }\n\n  /* Eat content. */\n  content = '';\n  queue = '';\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (character === C_NEWLINE) {\n      index--;\n      break;\n    }\n\n    if (character === C_SPACE || character === C_TAB) {\n      queue += character;\n    } else {\n      content += queue + character;\n      queue = '';\n    }\n  }\n\n  now.column += subvalue.length;\n  now.offset += subvalue.length;\n  subvalue += content + queue;\n\n  /* Ensure the content is followed by a newline and a\n   * valid marker. */\n  character = value.charAt(++index);\n  marker = value.charAt(++index);\n\n  if (character !== C_NEWLINE || !SETEXT_MARKERS[marker]) {\n    return;\n  }\n\n  subvalue += character;\n\n  /* Eat Setext-line. */\n  queue = marker;\n  depth = SETEXT_MARKERS[marker];\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (character !== marker) {\n      if (character !== C_NEWLINE) {\n        return;\n      }\n\n      index--;\n      break;\n    }\n\n    queue += character;\n  }\n\n  if (silent) {\n    return true;\n  }\n\n  return eat(subvalue + queue)({\n    type: 'heading',\n    depth: depth,\n    children: self.tokenizeInline(content, now)\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/heading-setext.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/html-block.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/html-block.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar openCloseTag = __webpack_require__(/*! ../util/html */ \"./node_modules/remark-parse/lib/util/html.js\").openCloseTag;\n\nmodule.exports = blockHTML;\n\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\nvar C_NEWLINE = '\\n';\nvar C_LT = '<';\n\nfunction blockHTML(eat, value, silent) {\n  var self = this;\n  var blocks = self.options.blocks;\n  var length = value.length;\n  var index = 0;\n  var next;\n  var line;\n  var offset;\n  var character;\n  var count;\n  var sequence;\n  var subvalue;\n\n  var sequences = [\n    [/^<(script|pre|style)(?=(\\s|>|$))/i, /<\\/(script|pre|style)>/i, true],\n    [/^<!--/, /-->/, true],\n    [/^<\\?/, /\\?>/, true],\n    [/^<![A-Za-z]/, />/, true],\n    [/^<!\\[CDATA\\[/, /\\]\\]>/, true],\n    [new RegExp('^</?(' + blocks.join('|') + ')(?=(\\\\s|/?>|$))', 'i'), /^$/, true],\n    [new RegExp(openCloseTag.source + '\\\\s*$'), /^$/, false]\n  ];\n\n  /* Eat initial spacing. */\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_TAB && character !== C_SPACE) {\n      break;\n    }\n\n    index++;\n  }\n\n  if (value.charAt(index) !== C_LT) {\n    return;\n  }\n\n  next = value.indexOf(C_NEWLINE, index + 1);\n  next = next === -1 ? length : next;\n  line = value.slice(index, next);\n  offset = -1;\n  count = sequences.length;\n\n  while (++offset < count) {\n    if (sequences[offset][0].test(line)) {\n      sequence = sequences[offset];\n      break;\n    }\n  }\n\n  if (!sequence) {\n    return;\n  }\n\n  if (silent) {\n    return sequence[2];\n  }\n\n  index = next;\n\n  if (!sequence[1].test(line)) {\n    while (index < length) {\n      next = value.indexOf(C_NEWLINE, index + 1);\n      next = next === -1 ? length : next;\n      line = value.slice(index + 1, next);\n\n      if (sequence[1].test(line)) {\n        if (line) {\n          index = next;\n        }\n\n        break;\n      }\n\n      index = next;\n    }\n  }\n\n  subvalue = value.slice(0, index);\n\n  return eat(subvalue)({type: 'html', value: subvalue});\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/html-block.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/html-inline.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/html-inline.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar alphabetical = __webpack_require__(/*! is-alphabetical */ \"./node_modules/is-alphabetical/index.js\");\nvar locate = __webpack_require__(/*! ../locate/tag */ \"./node_modules/remark-parse/lib/locate/tag.js\");\nvar tag = __webpack_require__(/*! ../util/html */ \"./node_modules/remark-parse/lib/util/html.js\").tag;\n\nmodule.exports = inlineHTML;\ninlineHTML.locator = locate;\n\nvar EXPRESSION_HTML_LINK_OPEN = /^<a /i;\nvar EXPRESSION_HTML_LINK_CLOSE = /^<\\/a>/i;\n\nfunction inlineHTML(eat, value, silent) {\n  var self = this;\n  var length = value.length;\n  var character;\n  var subvalue;\n\n  if (value.charAt(0) !== '<' || length < 3) {\n    return;\n  }\n\n  character = value.charAt(1);\n\n  if (\n    !alphabetical(character) &&\n    character !== '?' &&\n    character !== '!' &&\n    character !== '/'\n  ) {\n    return;\n  }\n\n  subvalue = value.match(tag);\n\n  if (!subvalue) {\n    return;\n  }\n\n  /* istanbul ignore if - not used yet. */\n  if (silent) {\n    return true;\n  }\n\n  subvalue = subvalue[0];\n\n  if (!self.inLink && EXPRESSION_HTML_LINK_OPEN.test(subvalue)) {\n    self.inLink = true;\n  } else if (self.inLink && EXPRESSION_HTML_LINK_CLOSE.test(subvalue)) {\n    self.inLink = false;\n  }\n\n  return eat(subvalue)({type: 'html', value: subvalue});\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/html-inline.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/link.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/link.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar locate = __webpack_require__(/*! ../locate/link */ \"./node_modules/remark-parse/lib/locate/link.js\");\n\nmodule.exports = link;\nlink.locator = locate;\n\nvar own = {}.hasOwnProperty;\n\nvar C_BACKSLASH = '\\\\';\nvar C_BRACKET_OPEN = '[';\nvar C_BRACKET_CLOSE = ']';\nvar C_PAREN_OPEN = '(';\nvar C_PAREN_CLOSE = ')';\nvar C_LT = '<';\nvar C_GT = '>';\nvar C_TICK = '`';\nvar C_DOUBLE_QUOTE = '\"';\nvar C_SINGLE_QUOTE = '\\'';\n\n/* Map of characters, which can be used to mark link\n * and image titles. */\nvar LINK_MARKERS = {};\n\nLINK_MARKERS[C_DOUBLE_QUOTE] = C_DOUBLE_QUOTE;\nLINK_MARKERS[C_SINGLE_QUOTE] = C_SINGLE_QUOTE;\n\n/* Map of characters, which can be used to mark link\n * and image titles in commonmark-mode. */\nvar COMMONMARK_LINK_MARKERS = {};\n\nCOMMONMARK_LINK_MARKERS[C_DOUBLE_QUOTE] = C_DOUBLE_QUOTE;\nCOMMONMARK_LINK_MARKERS[C_SINGLE_QUOTE] = C_SINGLE_QUOTE;\nCOMMONMARK_LINK_MARKERS[C_PAREN_OPEN] = C_PAREN_CLOSE;\n\nfunction link(eat, value, silent) {\n  var self = this;\n  var subvalue = '';\n  var index = 0;\n  var character = value.charAt(0);\n  var pedantic = self.options.pedantic;\n  var commonmark = self.options.commonmark;\n  var gfm = self.options.gfm;\n  var closed;\n  var count;\n  var opening;\n  var beforeURL;\n  var beforeTitle;\n  var subqueue;\n  var hasMarker;\n  var markers;\n  var isImage;\n  var content;\n  var marker;\n  var length;\n  var title;\n  var depth;\n  var queue;\n  var url;\n  var now;\n  var exit;\n  var node;\n\n  /* Detect whether this is an image. */\n  if (character === '!') {\n    isImage = true;\n    subvalue = character;\n    character = value.charAt(++index);\n  }\n\n  /* Eat the opening. */\n  if (character !== C_BRACKET_OPEN) {\n    return;\n  }\n\n  /* Exit when this is a link and we’re already inside\n   * a link. */\n  if (!isImage && self.inLink) {\n    return;\n  }\n\n  subvalue += character;\n  queue = '';\n  index++;\n\n  /* Eat the content. */\n  length = value.length;\n  now = eat.now();\n  depth = 0;\n\n  now.column += index;\n  now.offset += index;\n\n  while (index < length) {\n    character = value.charAt(index);\n    subqueue = character;\n\n    if (character === C_TICK) {\n      /* Inline-code in link content. */\n      count = 1;\n\n      while (value.charAt(index + 1) === C_TICK) {\n        subqueue += character;\n        index++;\n        count++;\n      }\n\n      if (!opening) {\n        opening = count;\n      } else if (count >= opening) {\n        opening = 0;\n      }\n    } else if (character === C_BACKSLASH) {\n      /* Allow brackets to be escaped. */\n      index++;\n      subqueue += value.charAt(index);\n    /* In GFM mode, brackets in code still count.\n     * In all other modes, they don’t.  This empty\n     * block prevents the next statements are\n     * entered. */\n    } else if ((!opening || gfm) && character === C_BRACKET_OPEN) {\n      depth++;\n    } else if ((!opening || gfm) && character === C_BRACKET_CLOSE) {\n      if (depth) {\n        depth--;\n      } else {\n        /* Allow white-space between content and\n         * url in GFM mode. */\n        if (!pedantic) {\n          while (index < length) {\n            character = value.charAt(index + 1);\n\n            if (!whitespace(character)) {\n              break;\n            }\n\n            subqueue += character;\n            index++;\n          }\n        }\n\n        if (value.charAt(index + 1) !== C_PAREN_OPEN) {\n          return;\n        }\n\n        subqueue += C_PAREN_OPEN;\n        closed = true;\n        index++;\n\n        break;\n      }\n    }\n\n    queue += subqueue;\n    subqueue = '';\n    index++;\n  }\n\n  /* Eat the content closing. */\n  if (!closed) {\n    return;\n  }\n\n  content = queue;\n  subvalue += queue + subqueue;\n  index++;\n\n  /* Eat white-space. */\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (!whitespace(character)) {\n      break;\n    }\n\n    subvalue += character;\n    index++;\n  }\n\n  /* Eat the URL. */\n  character = value.charAt(index);\n  markers = commonmark ? COMMONMARK_LINK_MARKERS : LINK_MARKERS;\n  queue = '';\n  beforeURL = subvalue;\n\n  if (character === C_LT) {\n    index++;\n    beforeURL += C_LT;\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (character === C_GT) {\n        break;\n      }\n\n      if (commonmark && character === '\\n') {\n        return;\n      }\n\n      queue += character;\n      index++;\n    }\n\n    if (value.charAt(index) !== C_GT) {\n      return;\n    }\n\n    subvalue += C_LT + queue + C_GT;\n    url = queue;\n    index++;\n  } else {\n    character = null;\n    subqueue = '';\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (subqueue && own.call(markers, character)) {\n        break;\n      }\n\n      if (whitespace(character)) {\n        if (!pedantic) {\n          break;\n        }\n\n        subqueue += character;\n      } else {\n        if (character === C_PAREN_OPEN) {\n          depth++;\n        } else if (character === C_PAREN_CLOSE) {\n          if (depth === 0) {\n            break;\n          }\n\n          depth--;\n        }\n\n        queue += subqueue;\n        subqueue = '';\n\n        if (character === C_BACKSLASH) {\n          queue += C_BACKSLASH;\n          character = value.charAt(++index);\n        }\n\n        queue += character;\n      }\n\n      index++;\n    }\n\n    subvalue += queue;\n    url = queue;\n    index = subvalue.length;\n  }\n\n  /* Eat white-space. */\n  queue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (!whitespace(character)) {\n      break;\n    }\n\n    queue += character;\n    index++;\n  }\n\n  character = value.charAt(index);\n  subvalue += queue;\n\n  /* Eat the title. */\n  if (queue && own.call(markers, character)) {\n    index++;\n    subvalue += character;\n    queue = '';\n    marker = markers[character];\n    beforeTitle = subvalue;\n\n    /* In commonmark-mode, things are pretty easy: the\n     * marker cannot occur inside the title.\n     *\n     * Non-commonmark does, however, support nested\n     * delimiters. */\n    if (commonmark) {\n      while (index < length) {\n        character = value.charAt(index);\n\n        if (character === marker) {\n          break;\n        }\n\n        if (character === C_BACKSLASH) {\n          queue += C_BACKSLASH;\n          character = value.charAt(++index);\n        }\n\n        index++;\n        queue += character;\n      }\n\n      character = value.charAt(index);\n\n      if (character !== marker) {\n        return;\n      }\n\n      title = queue;\n      subvalue += queue + character;\n      index++;\n\n      while (index < length) {\n        character = value.charAt(index);\n\n        if (!whitespace(character)) {\n          break;\n        }\n\n        subvalue += character;\n        index++;\n      }\n    } else {\n      subqueue = '';\n\n      while (index < length) {\n        character = value.charAt(index);\n\n        if (character === marker) {\n          if (hasMarker) {\n            queue += marker + subqueue;\n            subqueue = '';\n          }\n\n          hasMarker = true;\n        } else if (!hasMarker) {\n          queue += character;\n        } else if (character === C_PAREN_CLOSE) {\n          subvalue += queue + marker + subqueue;\n          title = queue;\n          break;\n        } else if (whitespace(character)) {\n          subqueue += character;\n        } else {\n          queue += marker + subqueue + character;\n          subqueue = '';\n          hasMarker = false;\n        }\n\n        index++;\n      }\n    }\n  }\n\n  if (value.charAt(index) !== C_PAREN_CLOSE) {\n    return;\n  }\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  subvalue += C_PAREN_CLOSE;\n\n  url = self.decode.raw(self.unescape(url), eat(beforeURL).test().end, {nonTerminated: false});\n\n  if (title) {\n    beforeTitle = eat(beforeTitle).test().end;\n    title = self.decode.raw(self.unescape(title), beforeTitle);\n  }\n\n  node = {\n    type: isImage ? 'image' : 'link',\n    title: title || null,\n    url: url\n  };\n\n  if (isImage) {\n    node.alt = self.decode.raw(self.unescape(content), now) || null;\n  } else {\n    exit = self.enterLink();\n    node.children = self.tokenizeInline(content, now);\n    exit();\n  }\n\n  return eat(subvalue)(node);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/link.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/list.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/list.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/* eslint-disable max-params */\n\nvar trim = __webpack_require__(/*! trim */ \"./node_modules/trim/index.js\");\nvar repeat = __webpack_require__(/*! repeat-string */ \"./node_modules/repeat-string/index.js\");\nvar decimal = __webpack_require__(/*! is-decimal */ \"./node_modules/is-decimal/index.js\");\nvar getIndent = __webpack_require__(/*! ../util/get-indentation */ \"./node_modules/remark-parse/lib/util/get-indentation.js\");\nvar removeIndent = __webpack_require__(/*! ../util/remove-indentation */ \"./node_modules/remark-parse/lib/util/remove-indentation.js\");\nvar interrupt = __webpack_require__(/*! ../util/interrupt */ \"./node_modules/remark-parse/lib/util/interrupt.js\");\n\nmodule.exports = list;\n\nvar C_ASTERISK = '*';\nvar C_UNDERSCORE = '_';\nvar C_PLUS = '+';\nvar C_DASH = '-';\nvar C_DOT = '.';\nvar C_SPACE = ' ';\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_PAREN_CLOSE = ')';\nvar C_X_LOWER = 'x';\n\nvar TAB_SIZE = 4;\nvar EXPRESSION_LOOSE_LIST_ITEM = /\\n\\n(?!\\s*$)/;\nvar EXPRESSION_TASK_ITEM = /^\\[([ \\t]|x|X)][ \\t]/;\nvar EXPRESSION_BULLET = /^([ \\t]*)([*+-]|\\d+[.)])( {1,4}(?! )| |\\t|$|(?=\\n))([^\\n]*)/;\nvar EXPRESSION_PEDANTIC_BULLET = /^([ \\t]*)([*+-]|\\d+[.)])([ \\t]+)/;\nvar EXPRESSION_INITIAL_INDENT = /^( {1,4}|\\t)?/gm;\n\n/* Map of characters which can be used to mark\n * list-items. */\nvar LIST_UNORDERED_MARKERS = {};\n\nLIST_UNORDERED_MARKERS[C_ASTERISK] = true;\nLIST_UNORDERED_MARKERS[C_PLUS] = true;\nLIST_UNORDERED_MARKERS[C_DASH] = true;\n\n/* Map of characters which can be used to mark\n * list-items after a digit. */\nvar LIST_ORDERED_MARKERS = {};\n\nLIST_ORDERED_MARKERS[C_DOT] = true;\n\n/* Map of characters which can be used to mark\n * list-items after a digit. */\nvar LIST_ORDERED_COMMONMARK_MARKERS = {};\n\nLIST_ORDERED_COMMONMARK_MARKERS[C_DOT] = true;\nLIST_ORDERED_COMMONMARK_MARKERS[C_PAREN_CLOSE] = true;\n\nfunction list(eat, value, silent) {\n  var self = this;\n  var commonmark = self.options.commonmark;\n  var pedantic = self.options.pedantic;\n  var tokenizers = self.blockTokenizers;\n  var interuptors = self.interruptList;\n  var markers;\n  var index = 0;\n  var length = value.length;\n  var start = null;\n  var size = 0;\n  var queue;\n  var ordered;\n  var character;\n  var marker;\n  var nextIndex;\n  var startIndex;\n  var prefixed;\n  var currentMarker;\n  var content;\n  var line;\n  var prevEmpty;\n  var empty;\n  var items;\n  var allLines;\n  var emptyLines;\n  var item;\n  var enterTop;\n  var exitBlockquote;\n  var isLoose;\n  var node;\n  var now;\n  var end;\n  var indented;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character === C_TAB) {\n      size += TAB_SIZE - (size % TAB_SIZE);\n    } else if (character === C_SPACE) {\n      size++;\n    } else {\n      break;\n    }\n\n    index++;\n  }\n\n  if (size >= TAB_SIZE) {\n    return;\n  }\n\n  character = value.charAt(index);\n\n  markers = commonmark ?\n    LIST_ORDERED_COMMONMARK_MARKERS :\n    LIST_ORDERED_MARKERS;\n\n  if (LIST_UNORDERED_MARKERS[character] === true) {\n    marker = character;\n    ordered = false;\n  } else {\n    ordered = true;\n    queue = '';\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (!decimal(character)) {\n        break;\n      }\n\n      queue += character;\n      index++;\n    }\n\n    character = value.charAt(index);\n\n    if (!queue || markers[character] !== true) {\n      return;\n    }\n\n    start = parseInt(queue, 10);\n    marker = character;\n  }\n\n  character = value.charAt(++index);\n\n  if (character !== C_SPACE && character !== C_TAB) {\n    return;\n  }\n\n  if (silent) {\n    return true;\n  }\n\n  index = 0;\n  items = [];\n  allLines = [];\n  emptyLines = [];\n\n  while (index < length) {\n    nextIndex = value.indexOf(C_NEWLINE, index);\n    startIndex = index;\n    prefixed = false;\n    indented = false;\n\n    if (nextIndex === -1) {\n      nextIndex = length;\n    }\n\n    end = index + TAB_SIZE;\n    size = 0;\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (character === C_TAB) {\n        size += TAB_SIZE - (size % TAB_SIZE);\n      } else if (character === C_SPACE) {\n        size++;\n      } else {\n        break;\n      }\n\n      index++;\n    }\n\n    if (size >= TAB_SIZE) {\n      indented = true;\n    }\n\n    if (item && size >= item.indent) {\n      indented = true;\n    }\n\n    character = value.charAt(index);\n    currentMarker = null;\n\n    if (!indented) {\n      if (LIST_UNORDERED_MARKERS[character] === true) {\n        currentMarker = character;\n        index++;\n        size++;\n      } else {\n        queue = '';\n\n        while (index < length) {\n          character = value.charAt(index);\n\n          if (!decimal(character)) {\n            break;\n          }\n\n          queue += character;\n          index++;\n        }\n\n        character = value.charAt(index);\n        index++;\n\n        if (queue && markers[character] === true) {\n          currentMarker = character;\n          size += queue.length + 1;\n        }\n      }\n\n      if (currentMarker) {\n        character = value.charAt(index);\n\n        if (character === C_TAB) {\n          size += TAB_SIZE - (size % TAB_SIZE);\n          index++;\n        } else if (character === C_SPACE) {\n          end = index + TAB_SIZE;\n\n          while (index < end) {\n            if (value.charAt(index) !== C_SPACE) {\n              break;\n            }\n\n            index++;\n            size++;\n          }\n\n          if (index === end && value.charAt(index) === C_SPACE) {\n            index -= TAB_SIZE - 1;\n            size -= TAB_SIZE - 1;\n          }\n        } else if (character !== C_NEWLINE && character !== '') {\n          currentMarker = null;\n        }\n      }\n    }\n\n    if (currentMarker) {\n      if (!pedantic && marker !== currentMarker) {\n        break;\n      }\n\n      prefixed = true;\n    } else {\n      if (!commonmark && !indented && value.charAt(startIndex) === C_SPACE) {\n        indented = true;\n      } else if (commonmark && item) {\n        indented = size >= item.indent || size > TAB_SIZE;\n      }\n\n      prefixed = false;\n      index = startIndex;\n    }\n\n    line = value.slice(startIndex, nextIndex);\n    content = startIndex === index ? line : value.slice(index, nextIndex);\n\n    if (\n      currentMarker === C_ASTERISK ||\n      currentMarker === C_UNDERSCORE ||\n      currentMarker === C_DASH\n    ) {\n      if (tokenizers.thematicBreak.call(self, eat, line, true)) {\n        break;\n      }\n    }\n\n    prevEmpty = empty;\n    empty = !trim(content).length;\n\n    if (indented && item) {\n      item.value = item.value.concat(emptyLines, line);\n      allLines = allLines.concat(emptyLines, line);\n      emptyLines = [];\n    } else if (prefixed) {\n      if (emptyLines.length !== 0) {\n        item.value.push('');\n        item.trail = emptyLines.concat();\n      }\n\n      item = {\n        value: [line],\n        indent: size,\n        trail: []\n      };\n\n      items.push(item);\n      allLines = allLines.concat(emptyLines, line);\n      emptyLines = [];\n    } else if (empty) {\n      if (prevEmpty) {\n        break;\n      }\n\n      emptyLines.push(line);\n    } else {\n      if (prevEmpty) {\n        break;\n      }\n\n      if (interrupt(interuptors, tokenizers, self, [eat, line, true])) {\n        break;\n      }\n\n      item.value = item.value.concat(emptyLines, line);\n      allLines = allLines.concat(emptyLines, line);\n      emptyLines = [];\n    }\n\n    index = nextIndex + 1;\n  }\n\n  node = eat(allLines.join(C_NEWLINE)).reset({\n    type: 'list',\n    ordered: ordered,\n    start: start,\n    loose: null,\n    children: []\n  });\n\n  enterTop = self.enterList();\n  exitBlockquote = self.enterBlock();\n  isLoose = false;\n  index = -1;\n  length = items.length;\n\n  while (++index < length) {\n    item = items[index].value.join(C_NEWLINE);\n    now = eat.now();\n\n    item = eat(item)(listItem(self, item, now), node);\n\n    if (item.loose) {\n      isLoose = true;\n    }\n\n    item = items[index].trail.join(C_NEWLINE);\n\n    if (index !== length - 1) {\n      item += C_NEWLINE;\n    }\n\n    eat(item);\n  }\n\n  enterTop();\n  exitBlockquote();\n\n  node.loose = isLoose;\n\n  return node;\n}\n\nfunction listItem(ctx, value, position) {\n  var offsets = ctx.offset;\n  var fn = ctx.options.pedantic ? pedanticListItem : normalListItem;\n  var checked = null;\n  var task;\n  var indent;\n\n  value = fn.apply(null, arguments);\n\n  if (ctx.options.gfm) {\n    task = value.match(EXPRESSION_TASK_ITEM);\n\n    if (task) {\n      indent = task[0].length;\n      checked = task[1].toLowerCase() === C_X_LOWER;\n      offsets[position.line] += indent;\n      value = value.slice(indent);\n    }\n  }\n\n  return {\n    type: 'listItem',\n    loose: EXPRESSION_LOOSE_LIST_ITEM.test(value) ||\n      value.charAt(value.length - 1) === C_NEWLINE,\n    checked: checked,\n    children: ctx.tokenizeBlock(value, position)\n  };\n}\n\n/* Create a list-item using overly simple mechanics. */\nfunction pedanticListItem(ctx, value, position) {\n  var offsets = ctx.offset;\n  var line = position.line;\n\n  /* Remove the list-item’s bullet. */\n  value = value.replace(EXPRESSION_PEDANTIC_BULLET, replacer);\n\n  /* The initial line was also matched by the below, so\n   * we reset the `line`. */\n  line = position.line;\n\n  return value.replace(EXPRESSION_INITIAL_INDENT, replacer);\n\n  /* A simple replacer which removed all matches,\n   * and adds their length to `offset`. */\n  function replacer($0) {\n    offsets[line] = (offsets[line] || 0) + $0.length;\n    line++;\n\n    return '';\n  }\n}\n\n/* Create a list-item using sane mechanics. */\nfunction normalListItem(ctx, value, position) {\n  var offsets = ctx.offset;\n  var line = position.line;\n  var max;\n  var bullet;\n  var rest;\n  var lines;\n  var trimmedLines;\n  var index;\n  var length;\n\n  /* Remove the list-item’s bullet. */\n  value = value.replace(EXPRESSION_BULLET, replacer);\n\n  lines = value.split(C_NEWLINE);\n\n  trimmedLines = removeIndent(value, getIndent(max).indent).split(C_NEWLINE);\n\n  /* We replaced the initial bullet with something\n   * else above, which was used to trick\n   * `removeIndentation` into removing some more\n   * characters when possible.  However, that could\n   * result in the initial line to be stripped more\n   * than it should be. */\n  trimmedLines[0] = rest;\n\n  offsets[line] = (offsets[line] || 0) + bullet.length;\n  line++;\n\n  index = 0;\n  length = lines.length;\n\n  while (++index < length) {\n    offsets[line] = (offsets[line] || 0) +\n      lines[index].length - trimmedLines[index].length;\n    line++;\n  }\n\n  return trimmedLines.join(C_NEWLINE);\n\n  function replacer($0, $1, $2, $3, $4) {\n    bullet = $1 + $2 + $3;\n    rest = $4;\n\n    /* Make sure that the first nine numbered list items\n     * can indent with an extra space.  That is, when\n     * the bullet did not receive an extra final space. */\n    if (Number($2) < 10 && bullet.length % 2 === 1) {\n      $2 = C_SPACE + $2;\n    }\n\n    max = $1 + repeat(C_SPACE, $2.length) + $3;\n\n    return max + rest;\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/list.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/newline.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/newline.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\n\nmodule.exports = newline;\n\n/* Tokenise newline. */\nfunction newline(eat, value, silent) {\n  var character = value.charAt(0);\n  var length;\n  var subvalue;\n  var queue;\n  var index;\n\n  if (character !== '\\n') {\n    return;\n  }\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  index = 1;\n  length = value.length;\n  subvalue = character;\n  queue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (!whitespace(character)) {\n      break;\n    }\n\n    queue += character;\n\n    if (character === '\\n') {\n      subvalue += queue;\n      queue = '';\n    }\n\n    index++;\n  }\n\n  eat(subvalue);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/newline.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/paragraph.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/paragraph.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar trim = __webpack_require__(/*! trim */ \"./node_modules/trim/index.js\");\nvar decimal = __webpack_require__(/*! is-decimal */ \"./node_modules/is-decimal/index.js\");\nvar trimTrailingLines = __webpack_require__(/*! trim-trailing-lines */ \"./node_modules/trim-trailing-lines/index.js\");\nvar interrupt = __webpack_require__(/*! ../util/interrupt */ \"./node_modules/remark-parse/lib/util/interrupt.js\");\n\nmodule.exports = paragraph;\n\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\n\nvar TAB_SIZE = 4;\n\n/* Tokenise paragraph. */\nfunction paragraph(eat, value, silent) {\n  var self = this;\n  var settings = self.options;\n  var commonmark = settings.commonmark;\n  var gfm = settings.gfm;\n  var tokenizers = self.blockTokenizers;\n  var interruptors = self.interruptParagraph;\n  var index = value.indexOf(C_NEWLINE);\n  var length = value.length;\n  var position;\n  var subvalue;\n  var character;\n  var size;\n  var now;\n\n  while (index < length) {\n    /* Eat everything if there’s no following newline. */\n    if (index === -1) {\n      index = length;\n      break;\n    }\n\n    /* Stop if the next character is NEWLINE. */\n    if (value.charAt(index + 1) === C_NEWLINE) {\n      break;\n    }\n\n    /* In commonmark-mode, following indented lines\n     * are part of the paragraph. */\n    if (commonmark) {\n      size = 0;\n      position = index + 1;\n\n      while (position < length) {\n        character = value.charAt(position);\n\n        if (character === C_TAB) {\n          size = TAB_SIZE;\n          break;\n        } else if (character === C_SPACE) {\n          size++;\n        } else {\n          break;\n        }\n\n        position++;\n      }\n\n      if (size >= TAB_SIZE) {\n        index = value.indexOf(C_NEWLINE, index + 1);\n        continue;\n      }\n    }\n\n    subvalue = value.slice(index + 1);\n\n    /* Check if the following code contains a possible\n     * block. */\n    if (interrupt(interruptors, tokenizers, self, [eat, subvalue, true])) {\n      break;\n    }\n\n    /* Break if the following line starts a list, when\n     * already in a list, or when in commonmark, or when\n     * in gfm mode and the bullet is *not* numeric. */\n    if (\n      tokenizers.list.call(self, eat, subvalue, true) &&\n      (\n        self.inList ||\n        commonmark ||\n        (gfm && !decimal(trim.left(subvalue).charAt(0)))\n      )\n    ) {\n      break;\n    }\n\n    position = index;\n    index = value.indexOf(C_NEWLINE, index + 1);\n\n    if (index !== -1 && trim(value.slice(position, index)) === '') {\n      index = position;\n      break;\n    }\n  }\n\n  subvalue = value.slice(0, index);\n\n  if (trim(subvalue) === '') {\n    eat(subvalue);\n\n    return null;\n  }\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  now = eat.now();\n  subvalue = trimTrailingLines(subvalue);\n\n  return eat(subvalue)({\n    type: 'paragraph',\n    children: self.tokenizeInline(subvalue, now)\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/paragraph.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/reference.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/reference.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar locate = __webpack_require__(/*! ../locate/link */ \"./node_modules/remark-parse/lib/locate/link.js\");\nvar normalize = __webpack_require__(/*! ../util/normalize */ \"./node_modules/remark-parse/lib/util/normalize.js\");\n\nmodule.exports = reference;\nreference.locator = locate;\n\nvar T_LINK = 'link';\nvar T_IMAGE = 'image';\nvar T_FOOTNOTE = 'footnote';\nvar REFERENCE_TYPE_SHORTCUT = 'shortcut';\nvar REFERENCE_TYPE_COLLAPSED = 'collapsed';\nvar REFERENCE_TYPE_FULL = 'full';\nvar C_CARET = '^';\nvar C_BACKSLASH = '\\\\';\nvar C_BRACKET_OPEN = '[';\nvar C_BRACKET_CLOSE = ']';\n\nfunction reference(eat, value, silent) {\n  var self = this;\n  var character = value.charAt(0);\n  var index = 0;\n  var length = value.length;\n  var subvalue = '';\n  var intro = '';\n  var type = T_LINK;\n  var referenceType = REFERENCE_TYPE_SHORTCUT;\n  var content;\n  var identifier;\n  var now;\n  var node;\n  var exit;\n  var queue;\n  var bracketed;\n  var depth;\n\n  /* Check whether we’re eating an image. */\n  if (character === '!') {\n    type = T_IMAGE;\n    intro = character;\n    character = value.charAt(++index);\n  }\n\n  if (character !== C_BRACKET_OPEN) {\n    return;\n  }\n\n  index++;\n  intro += character;\n  queue = '';\n\n  /* Check whether we’re eating a footnote. */\n  if (self.options.footnotes && value.charAt(index) === C_CARET) {\n    /* Exit if `![^` is found, so the `!` will be seen as text after this,\n     * and we’ll enter this function again when `[^` is found. */\n    if (type === T_IMAGE) {\n      return;\n    }\n\n    intro += C_CARET;\n    index++;\n    type = T_FOOTNOTE;\n  }\n\n  /* Eat the text. */\n  depth = 0;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (character === C_BRACKET_OPEN) {\n      bracketed = true;\n      depth++;\n    } else if (character === C_BRACKET_CLOSE) {\n      if (!depth) {\n        break;\n      }\n\n      depth--;\n    }\n\n    if (character === C_BACKSLASH) {\n      queue += C_BACKSLASH;\n      character = value.charAt(++index);\n    }\n\n    queue += character;\n    index++;\n  }\n\n  subvalue = queue;\n  content = queue;\n  character = value.charAt(index);\n\n  if (character !== C_BRACKET_CLOSE) {\n    return;\n  }\n\n  index++;\n  subvalue += character;\n  queue = '';\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (!whitespace(character)) {\n      break;\n    }\n\n    queue += character;\n    index++;\n  }\n\n  character = value.charAt(index);\n\n  /* Inline footnotes cannot have an identifier. */\n  if (type !== T_FOOTNOTE && character === C_BRACKET_OPEN) {\n    identifier = '';\n    queue += character;\n    index++;\n\n    while (index < length) {\n      character = value.charAt(index);\n\n      if (character === C_BRACKET_OPEN || character === C_BRACKET_CLOSE) {\n        break;\n      }\n\n      if (character === C_BACKSLASH) {\n        identifier += C_BACKSLASH;\n        character = value.charAt(++index);\n      }\n\n      identifier += character;\n      index++;\n    }\n\n    character = value.charAt(index);\n\n    if (character === C_BRACKET_CLOSE) {\n      referenceType = identifier ? REFERENCE_TYPE_FULL : REFERENCE_TYPE_COLLAPSED;\n      queue += identifier + character;\n      index++;\n    } else {\n      identifier = '';\n    }\n\n    subvalue += queue;\n    queue = '';\n  } else {\n    if (!content) {\n      return;\n    }\n\n    identifier = content;\n  }\n\n  /* Brackets cannot be inside the identifier. */\n  if (referenceType !== REFERENCE_TYPE_FULL && bracketed) {\n    return;\n  }\n\n  subvalue = intro + subvalue;\n\n  if (type === T_LINK && self.inLink) {\n    return null;\n  }\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  if (type === T_FOOTNOTE && content.indexOf(' ') !== -1) {\n    return eat(subvalue)({\n      type: 'footnote',\n      children: this.tokenizeInline(content, eat.now())\n    });\n  }\n\n  now = eat.now();\n  now.column += intro.length;\n  now.offset += intro.length;\n  identifier = referenceType === REFERENCE_TYPE_FULL ? identifier : content;\n\n  node = {\n    type: type + 'Reference',\n    identifier: normalize(identifier)\n  };\n\n  if (type === T_LINK || type === T_IMAGE) {\n    node.referenceType = referenceType;\n  }\n\n  if (type === T_LINK) {\n    exit = self.enterLink();\n    node.children = self.tokenizeInline(content, now);\n    exit();\n  } else if (type === T_IMAGE) {\n    node.alt = self.decode.raw(self.unescape(content), now) || null;\n  }\n\n  return eat(subvalue)(node);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/reference.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/strong.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/strong.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar trim = __webpack_require__(/*! trim */ \"./node_modules/trim/index.js\");\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar locate = __webpack_require__(/*! ../locate/strong */ \"./node_modules/remark-parse/lib/locate/strong.js\");\n\nmodule.exports = strong;\nstrong.locator = locate;\n\nvar C_ASTERISK = '*';\nvar C_UNDERSCORE = '_';\n\nfunction strong(eat, value, silent) {\n  var self = this;\n  var index = 0;\n  var character = value.charAt(index);\n  var now;\n  var pedantic;\n  var marker;\n  var queue;\n  var subvalue;\n  var length;\n  var prev;\n\n  if (\n    (character !== C_ASTERISK && character !== C_UNDERSCORE) ||\n    value.charAt(++index) !== character\n  ) {\n    return;\n  }\n\n  pedantic = self.options.pedantic;\n  marker = character;\n  subvalue = marker + marker;\n  length = value.length;\n  index++;\n  queue = '';\n  character = '';\n\n  if (pedantic && whitespace(value.charAt(index))) {\n    return;\n  }\n\n  while (index < length) {\n    prev = character;\n    character = value.charAt(index);\n\n    if (\n      character === marker &&\n      value.charAt(index + 1) === marker &&\n      (!pedantic || !whitespace(prev))\n    ) {\n      character = value.charAt(index + 2);\n\n      if (character !== marker) {\n        if (!trim(queue)) {\n          return;\n        }\n\n        /* istanbul ignore if - never used (yet) */\n        if (silent) {\n          return true;\n        }\n\n        now = eat.now();\n        now.column += 2;\n        now.offset += 2;\n\n        return eat(subvalue + queue + subvalue)({\n          type: 'strong',\n          children: self.tokenizeInline(queue, now)\n        });\n      }\n    }\n\n    if (!pedantic && character === '\\\\') {\n      queue += character;\n      character = value.charAt(++index);\n    }\n\n    queue += character;\n    index++;\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/strong.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/table.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/table.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\n\nmodule.exports = table;\n\nvar C_BACKSLASH = '\\\\';\nvar C_TICK = '`';\nvar C_DASH = '-';\nvar C_PIPE = '|';\nvar C_COLON = ':';\nvar C_SPACE = ' ';\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\n\nvar MIN_TABLE_COLUMNS = 1;\nvar MIN_TABLE_ROWS = 2;\n\nvar TABLE_ALIGN_LEFT = 'left';\nvar TABLE_ALIGN_CENTER = 'center';\nvar TABLE_ALIGN_RIGHT = 'right';\nvar TABLE_ALIGN_NONE = null;\n\nfunction table(eat, value, silent) {\n  var self = this;\n  var index;\n  var alignments;\n  var alignment;\n  var subvalue;\n  var row;\n  var length;\n  var lines;\n  var queue;\n  var character;\n  var hasDash;\n  var align;\n  var cell;\n  var preamble;\n  var count;\n  var opening;\n  var now;\n  var position;\n  var lineCount;\n  var line;\n  var rows;\n  var table;\n  var lineIndex;\n  var pipeIndex;\n  var first;\n\n  /* Exit when not in gfm-mode. */\n  if (!self.options.gfm) {\n    return;\n  }\n\n  /* Get the rows.\n   * Detecting tables soon is hard, so there are some\n   * checks for performance here, such as the minimum\n   * number of rows, and allowed characters in the\n   * alignment row. */\n  index = 0;\n  lineCount = 0;\n  length = value.length + 1;\n  lines = [];\n\n  while (index < length) {\n    lineIndex = value.indexOf(C_NEWLINE, index);\n    pipeIndex = value.indexOf(C_PIPE, index + 1);\n\n    if (lineIndex === -1) {\n      lineIndex = value.length;\n    }\n\n    if (pipeIndex === -1 || pipeIndex > lineIndex) {\n      if (lineCount < MIN_TABLE_ROWS) {\n        return;\n      }\n\n      break;\n    }\n\n    lines.push(value.slice(index, lineIndex));\n    lineCount++;\n    index = lineIndex + 1;\n  }\n\n  /* Parse the alignment row. */\n  subvalue = lines.join(C_NEWLINE);\n  alignments = lines.splice(1, 1)[0] || [];\n  index = 0;\n  length = alignments.length;\n  lineCount--;\n  alignment = false;\n  align = [];\n\n  while (index < length) {\n    character = alignments.charAt(index);\n\n    if (character === C_PIPE) {\n      hasDash = null;\n\n      if (alignment === false) {\n        if (first === false) {\n          return;\n        }\n      } else {\n        align.push(alignment);\n        alignment = false;\n      }\n\n      first = false;\n    } else if (character === C_DASH) {\n      hasDash = true;\n      alignment = alignment || TABLE_ALIGN_NONE;\n    } else if (character === C_COLON) {\n      if (alignment === TABLE_ALIGN_LEFT) {\n        alignment = TABLE_ALIGN_CENTER;\n      } else if (hasDash && alignment === TABLE_ALIGN_NONE) {\n        alignment = TABLE_ALIGN_RIGHT;\n      } else {\n        alignment = TABLE_ALIGN_LEFT;\n      }\n    } else if (!whitespace(character)) {\n      return;\n    }\n\n    index++;\n  }\n\n  if (alignment !== false) {\n    align.push(alignment);\n  }\n\n  /* Exit when without enough columns. */\n  if (align.length < MIN_TABLE_COLUMNS) {\n    return;\n  }\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  /* Parse the rows. */\n  position = -1;\n  rows = [];\n\n  table = eat(subvalue).reset({\n    type: 'table',\n    align: align,\n    children: rows\n  });\n\n  while (++position < lineCount) {\n    line = lines[position];\n    row = {type: 'tableRow', children: []};\n\n    /* Eat a newline character when this is not the\n     * first row. */\n    if (position) {\n      eat(C_NEWLINE);\n    }\n\n    /* Eat the row. */\n    eat(line).reset(row, table);\n\n    length = line.length + 1;\n    index = 0;\n    queue = '';\n    cell = '';\n    preamble = true;\n    count = null;\n    opening = null;\n\n    while (index < length) {\n      character = line.charAt(index);\n\n      if (character === C_TAB || character === C_SPACE) {\n        if (cell) {\n          queue += character;\n        } else {\n          eat(character);\n        }\n\n        index++;\n        continue;\n      }\n\n      if (character === '' || character === C_PIPE) {\n        if (preamble) {\n          eat(character);\n        } else {\n          if (character && opening) {\n            queue += character;\n            index++;\n            continue;\n          }\n\n          if ((cell || character) && !preamble) {\n            subvalue = cell;\n\n            if (queue.length > 1) {\n              if (character) {\n                subvalue += queue.slice(0, queue.length - 1);\n                queue = queue.charAt(queue.length - 1);\n              } else {\n                subvalue += queue;\n                queue = '';\n              }\n            }\n\n            now = eat.now();\n\n            eat(subvalue)({\n              type: 'tableCell',\n              children: self.tokenizeInline(cell, now)\n            }, row);\n          }\n\n          eat(queue + character);\n\n          queue = '';\n          cell = '';\n        }\n      } else {\n        if (queue) {\n          cell += queue;\n          queue = '';\n        }\n\n        cell += character;\n\n        if (character === C_BACKSLASH && index !== length - 2) {\n          cell += line.charAt(index + 1);\n          index++;\n        }\n\n        if (character === C_TICK) {\n          count = 1;\n\n          while (line.charAt(index + 1) === character) {\n            cell += character;\n            index++;\n            count++;\n          }\n\n          if (!opening) {\n            opening = count;\n          } else if (count >= opening) {\n            opening = 0;\n          }\n        }\n      }\n\n      preamble = false;\n      index++;\n    }\n\n    /* Eat the alignment row. */\n    if (!position) {\n      eat(C_NEWLINE + alignments);\n    }\n  }\n\n  return table;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/table.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/text.js":
+/*!********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/text.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = text;\n\nfunction text(eat, value, silent) {\n  var self = this;\n  var methods;\n  var tokenizers;\n  var index;\n  var length;\n  var subvalue;\n  var position;\n  var tokenizer;\n  var name;\n  var min;\n  var now;\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  methods = self.inlineMethods;\n  length = methods.length;\n  tokenizers = self.inlineTokenizers;\n  index = -1;\n  min = value.length;\n\n  while (++index < length) {\n    name = methods[index];\n\n    if (name === 'text' || !tokenizers[name]) {\n      continue;\n    }\n\n    tokenizer = tokenizers[name].locator;\n\n    if (!tokenizer) {\n      eat.file.fail('Missing locator: `' + name + '`');\n    }\n\n    position = tokenizer.call(self, value, 1);\n\n    if (position !== -1 && position < min) {\n      min = position;\n    }\n  }\n\n  subvalue = value.slice(0, min);\n  now = eat.now();\n\n  self.decode(subvalue, now, function (content, position, source) {\n    eat(source || content)({\n      type: 'text',\n      value: content\n    });\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/text.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/thematic-break.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/thematic-break.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = thematicBreak;\n\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\nvar C_SPACE = ' ';\nvar C_ASTERISK = '*';\nvar C_UNDERSCORE = '_';\nvar C_DASH = '-';\n\nvar THEMATIC_BREAK_MARKER_COUNT = 3;\n\nfunction thematicBreak(eat, value, silent) {\n  var index = -1;\n  var length = value.length + 1;\n  var subvalue = '';\n  var character;\n  var marker;\n  var markerCount;\n  var queue;\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (character !== C_TAB && character !== C_SPACE) {\n      break;\n    }\n\n    subvalue += character;\n  }\n\n  if (\n    character !== C_ASTERISK &&\n    character !== C_DASH &&\n    character !== C_UNDERSCORE\n  ) {\n    return;\n  }\n\n  marker = character;\n  subvalue += character;\n  markerCount = 1;\n  queue = '';\n\n  while (++index < length) {\n    character = value.charAt(index);\n\n    if (character === marker) {\n      markerCount++;\n      subvalue += queue + marker;\n      queue = '';\n    } else if (character === C_SPACE) {\n      queue += character;\n    } else if (\n      markerCount >= THEMATIC_BREAK_MARKER_COUNT &&\n      (!character || character === C_NEWLINE)\n    ) {\n      subvalue += queue;\n\n      if (silent) {\n        return true;\n      }\n\n      return eat(subvalue)({type: 'thematicBreak'});\n    } else {\n      return;\n    }\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/thematic-break.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenize/url.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenize/url.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar decode = __webpack_require__(/*! parse-entities */ \"./node_modules/parse-entities/index.js\");\nvar whitespace = __webpack_require__(/*! is-whitespace-character */ \"./node_modules/is-whitespace-character/index.js\");\nvar locate = __webpack_require__(/*! ../locate/url */ \"./node_modules/remark-parse/lib/locate/url.js\");\n\nmodule.exports = url;\nurl.locator = locate;\nurl.notInLink = true;\n\nvar C_BRACKET_OPEN = '[';\nvar C_BRACKET_CLOSE = ']';\nvar C_PAREN_OPEN = '(';\nvar C_PAREN_CLOSE = ')';\nvar C_LT = '<';\nvar C_AT_SIGN = '@';\n\nvar HTTP_PROTOCOL = 'http://';\nvar HTTPS_PROTOCOL = 'https://';\nvar MAILTO_PROTOCOL = 'mailto:';\n\nvar PROTOCOLS = [\n  HTTP_PROTOCOL,\n  HTTPS_PROTOCOL,\n  MAILTO_PROTOCOL\n];\n\nvar PROTOCOLS_LENGTH = PROTOCOLS.length;\n\nfunction url(eat, value, silent) {\n  var self = this;\n  var subvalue;\n  var content;\n  var character;\n  var index;\n  var position;\n  var protocol;\n  var match;\n  var length;\n  var queue;\n  var parenCount;\n  var nextCharacter;\n  var exit;\n\n  if (!self.options.gfm) {\n    return;\n  }\n\n  subvalue = '';\n  index = -1;\n  length = PROTOCOLS_LENGTH;\n\n  while (++index < length) {\n    protocol = PROTOCOLS[index];\n    match = value.slice(0, protocol.length);\n\n    if (match.toLowerCase() === protocol) {\n      subvalue = match;\n      break;\n    }\n  }\n\n  if (!subvalue) {\n    return;\n  }\n\n  index = subvalue.length;\n  length = value.length;\n  queue = '';\n  parenCount = 0;\n\n  while (index < length) {\n    character = value.charAt(index);\n\n    if (whitespace(character) || character === C_LT) {\n      break;\n    }\n\n    if (\n      character === '.' ||\n      character === ',' ||\n      character === ':' ||\n      character === ';' ||\n      character === '\"' ||\n      character === '\\'' ||\n      character === ')' ||\n      character === ']'\n    ) {\n      nextCharacter = value.charAt(index + 1);\n\n      if (!nextCharacter || whitespace(nextCharacter)) {\n        break;\n      }\n    }\n\n    if (character === C_PAREN_OPEN || character === C_BRACKET_OPEN) {\n      parenCount++;\n    }\n\n    if (character === C_PAREN_CLOSE || character === C_BRACKET_CLOSE) {\n      parenCount--;\n\n      if (parenCount < 0) {\n        break;\n      }\n    }\n\n    queue += character;\n    index++;\n  }\n\n  if (!queue) {\n    return;\n  }\n\n  subvalue += queue;\n  content = subvalue;\n\n  if (protocol === MAILTO_PROTOCOL) {\n    position = queue.indexOf(C_AT_SIGN);\n\n    if (position === -1 || position === length - 1) {\n      return;\n    }\n\n    content = content.substr(MAILTO_PROTOCOL.length);\n  }\n\n  /* istanbul ignore if - never used (yet) */\n  if (silent) {\n    return true;\n  }\n\n  exit = self.enterLink();\n  content = self.tokenizeInline(content, eat.now());\n  exit();\n\n  return eat(subvalue)({\n    type: 'link',\n    title: null,\n    url: decode(subvalue, {nonTerminated: false}),\n    children: content\n  });\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenize/url.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/tokenizer.js":
+/*!****************************************************!*\
+  !*** ./node_modules/remark-parse/lib/tokenizer.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = factory;\n\nvar MERGEABLE_NODES = {\n  text: mergeText,\n  blockquote: mergeBlockquote\n};\n\n/* Check whether a node is mergeable with adjacent nodes. */\nfunction mergeable(node) {\n  var start;\n  var end;\n\n  if (node.type !== 'text' || !node.position) {\n    return true;\n  }\n\n  start = node.position.start;\n  end = node.position.end;\n\n  /* Only merge nodes which occupy the same size as their\n   * `value`. */\n  return start.line !== end.line ||\n      end.column - start.column === node.value.length;\n}\n\n/* Merge two text nodes: `node` into `prev`. */\nfunction mergeText(prev, node) {\n  prev.value += node.value;\n\n  return prev;\n}\n\n/* Merge two blockquotes: `node` into `prev`, unless in\n * CommonMark mode. */\nfunction mergeBlockquote(prev, node) {\n  if (this.options.commonmark) {\n    return node;\n  }\n\n  prev.children = prev.children.concat(node.children);\n\n  return prev;\n}\n\n/* Construct a tokenizer.  This creates both\n * `tokenizeInline` and `tokenizeBlock`. */\nfunction factory(type) {\n  return tokenize;\n\n  /* Tokenizer for a bound `type`. */\n  function tokenize(value, location) {\n    var self = this;\n    var offset = self.offset;\n    var tokens = [];\n    var methods = self[type + 'Methods'];\n    var tokenizers = self[type + 'Tokenizers'];\n    var line = location.line;\n    var column = location.column;\n    var index;\n    var length;\n    var method;\n    var name;\n    var matched;\n    var valueLength;\n\n    /* Trim white space only lines. */\n    if (!value) {\n      return tokens;\n    }\n\n    /* Expose on `eat`. */\n    eat.now = now;\n    eat.file = self.file;\n\n    /* Sync initial offset. */\n    updatePosition('');\n\n    /* Iterate over `value`, and iterate over all\n     * tokenizers.  When one eats something, re-iterate\n     * with the remaining value.  If no tokenizer eats,\n     * something failed (should not happen) and an\n     * exception is thrown. */\n    while (value) {\n      index = -1;\n      length = methods.length;\n      matched = false;\n\n      while (++index < length) {\n        name = methods[index];\n        method = tokenizers[name];\n\n        if (\n          method &&\n          /* istanbul ignore next */ (!method.onlyAtStart || self.atStart) &&\n          (!method.notInList || !self.inList) &&\n          (!method.notInBlock || !self.inBlock) &&\n          (!method.notInLink || !self.inLink)\n        ) {\n          valueLength = value.length;\n\n          method.apply(self, [eat, value]);\n\n          matched = valueLength !== value.length;\n\n          if (matched) {\n            break;\n          }\n        }\n      }\n\n      /* istanbul ignore if */\n      if (!matched) {\n        self.file.fail(new Error('Infinite loop'), eat.now());\n      }\n    }\n\n    self.eof = now();\n\n    return tokens;\n\n    /* Update line, column, and offset based on\n     * `value`. */\n    function updatePosition(subvalue) {\n      var lastIndex = -1;\n      var index = subvalue.indexOf('\\n');\n\n      while (index !== -1) {\n        line++;\n        lastIndex = index;\n        index = subvalue.indexOf('\\n', index + 1);\n      }\n\n      if (lastIndex === -1) {\n        column += subvalue.length;\n      } else {\n        column = subvalue.length - lastIndex;\n      }\n\n      if (line in offset) {\n        if (lastIndex !== -1) {\n          column += offset[line];\n        } else if (column <= offset[line]) {\n          column = offset[line] + 1;\n        }\n      }\n    }\n\n    /* Get offset.  Called before the first character is\n     * eaten to retrieve the range's offsets. */\n    function getOffset() {\n      var indentation = [];\n      var pos = line + 1;\n\n      /* Done.  Called when the last character is\n       * eaten to retrieve the range’s offsets. */\n      return function () {\n        var last = line + 1;\n\n        while (pos < last) {\n          indentation.push((offset[pos] || 0) + 1);\n\n          pos++;\n        }\n\n        return indentation;\n      };\n    }\n\n    /* Get the current position. */\n    function now() {\n      var pos = {line: line, column: column};\n\n      pos.offset = self.toOffset(pos);\n\n      return pos;\n    }\n\n    /* Store position information for a node. */\n    function Position(start) {\n      this.start = start;\n      this.end = now();\n    }\n\n    /* Throw when a value is incorrectly eaten.\n     * This shouldn’t happen but will throw on new,\n     * incorrect rules. */\n    function validateEat(subvalue) {\n      /* istanbul ignore if */\n      if (value.substring(0, subvalue.length) !== subvalue) {\n        /* Capture stack-trace. */\n        self.file.fail(\n          new Error(\n            'Incorrectly eaten value: please report this ' +\n            'warning on http://git.io/vg5Ft'\n          ),\n          now()\n        );\n      }\n    }\n\n    /* Mark position and patch `node.position`. */\n    function position() {\n      var before = now();\n\n      return update;\n\n      /* Add the position to a node. */\n      function update(node, indent) {\n        var prev = node.position;\n        var start = prev ? prev.start : before;\n        var combined = [];\n        var n = prev && prev.end.line;\n        var l = before.line;\n\n        node.position = new Position(start);\n\n        /* If there was already a `position`, this\n         * node was merged.  Fixing `start` wasn’t\n         * hard, but the indent is different.\n         * Especially because some information, the\n         * indent between `n` and `l` wasn’t\n         * tracked.  Luckily, that space is\n         * (should be?) empty, so we can safely\n         * check for it now. */\n        if (prev && indent && prev.indent) {\n          combined = prev.indent;\n\n          if (n < l) {\n            while (++n < l) {\n              combined.push((offset[n] || 0) + 1);\n            }\n\n            combined.push(before.column);\n          }\n\n          indent = combined.concat(indent);\n        }\n\n        node.position.indent = indent || [];\n\n        return node;\n      }\n    }\n\n    /* Add `node` to `parent`s children or to `tokens`.\n     * Performs merges where possible. */\n    function add(node, parent) {\n      var children = parent ? parent.children : tokens;\n      var prev = children[children.length - 1];\n\n      if (\n        prev &&\n        node.type === prev.type &&\n        node.type in MERGEABLE_NODES &&\n        mergeable(prev) &&\n        mergeable(node)\n      ) {\n        node = MERGEABLE_NODES[node.type].call(self, prev, node);\n      }\n\n      if (node !== prev) {\n        children.push(node);\n      }\n\n      if (self.atStart && tokens.length !== 0) {\n        self.exitStart();\n      }\n\n      return node;\n    }\n\n    /* Remove `subvalue` from `value`.\n     * `subvalue` must be at the start of `value`. */\n    function eat(subvalue) {\n      var indent = getOffset();\n      var pos = position();\n      var current = now();\n\n      validateEat(subvalue);\n\n      apply.reset = reset;\n      reset.test = test;\n      apply.test = test;\n\n      value = value.substring(subvalue.length);\n\n      updatePosition(subvalue);\n\n      indent = indent();\n\n      return apply;\n\n      /* Add the given arguments, add `position` to\n       * the returned node, and return the node. */\n      function apply(node, parent) {\n        return pos(add(pos(node), parent), indent);\n      }\n\n      /* Functions just like apply, but resets the\n       * content:  the line and column are reversed,\n       * and the eaten value is re-added.\n       * This is useful for nodes with a single\n       * type of content, such as lists and tables.\n       * See `apply` above for what parameters are\n       * expected. */\n      function reset() {\n        var node = apply.apply(null, arguments);\n\n        line = current.line;\n        column = current.column;\n        value = subvalue + value;\n\n        return node;\n      }\n\n      /* Test the position, after eating, and reverse\n       * to a not-eaten state. */\n      function test() {\n        var result = pos({});\n\n        line = current.line;\n        column = current.column;\n        value = subvalue + value;\n\n        return result.position;\n      }\n    }\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/tokenizer.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/unescape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/remark-parse/lib/unescape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = factory;\n\n/* Factory to de-escape a value, based on a list at `key`\n * in `ctx`. */\nfunction factory(ctx, key) {\n  return unescape;\n\n  /* De-escape a string using the expression at `key`\n   * in `ctx`. */\n  function unescape(value) {\n    var prev = 0;\n    var index = value.indexOf('\\\\');\n    var escape = ctx[key];\n    var queue = [];\n    var character;\n\n    while (index !== -1) {\n      queue.push(value.slice(prev, index));\n      prev = index + 1;\n      character = value.charAt(prev);\n\n      /* If the following character is not a valid escape,\n       * add the slash. */\n      if (!character || escape.indexOf(character) === -1) {\n        queue.push('\\\\');\n      }\n\n      index = value.indexOf('\\\\', prev);\n    }\n\n    queue.push(value.slice(prev));\n\n    return queue.join('');\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/unescape.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/get-indentation.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/get-indentation.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = indentation;\n\n/* Map of characters, and their column length,\n * which can be used as indentation. */\nvar characters = {' ': 1, '\\t': 4};\n\n/* Gets indentation information for a line. */\nfunction indentation(value) {\n  var index = 0;\n  var indent = 0;\n  var character = value.charAt(index);\n  var stops = {};\n  var size;\n\n  while (character in characters) {\n    size = characters[character];\n\n    indent += size;\n\n    if (size > 1) {\n      indent = Math.floor(indent / size) * size;\n    }\n\n    stops[indent] = index;\n\n    character = value.charAt(++index);\n  }\n\n  return {indent: indent, stops: stops};\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/util/get-indentation.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/html.js":
+/*!****************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/html.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar attributeName = '[a-zA-Z_:][a-zA-Z0-9:._-]*';\nvar unquoted = '[^\"\\'=<>`\\\\u0000-\\\\u0020]+';\nvar singleQuoted = '\\'[^\\']*\\'';\nvar doubleQuoted = '\"[^\"]*\"';\nvar attributeValue = '(?:' + unquoted + '|' + singleQuoted + '|' + doubleQuoted + ')';\nvar attribute = '(?:\\\\s+' + attributeName + '(?:\\\\s*=\\\\s*' + attributeValue + ')?)';\nvar openTag = '<[A-Za-z][A-Za-z0-9\\\\-]*' + attribute + '*\\\\s*\\\\/?>';\nvar closeTag = '<\\\\/[A-Za-z][A-Za-z0-9\\\\-]*\\\\s*>';\nvar comment = '<!---->|<!--(?:-?[^>-])(?:-?[^-])*-->';\nvar processing = '<[?].*?[?]>';\nvar declaration = '<![A-Za-z]+\\\\s+[^>]*>';\nvar cdata = '<!\\\\[CDATA\\\\[[\\\\s\\\\S]*?\\\\]\\\\]>';\n\nexports.openCloseTag = new RegExp('^(?:' + openTag + '|' + closeTag + ')');\n\nexports.tag = new RegExp('^(?:' +\n  openTag + '|' +\n  closeTag + '|' +\n  comment + '|' +\n  processing + '|' +\n  declaration + '|' +\n  cdata +\n')');\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/util/html.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/interrupt.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/interrupt.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = interrupt;\n\nfunction interrupt(interruptors, tokenizers, ctx, params) {\n  var bools = ['pedantic', 'commonmark'];\n  var count = bools.length;\n  var length = interruptors.length;\n  var index = -1;\n  var interruptor;\n  var config;\n  var fn;\n  var offset;\n  var bool;\n  var ignore;\n\n  while (++index < length) {\n    interruptor = interruptors[index];\n    config = interruptor[1] || {};\n    fn = interruptor[0];\n    offset = -1;\n    ignore = false;\n\n    while (++offset < count) {\n      bool = bools[offset];\n\n      if (config[bool] !== undefined && config[bool] !== ctx.options[bool]) {\n        ignore = true;\n        break;\n      }\n    }\n\n    if (ignore) {\n      continue;\n    }\n\n    if (tokenizers[fn].apply(ctx, params)) {\n      return true;\n    }\n  }\n\n  return false;\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/util/interrupt.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/normalize.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/normalize.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar collapseWhiteSpace = __webpack_require__(/*! collapse-white-space */ \"./node_modules/collapse-white-space/index.js\");\n\nmodule.exports = normalize;\n\n/* Normalize an identifier.  Collapses multiple white space\n * characters into a single space, and removes casing. */\nfunction normalize(value) {\n  return collapseWhiteSpace(value).toLowerCase();\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/util/normalize.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-parse/lib/util/remove-indentation.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/remark-parse/lib/util/remove-indentation.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar trim = __webpack_require__(/*! trim */ \"./node_modules/trim/index.js\");\nvar repeat = __webpack_require__(/*! repeat-string */ \"./node_modules/repeat-string/index.js\");\nvar getIndent = __webpack_require__(/*! ./get-indentation */ \"./node_modules/remark-parse/lib/util/get-indentation.js\");\n\nmodule.exports = indentation;\n\nvar C_SPACE = ' ';\nvar C_NEWLINE = '\\n';\nvar C_TAB = '\\t';\n\n/* Remove the minimum indent from every line in `value`.\n * Supports both tab, spaced, and mixed indentation (as\n * well as possible). */\nfunction indentation(value, maximum) {\n  var values = value.split(C_NEWLINE);\n  var position = values.length + 1;\n  var minIndent = Infinity;\n  var matrix = [];\n  var index;\n  var indentation;\n  var stops;\n  var padding;\n\n  values.unshift(repeat(C_SPACE, maximum) + '!');\n\n  while (position--) {\n    indentation = getIndent(values[position]);\n\n    matrix[position] = indentation.stops;\n\n    if (trim(values[position]).length === 0) {\n      continue;\n    }\n\n    if (indentation.indent) {\n      if (indentation.indent > 0 && indentation.indent < minIndent) {\n        minIndent = indentation.indent;\n      }\n    } else {\n      minIndent = Infinity;\n\n      break;\n    }\n  }\n\n  if (minIndent !== Infinity) {\n    position = values.length;\n\n    while (position--) {\n      stops = matrix[position];\n      index = minIndent;\n\n      while (index && !(index in stops)) {\n        index--;\n      }\n\n      if (\n        trim(values[position]).length !== 0 &&\n        minIndent &&\n        index !== minIndent\n      ) {\n        padding = C_TAB;\n      } else {\n        padding = '';\n      }\n\n      values[position] = padding + values[position].slice(\n        index in stops ? stops[index] + 1 : 0\n      );\n    }\n  }\n\n  values.shift();\n\n  return values.join(C_NEWLINE);\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-parse/lib/util/remove-indentation.js?");
+
+/***/ }),
+
+/***/ "./node_modules/remark-rehype/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/remark-rehype/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar mdast2hast = __webpack_require__(/*! mdast-util-to-hast */ \"./node_modules/mdast-util-to-hast/index.js\")\n\nmodule.exports = remark2rehype\n\n/* Attacher.\n * If a destination is given, runs the destination with\n * the new HAST tree (bridge-mode).\n * Without destination, returns the HAST tree: further\n * plug-ins run on that tree (mutate-mode). */\nfunction remark2rehype(destination, options) {\n  if (destination && !destination.process) {\n    options = destination\n    destination = null\n  }\n\n  return destination ? bridge(destination, options) : mutate(options)\n}\n\n/* Bridge-mode.  Runs the destination with the new HAST\n * tree. */\nfunction bridge(destination, options) {\n  return transformer\n\n  function transformer(node, file, next) {\n    destination.run(mdast2hast(node, options), file, done)\n\n    function done(err) {\n      next(err)\n    }\n  }\n}\n\n/* Mutate-mode.  Further transformers run on the HAST tree. */\nfunction mutate(options) {\n  return transformer\n\n  function transformer(node) {\n    return mdast2hast(node, options)\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/remark-rehype/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/repeat-string/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/repeat-string/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/*!\n * repeat-string <https://github.com/jonschlinkert/repeat-string>\n *\n * Copyright (c) 2014-2015, Jon Schlinkert.\n * Licensed under the MIT License.\n */\n\n\n\n/**\n * Results cache\n */\n\nvar res = '';\nvar cache;\n\n/**\n * Expose `repeat`\n */\n\nmodule.exports = repeat;\n\n/**\n * Repeat the given `string` the specified `number`\n * of times.\n *\n * **Example:**\n *\n * ```js\n * var repeat = require('repeat-string');\n * repeat('A', 5);\n * //=> AAAAA\n * ```\n *\n * @param {String} `string` The string to repeat\n * @param {Number} `number` The number of times to repeat the string\n * @return {String} Repeated string\n * @api public\n */\n\nfunction repeat(str, num) {\n  if (typeof str !== 'string') {\n    throw new TypeError('expected a string');\n  }\n\n  // cover common, quick use cases\n  if (num === 1) return str;\n  if (num === 2) return str + str;\n\n  var max = str.length * num;\n  if (cache !== str || typeof cache === 'undefined') {\n    cache = str;\n    res = '';\n  } else if (res.length >= max) {\n    return res.substr(0, max);\n  }\n\n  while (max > res.length && num > 1) {\n    if (num & 1) {\n      res += str;\n    }\n\n    num >>= 1;\n    str += str;\n  }\n\n  res += str;\n  res = res.substr(0, max);\n  return res;\n}\n\n\n//# sourceURL=webpack:///./node_modules/repeat-string/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/replace-ext/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/replace-ext/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar path = __webpack_require__(/*! path */ \"./node_modules/path-browserify/index.js\");\n\nfunction replaceExt(npath, ext) {\n  if (typeof npath !== 'string') {\n    return npath;\n  }\n\n  if (npath.length === 0) {\n    return npath;\n  }\n\n  var nFileName = path.basename(npath, path.extname(npath)) + ext;\n  return path.join(path.dirname(npath), nFileName);\n}\n\nmodule.exports = replaceExt;\n\n\n//# sourceURL=webpack:///./node_modules/replace-ext/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/schedule/cjs/schedule-tracing.development.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/schedule/cjs/schedule-tracing.development.js ***!
@@ -481,6 +1710,18 @@ eval("\n\nvar trim = __webpack_require__(/*! trim */ \"./node_modules/trim/index
 
 /***/ }),
 
+/***/ "./node_modules/state-toggle/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/state-toggle/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = factory\n\n/* Construct a state `toggler`: a function which inverses\n * `property` in context based on its current value.\n * The by `toggler` returned function restores that value. */\nfunction factory(key, state, ctx) {\n  return enter\n\n  function enter() {\n    var context = ctx || this\n    var current = context[key]\n\n    context[key] = !state\n\n    return exit\n\n    function exit() {\n      context[key] = current\n    }\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/state-toggle/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/style-to-object/index.js":
 /*!***********************************************!*\
   !*** ./node_modules/style-to-object/index.js ***!
@@ -492,6 +1733,30 @@ eval("var parse = __webpack_require__(/*! css/lib/parse */ \"./node_modules/css/
 
 /***/ }),
 
+/***/ "./node_modules/trim-lines/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/trim-lines/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = trimLines\n\nvar ws = /[ \\t]*\\n+[ \\t]*/g\nvar newline = '\\n'\n\nfunction trimLines(value) {\n  return String(value).replace(ws, newline)\n}\n\n\n//# sourceURL=webpack:///./node_modules/trim-lines/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/trim-trailing-lines/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/trim-trailing-lines/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = trimTrailingLines\n\nvar line = '\\n'\n\n/* Remove final newline characters from `value`. */\nfunction trimTrailingLines(value) {\n  var val = String(value)\n  var index = val.length\n\n  while (val.charAt(--index) === line) {\n    /* Empty */\n  }\n\n  return val.slice(0, index + 1)\n}\n\n\n//# sourceURL=webpack:///./node_modules/trim-trailing-lines/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/trim/index.js":
 /*!************************************!*\
   !*** ./node_modules/trim/index.js ***!
@@ -500,6 +1765,78 @@ eval("var parse = __webpack_require__(/*! css/lib/parse */ \"./node_modules/css/
 /***/ (function(module, exports) {
 
 eval("\nexports = module.exports = trim;\n\nfunction trim(str){\n  return str.replace(/^\\s*|\\s*$/g, '');\n}\n\nexports.left = function(str){\n  return str.replace(/^\\s*/, '');\n};\n\nexports.right = function(str){\n  return str.replace(/\\s*$/, '');\n};\n\n\n//# sourceURL=webpack:///./node_modules/trim/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/trough/index.js":
+/*!**************************************!*\
+  !*** ./node_modules/trough/index.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar wrap = __webpack_require__(/*! ./wrap.js */ \"./node_modules/trough/wrap.js\")\n\nmodule.exports = trough\n\ntrough.wrap = wrap\n\nvar slice = [].slice\n\n/* Create new middleware. */\nfunction trough() {\n  var fns = []\n  var middleware = {}\n\n  middleware.run = run\n  middleware.use = use\n\n  return middleware\n\n  /* Run `fns`.  Last argument must be\n   * a completion handler. */\n  function run() {\n    var index = -1\n    var input = slice.call(arguments, 0, -1)\n    var done = arguments[arguments.length - 1]\n\n    if (typeof done !== 'function') {\n      throw new Error('Expected function as last argument, not ' + done)\n    }\n\n    next.apply(null, [null].concat(input))\n\n    /* Run the next `fn`, if any. */\n    function next(err) {\n      var fn = fns[++index]\n      var params = slice.call(arguments, 0)\n      var values = params.slice(1)\n      var length = input.length\n      var pos = -1\n\n      if (err) {\n        done(err)\n        return\n      }\n\n      /* Copy non-nully input into values. */\n      while (++pos < length) {\n        if (values[pos] === null || values[pos] === undefined) {\n          values[pos] = input[pos]\n        }\n      }\n\n      input = values\n\n      /* Next or done. */\n      if (fn) {\n        wrap(fn, next).apply(null, input)\n      } else {\n        done.apply(null, [null].concat(input))\n      }\n    }\n  }\n\n  /* Add `fn` to the list. */\n  function use(fn) {\n    if (typeof fn !== 'function') {\n      throw new Error('Expected `fn` to be a function, not ' + fn)\n    }\n\n    fns.push(fn)\n\n    return middleware\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/trough/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/trough/wrap.js":
+/*!*************************************!*\
+  !*** ./node_modules/trough/wrap.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar slice = [].slice\n\nmodule.exports = wrap\n\n/* Wrap `fn`.  Can be sync or async; return a promise,\n * receive a completion handler, return new values and\n * errors. */\nfunction wrap(fn, callback) {\n  var invoked\n\n  return wrapped\n\n  function wrapped() {\n    var params = slice.call(arguments, 0)\n    var callback = fn.length > params.length\n    var result\n\n    if (callback) {\n      params.push(done)\n    }\n\n    try {\n      result = fn.apply(null, params)\n    } catch (err) {\n      /* Well, this is quite the pickle.  `fn` received\n       * a callback and invoked it (thus continuing the\n       * pipeline), but later also threw an error.\n       * We’re not about to restart the pipeline again,\n       * so the only thing left to do is to throw the\n       * thing instea. */\n      if (callback && invoked) {\n        throw err\n      }\n\n      return done(err)\n    }\n\n    if (!callback) {\n      if (result && typeof result.then === 'function') {\n        result.then(then, done)\n      } else if (result instanceof Error) {\n        done(result)\n      } else {\n        then(result)\n      }\n    }\n  }\n\n  /* Invoke `next`, only once. */\n  function done() {\n    if (!invoked) {\n      invoked = true\n\n      callback.apply(null, arguments)\n    }\n  }\n\n  /* Invoke `done` with one value.\n   * Tracks if an error is passed, too. */\n  function then(value) {\n    done(null, value)\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/trough/wrap.js?");
+
+/***/ }),
+
+/***/ "./node_modules/unherit/index.js":
+/*!***************************************!*\
+  !*** ./node_modules/unherit/index.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar xtend = __webpack_require__(/*! xtend */ \"./node_modules/xtend/immutable.js\")\nvar inherits = __webpack_require__(/*! inherits */ \"./node_modules/inherits/inherits_browser.js\")\n\nmodule.exports = unherit\n\n/* Create a custom constructor which can be modified\n * without affecting the original class. */\nfunction unherit(Super) {\n  var result\n  var key\n  var value\n\n  inherits(Of, Super)\n  inherits(From, Of)\n\n  /* Clone values. */\n  result = Of.prototype\n\n  for (key in result) {\n    value = result[key]\n\n    if (value && typeof value === 'object') {\n      result[key] = 'concat' in value ? value.concat() : xtend(value)\n    }\n  }\n\n  return Of\n\n  /* Constructor accepting a single argument,\n   * which itself is an `arguments` object. */\n  function From(parameters) {\n    return Super.apply(this, parameters)\n  }\n\n  /* Constructor accepting variadic arguments. */\n  function Of() {\n    if (!(this instanceof Of)) {\n      return new From(arguments)\n    }\n\n    return Super.apply(this, arguments)\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/unherit/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/unified/index.js":
+/*!***************************************!*\
+  !*** ./node_modules/unified/index.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/* Dependencies. */\nvar extend = __webpack_require__(/*! extend */ \"./node_modules/extend/index.js\")\nvar bail = __webpack_require__(/*! bail */ \"./node_modules/bail/index.js\")\nvar vfile = __webpack_require__(/*! vfile */ \"./node_modules/vfile/index.js\")\nvar trough = __webpack_require__(/*! trough */ \"./node_modules/trough/index.js\")\nvar string = __webpack_require__(/*! x-is-string */ \"./node_modules/x-is-string/index.js\")\nvar plain = __webpack_require__(/*! is-plain-obj */ \"./node_modules/is-plain-obj/index.js\")\n\n/* Expose a frozen processor. */\nmodule.exports = unified().freeze()\n\nvar slice = [].slice\nvar own = {}.hasOwnProperty\n\n/* Process pipeline. */\nvar pipeline = trough()\n  .use(pipelineParse)\n  .use(pipelineRun)\n  .use(pipelineStringify)\n\nfunction pipelineParse(p, ctx) {\n  ctx.tree = p.parse(ctx.file)\n}\n\nfunction pipelineRun(p, ctx, next) {\n  p.run(ctx.tree, ctx.file, done)\n\n  function done(err, tree, file) {\n    if (err) {\n      next(err)\n    } else {\n      ctx.tree = tree\n      ctx.file = file\n      next()\n    }\n  }\n}\n\nfunction pipelineStringify(p, ctx) {\n  ctx.file.contents = p.stringify(ctx.tree, ctx.file)\n}\n\n/* Function to create the first processor. */\nfunction unified() {\n  var attachers = []\n  var transformers = trough()\n  var namespace = {}\n  var frozen = false\n  var freezeIndex = -1\n\n  /* Data management. */\n  processor.data = data\n\n  /* Lock. */\n  processor.freeze = freeze\n\n  /* Plug-ins. */\n  processor.attachers = attachers\n  processor.use = use\n\n  /* API. */\n  processor.parse = parse\n  processor.stringify = stringify\n  processor.run = run\n  processor.runSync = runSync\n  processor.process = process\n  processor.processSync = processSync\n\n  /* Expose. */\n  return processor\n\n  /* Create a new processor based on the processor\n   * in the current scope. */\n  function processor() {\n    var destination = unified()\n    var length = attachers.length\n    var index = -1\n\n    while (++index < length) {\n      destination.use.apply(null, attachers[index])\n    }\n\n    destination.data(extend(true, {}, namespace))\n\n    return destination\n  }\n\n  /* Freeze: used to signal a processor that has finished\n   * configuration.\n   *\n   * For example, take unified itself.  It’s frozen.\n   * Plug-ins should not be added to it.  Rather, it should\n   * be extended, by invoking it, before modifying it.\n   *\n   * In essence, always invoke this when exporting a\n   * processor. */\n  function freeze() {\n    var values\n    var plugin\n    var options\n    var transformer\n\n    if (frozen) {\n      return processor\n    }\n\n    while (++freezeIndex < attachers.length) {\n      values = attachers[freezeIndex]\n      plugin = values[0]\n      options = values[1]\n      transformer = null\n\n      if (options === false) {\n        continue\n      }\n\n      if (options === true) {\n        values[1] = undefined\n      }\n\n      transformer = plugin.apply(processor, values.slice(1))\n\n      if (typeof transformer === 'function') {\n        transformers.use(transformer)\n      }\n    }\n\n    frozen = true\n    freezeIndex = Infinity\n\n    return processor\n  }\n\n  /* Data management.\n   * Getter / setter for processor-specific informtion. */\n  function data(key, value) {\n    if (string(key)) {\n      /* Set `key`. */\n      if (arguments.length === 2) {\n        assertUnfrozen('data', frozen)\n\n        namespace[key] = value\n\n        return processor\n      }\n\n      /* Get `key`. */\n      return (own.call(namespace, key) && namespace[key]) || null\n    }\n\n    /* Set space. */\n    if (key) {\n      assertUnfrozen('data', frozen)\n      namespace = key\n      return processor\n    }\n\n    /* Get space. */\n    return namespace\n  }\n\n  /* Plug-in management.\n   *\n   * Pass it:\n   * *   an attacher and options,\n   * *   a preset,\n   * *   a list of presets, attachers, and arguments (list\n   *     of attachers and options). */\n  function use(value) {\n    var settings\n\n    assertUnfrozen('use', frozen)\n\n    if (value === null || value === undefined) {\n      /* Empty */\n    } else if (typeof value === 'function') {\n      addPlugin.apply(null, arguments)\n    } else if (typeof value === 'object') {\n      if ('length' in value) {\n        addList(value)\n      } else {\n        addPreset(value)\n      }\n    } else {\n      throw new Error('Expected usable value, not `' + value + '`')\n    }\n\n    if (settings) {\n      namespace.settings = extend(namespace.settings || {}, settings)\n    }\n\n    return processor\n\n    function addPreset(result) {\n      addList(result.plugins)\n\n      if (result.settings) {\n        settings = extend(settings || {}, result.settings)\n      }\n    }\n\n    function add(value) {\n      if (typeof value === 'function') {\n        addPlugin(value)\n      } else if (typeof value === 'object') {\n        if ('length' in value) {\n          addPlugin.apply(null, value)\n        } else {\n          addPreset(value)\n        }\n      } else {\n        throw new Error('Expected usable value, not `' + value + '`')\n      }\n    }\n\n    function addList(plugins) {\n      var length\n      var index\n\n      if (plugins === null || plugins === undefined) {\n        /* Empty */\n      } else if (typeof plugins === 'object' && 'length' in plugins) {\n        length = plugins.length\n        index = -1\n\n        while (++index < length) {\n          add(plugins[index])\n        }\n      } else {\n        throw new Error('Expected a list of plugins, not `' + plugins + '`')\n      }\n    }\n\n    function addPlugin(plugin, value) {\n      var entry = find(plugin)\n\n      if (entry) {\n        if (plain(entry[1]) && plain(value)) {\n          value = extend(entry[1], value)\n        }\n\n        entry[1] = value\n      } else {\n        attachers.push(slice.call(arguments))\n      }\n    }\n  }\n\n  function find(plugin) {\n    var length = attachers.length\n    var index = -1\n    var entry\n\n    while (++index < length) {\n      entry = attachers[index]\n\n      if (entry[0] === plugin) {\n        return entry\n      }\n    }\n  }\n\n  /* Parse a file (in string or VFile representation)\n   * into a Unist node using the `Parser` on the\n   * processor. */\n  function parse(doc) {\n    var file = vfile(doc)\n    var Parser\n\n    freeze()\n    Parser = processor.Parser\n    assertParser('parse', Parser)\n\n    if (newable(Parser)) {\n      return new Parser(String(file), file).parse()\n    }\n\n    return Parser(String(file), file) // eslint-disable-line new-cap\n  }\n\n  /* Run transforms on a Unist node representation of a file\n   * (in string or VFile representation), async. */\n  function run(node, file, cb) {\n    assertNode(node)\n    freeze()\n\n    if (!cb && typeof file === 'function') {\n      cb = file\n      file = null\n    }\n\n    if (!cb) {\n      return new Promise(executor)\n    }\n\n    executor(null, cb)\n\n    function executor(resolve, reject) {\n      transformers.run(node, vfile(file), done)\n\n      function done(err, tree, file) {\n        tree = tree || node\n        if (err) {\n          reject(err)\n        } else if (resolve) {\n          resolve(tree)\n        } else {\n          cb(null, tree, file)\n        }\n      }\n    }\n  }\n\n  /* Run transforms on a Unist node representation of a file\n   * (in string or VFile representation), sync. */\n  function runSync(node, file) {\n    var complete = false\n    var result\n\n    run(node, file, done)\n\n    assertDone('runSync', 'run', complete)\n\n    return result\n\n    function done(err, tree) {\n      complete = true\n      bail(err)\n      result = tree\n    }\n  }\n\n  /* Stringify a Unist node representation of a file\n   * (in string or VFile representation) into a string\n   * using the `Compiler` on the processor. */\n  function stringify(node, doc) {\n    var file = vfile(doc)\n    var Compiler\n\n    freeze()\n    Compiler = processor.Compiler\n    assertCompiler('stringify', Compiler)\n    assertNode(node)\n\n    if (newable(Compiler)) {\n      return new Compiler(node, file).compile()\n    }\n\n    return Compiler(node, file) // eslint-disable-line new-cap\n  }\n\n  /* Parse a file (in string or VFile representation)\n   * into a Unist node using the `Parser` on the processor,\n   * then run transforms on that node, and compile the\n   * resulting node using the `Compiler` on the processor,\n   * and store that result on the VFile. */\n  function process(doc, cb) {\n    freeze()\n    assertParser('process', processor.Parser)\n    assertCompiler('process', processor.Compiler)\n\n    if (!cb) {\n      return new Promise(executor)\n    }\n\n    executor(null, cb)\n\n    function executor(resolve, reject) {\n      var file = vfile(doc)\n\n      pipeline.run(processor, {file: file}, done)\n\n      function done(err) {\n        if (err) {\n          reject(err)\n        } else if (resolve) {\n          resolve(file)\n        } else {\n          cb(null, file)\n        }\n      }\n    }\n  }\n\n  /* Process the given document (in string or VFile\n   * representation), sync. */\n  function processSync(doc) {\n    var complete = false\n    var file\n\n    freeze()\n    assertParser('processSync', processor.Parser)\n    assertCompiler('processSync', processor.Compiler)\n    file = vfile(doc)\n\n    process(file, done)\n\n    assertDone('processSync', 'process', complete)\n\n    return file\n\n    function done(err) {\n      complete = true\n      bail(err)\n    }\n  }\n}\n\n/* Check if `func` is a constructor. */\nfunction newable(value) {\n  return typeof value === 'function' && keys(value.prototype)\n}\n\n/* Check if `value` is an object with keys. */\nfunction keys(value) {\n  var key\n  for (key in value) {\n    return true\n  }\n  return false\n}\n\n/* Assert a parser is available. */\nfunction assertParser(name, Parser) {\n  if (typeof Parser !== 'function') {\n    throw new Error('Cannot `' + name + '` without `Parser`')\n  }\n}\n\n/* Assert a compiler is available. */\nfunction assertCompiler(name, Compiler) {\n  if (typeof Compiler !== 'function') {\n    throw new Error('Cannot `' + name + '` without `Compiler`')\n  }\n}\n\n/* Assert the processor is not frozen. */\nfunction assertUnfrozen(name, frozen) {\n  if (frozen) {\n    throw new Error(\n      [\n        'Cannot invoke `' + name + '` on a frozen processor.\\nCreate a new ',\n        'processor first, by invoking it: use `processor()` instead of ',\n        '`processor`.'\n      ].join('')\n    )\n  }\n}\n\n/* Assert `node` is a Unist node. */\nfunction assertNode(node) {\n  if (!node || !string(node.type)) {\n    throw new Error('Expected node, got `' + node + '`')\n  }\n}\n\n/* Assert that `complete` is `true`. */\nfunction assertDone(name, asyncName, complete) {\n  if (!complete) {\n    throw new Error(\n      '`' + name + '` finished async. Use `' + asyncName + '` instead'\n    )\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/unified/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/unist-builder/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/unist-builder/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar assign = __webpack_require__(/*! object-assign */ \"./node_modules/object-assign/index.js\")\n\nmodule.exports = u\n\nfunction u(type, props, value) {\n  var node\n\n  if (\n    (value === null || value === undefined) &&\n    (typeof props !== 'object' || Array.isArray(props))\n  ) {\n    value = props\n    props = {}\n  }\n\n  node = assign({type: String(type)}, props)\n\n  if (Array.isArray(value)) {\n    node.children = value\n  } else if (value !== null && value !== undefined) {\n    node.value = String(value)\n  }\n\n  return node\n}\n\n\n//# sourceURL=webpack:///./node_modules/unist-builder/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-generated/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/unist-util-generated/index.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/* Expose. */\nmodule.exports = generated\n\n/* Detect if a node was available in the original document. */\nfunction generated(node) {\n  var position = optional(optional(node).position)\n  var start = optional(position.start)\n  var end = optional(position.end)\n\n  return !start.line || !start.column || !end.line || !end.column\n}\n\n/* Return `value` if it’s an object, an empty object\n * otherwise. */\nfunction optional(value) {\n  return value && typeof value === 'object' ? value : {}\n}\n\n\n//# sourceURL=webpack:///./node_modules/unist-util-generated/index.js?");
 
 /***/ }),
 
@@ -515,6 +1852,114 @@ eval("\n\n/* eslint-disable max-params */\n\n/* Expose. */\nmodule.exports = is\
 
 /***/ }),
 
+/***/ "./node_modules/unist-util-position/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/unist-util-position/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/* Expose. */\nvar position = exports\n\nposition.start = factory('start')\nposition.end = factory('end')\n\n/* Factory to get a `type` point in the positional info of a node. */\nfunction factory(type) {\n  point.displayName = type\n\n  return point\n\n  /* Get a point in `node.position` at a bound `type`. */\n  function point(node) {\n    var point = (node && node.position && node.position[type]) || {}\n\n    return {\n      line: point.line || null,\n      column: point.column || null,\n      offset: isNaN(point.offset) ? null : point.offset\n    }\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/unist-util-position/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-remove-position/index.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/unist-util-remove-position/index.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar visit = __webpack_require__(/*! unist-util-visit */ \"./node_modules/unist-util-visit/index.js\")\n\nmodule.exports = removePosition\n\n/* Remove `position`s from `tree`. */\nfunction removePosition(node, force) {\n  visit(node, force ? hard : soft)\n  return node\n}\n\nfunction hard(node) {\n  delete node.position\n}\n\nfunction soft(node) {\n  node.position = undefined\n}\n\n\n//# sourceURL=webpack:///./node_modules/unist-util-remove-position/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-stringify-position/index.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/unist-util-stringify-position/index.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar own = {}.hasOwnProperty\n\nmodule.exports = stringify\n\nfunction stringify(value) {\n  /* Nothing. */\n  if (!value || typeof value !== 'object') {\n    return null\n  }\n\n  /* Node. */\n  if (own.call(value, 'position') || own.call(value, 'type')) {\n    return position(value.position)\n  }\n\n  /* Position. */\n  if (own.call(value, 'start') || own.call(value, 'end')) {\n    return position(value)\n  }\n\n  /* Point. */\n  if (own.call(value, 'line') || own.call(value, 'column')) {\n    return point(value)\n  }\n\n  /* ? */\n  return null\n}\n\nfunction point(point) {\n  if (!point || typeof point !== 'object') {\n    point = {}\n  }\n\n  return index(point.line) + ':' + index(point.column)\n}\n\nfunction position(pos) {\n  if (!pos || typeof pos !== 'object') {\n    pos = {}\n  }\n\n  return point(pos.start) + '-' + point(pos.end)\n}\n\nfunction index(value) {\n  return value && typeof value === 'number' ? value : 1\n}\n\n\n//# sourceURL=webpack:///./node_modules/unist-util-stringify-position/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-visit-parents/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/unist-util-visit-parents/index.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = visitParents\n\nvar is = __webpack_require__(/*! unist-util-is */ \"./node_modules/unist-util-is/index.js\")\n\nvar CONTINUE = true\nvar SKIP = 'skip'\nvar EXIT = false\n\nvisitParents.CONTINUE = CONTINUE\nvisitParents.SKIP = SKIP\nvisitParents.EXIT = EXIT\n\nfunction visitParents(tree, test, visitor, reverse) {\n  if (typeof test === 'function' && typeof visitor !== 'function') {\n    reverse = visitor\n    visitor = test\n    test = null\n  }\n\n  one(tree, null, [])\n\n  // Visit a single node.\n  function one(node, index, parents) {\n    var result\n\n    if (!test || is(test, node, index, parents[parents.length - 1] || null)) {\n      result = visitor(node, parents)\n\n      if (result === EXIT) {\n        return result\n      }\n    }\n\n    if (node.children && result !== SKIP) {\n      return all(node.children, parents.concat(node)) === EXIT ? EXIT : result\n    }\n\n    return result\n  }\n\n  // Visit children in `parent`.\n  function all(children, parents) {\n    var min = -1\n    var step = reverse ? -1 : 1\n    var index = (reverse ? children.length : min) + step\n    var child\n    var result\n\n    while (index > min && index < children.length) {\n      child = children[index]\n      result = child && one(child, index, parents)\n\n      if (result === EXIT) {\n        return result\n      }\n\n      index = typeof result === 'number' ? result : index + step\n    }\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/unist-util-visit-parents/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/unist-util-visit/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/unist-util-visit/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = visit\n\nvar visitParents = __webpack_require__(/*! unist-util-visit-parents */ \"./node_modules/unist-util-visit-parents/index.js\")\n\nvar CONTINUE = visitParents.CONTINUE\nvar SKIP = visitParents.SKIP\nvar EXIT = visitParents.EXIT\n\nvisit.CONTINUE = CONTINUE\nvisit.SKIP = SKIP\nvisit.EXIT = EXIT\n\nfunction visit(tree, test, visitor, reverse) {\n  if (typeof test === 'function' && typeof visitor !== 'function') {\n    reverse = visitor\n    visitor = test\n    test = null\n  }\n\n  visitParents(tree, test, overload, reverse)\n\n  function overload(node, parents) {\n    var parent = parents[parents.length - 1]\n    var index = parent ? parent.children.indexOf(node) : null\n    return visitor(node, index, parent)\n  }\n}\n\n\n//# sourceURL=webpack:///./node_modules/unist-util-visit/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/vfile-location/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/vfile-location/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/* Expose. */\nmodule.exports = factory\n\n/* Factory. */\nfunction factory(file) {\n  var contents = indices(String(file))\n\n  return {\n    toPosition: offsetToPositionFactory(contents),\n    toOffset: positionToOffsetFactory(contents)\n  }\n}\n\n/* Factory to get the line and column-based `position` for\n * `offset` in the bound indices. */\nfunction offsetToPositionFactory(indices) {\n  return offsetToPosition\n\n  /* Get the line and column-based `position` for\n   * `offset` in the bound indices. */\n  function offsetToPosition(offset) {\n    var index = -1\n    var length = indices.length\n\n    if (offset < 0) {\n      return {}\n    }\n\n    while (++index < length) {\n      if (indices[index] > offset) {\n        return {\n          line: index + 1,\n          column: offset - (indices[index - 1] || 0) + 1,\n          offset: offset\n        }\n      }\n    }\n\n    return {}\n  }\n}\n\n/* Factory to get the `offset` for a line and column-based\n * `position` in the bound indices. */\nfunction positionToOffsetFactory(indices) {\n  return positionToOffset\n\n  /* Get the `offset` for a line and column-based\n   * `position` in the bound indices. */\n  function positionToOffset(position) {\n    var line = position && position.line\n    var column = position && position.column\n\n    if (!isNaN(line) && !isNaN(column) && line - 1 in indices) {\n      return (indices[line - 2] || 0) + column - 1 || 0\n    }\n\n    return -1\n  }\n}\n\n/* Get indices of line-breaks in `value`. */\nfunction indices(value) {\n  var result = []\n  var index = value.indexOf('\\n')\n\n  while (index !== -1) {\n    result.push(index + 1)\n    index = value.indexOf('\\n', index + 1)\n  }\n\n  result.push(value.length + 1)\n\n  return result\n}\n\n\n//# sourceURL=webpack:///./node_modules/vfile-location/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/vfile-message/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/vfile-message/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar stringify = __webpack_require__(/*! unist-util-stringify-position */ \"./node_modules/unist-util-stringify-position/index.js\")\n\nmodule.exports = VMessage\n\n/* Inherit from `Error#`. */\nfunction VMessagePrototype() {}\nVMessagePrototype.prototype = Error.prototype\nVMessage.prototype = new VMessagePrototype()\n\n/* Message properties. */\nvar proto = VMessage.prototype\n\nproto.file = ''\nproto.name = ''\nproto.reason = ''\nproto.message = ''\nproto.stack = ''\nproto.fatal = null\nproto.column = null\nproto.line = null\n\n/* Construct a new VMessage.\n *\n * Note: We cannot invoke `Error` on the created context,\n * as that adds readonly `line` and `column` attributes on\n * Safari 9, thus throwing and failing the data. */\nfunction VMessage(reason, position, origin) {\n  var parts\n  var range\n  var location\n\n  if (typeof position === 'string') {\n    origin = position\n    position = null\n  }\n\n  parts = parseOrigin(origin)\n  range = stringify(position) || '1:1'\n\n  location = {\n    start: {line: null, column: null},\n    end: {line: null, column: null}\n  }\n\n  /* Node. */\n  if (position && position.position) {\n    position = position.position\n  }\n\n  if (position) {\n    /* Position. */\n    if (position.start) {\n      location = position\n      position = position.start\n    } else {\n      /* Point. */\n      location.start = position\n    }\n  }\n\n  if (reason.stack) {\n    this.stack = reason.stack\n    reason = reason.message\n  }\n\n  this.message = reason\n  this.name = range\n  this.reason = reason\n  this.line = position ? position.line : null\n  this.column = position ? position.column : null\n  this.location = location\n  this.source = parts[0]\n  this.ruleId = parts[1]\n}\n\nfunction parseOrigin(origin) {\n  var result = [null, null]\n  var index\n\n  if (typeof origin === 'string') {\n    index = origin.indexOf(':')\n\n    if (index === -1) {\n      result[1] = origin\n    } else {\n      result[0] = origin.slice(0, index)\n      result[1] = origin.slice(index + 1)\n    }\n  }\n\n  return result\n}\n\n\n//# sourceURL=webpack:///./node_modules/vfile-message/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/vfile/core.js":
+/*!************************************!*\
+  !*** ./node_modules/vfile/core.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(process) {\n\nvar path = __webpack_require__(/*! path */ \"./node_modules/path-browserify/index.js\")\nvar replace = __webpack_require__(/*! replace-ext */ \"./node_modules/replace-ext/index.js\")\nvar buffer = __webpack_require__(/*! is-buffer */ \"./node_modules/is-buffer/index.js\")\n\nmodule.exports = VFile\n\nvar own = {}.hasOwnProperty\nvar proto = VFile.prototype\n\nproto.toString = toString\n\n/* Order of setting (least specific to most), we need this because\n * otherwise `{stem: 'a', path: '~/b.js'}` would throw, as a path\n * is needed before a stem can be set. */\nvar order = ['history', 'path', 'basename', 'stem', 'extname', 'dirname']\n\n/* Construct a new file. */\nfunction VFile(options) {\n  var prop\n  var index\n  var length\n\n  if (!options) {\n    options = {}\n  } else if (typeof options === 'string' || buffer(options)) {\n    options = {contents: options}\n  } else if ('message' in options && 'messages' in options) {\n    return options\n  }\n\n  if (!(this instanceof VFile)) {\n    return new VFile(options)\n  }\n\n  this.data = {}\n  this.messages = []\n  this.history = []\n  this.cwd = process.cwd()\n\n  /* Set path related properties in the correct order. */\n  index = -1\n  length = order.length\n\n  while (++index < length) {\n    prop = order[index]\n\n    if (own.call(options, prop)) {\n      this[prop] = options[prop]\n    }\n  }\n\n  /* Set non-path related properties. */\n  for (prop in options) {\n    if (order.indexOf(prop) === -1) {\n      this[prop] = options[prop]\n    }\n  }\n}\n\n/* Access full path (`~/index.min.js`). */\nObject.defineProperty(proto, 'path', {\n  get: function() {\n    return this.history[this.history.length - 1]\n  },\n  set: function(path) {\n    assertNonEmpty(path, 'path')\n\n    if (path !== this.path) {\n      this.history.push(path)\n    }\n  }\n})\n\n/* Access parent path (`~`). */\nObject.defineProperty(proto, 'dirname', {\n  get: function() {\n    return typeof this.path === 'string' ? path.dirname(this.path) : undefined\n  },\n  set: function(dirname) {\n    assertPath(this.path, 'dirname')\n    this.path = path.join(dirname || '', this.basename)\n  }\n})\n\n/* Access basename (`index.min.js`). */\nObject.defineProperty(proto, 'basename', {\n  get: function() {\n    return typeof this.path === 'string' ? path.basename(this.path) : undefined\n  },\n  set: function(basename) {\n    assertNonEmpty(basename, 'basename')\n    assertPart(basename, 'basename')\n    this.path = path.join(this.dirname || '', basename)\n  }\n})\n\n/* Access extname (`.js`). */\nObject.defineProperty(proto, 'extname', {\n  get: function() {\n    return typeof this.path === 'string' ? path.extname(this.path) : undefined\n  },\n  set: function(extname) {\n    var ext = extname || ''\n\n    assertPart(ext, 'extname')\n    assertPath(this.path, 'extname')\n\n    if (ext) {\n      if (ext.charAt(0) !== '.') {\n        throw new Error('`extname` must start with `.`')\n      }\n\n      if (ext.indexOf('.', 1) !== -1) {\n        throw new Error('`extname` cannot contain multiple dots')\n      }\n    }\n\n    this.path = replace(this.path, ext)\n  }\n})\n\n/* Access stem (`index.min`). */\nObject.defineProperty(proto, 'stem', {\n  get: function() {\n    return typeof this.path === 'string'\n      ? path.basename(this.path, this.extname)\n      : undefined\n  },\n  set: function(stem) {\n    assertNonEmpty(stem, 'stem')\n    assertPart(stem, 'stem')\n    this.path = path.join(this.dirname || '', stem + (this.extname || ''))\n  }\n})\n\n/* Get the value of the file. */\nfunction toString(encoding) {\n  var value = this.contents || ''\n  return buffer(value) ? value.toString(encoding) : String(value)\n}\n\n/* Assert that `part` is not a path (i.e., does\n * not contain `path.sep`). */\nfunction assertPart(part, name) {\n  if (part.indexOf(path.sep) !== -1) {\n    throw new Error(\n      '`' + name + '` cannot be a path: did not expect `' + path.sep + '`'\n    )\n  }\n}\n\n/* Assert that `part` is not empty. */\nfunction assertNonEmpty(part, name) {\n  if (!part) {\n    throw new Error('`' + name + '` cannot be empty')\n  }\n}\n\n/* Assert `path` exists. */\nfunction assertPath(path, name) {\n  if (!path) {\n    throw new Error('Setting `' + name + '` requires `path` to be set too')\n  }\n}\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/node_modules/process/browser.js */ \"./node_modules/node-libs-browser/node_modules/process/browser.js\")))\n\n//# sourceURL=webpack:///./node_modules/vfile/core.js?");
+
+/***/ }),
+
+/***/ "./node_modules/vfile/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/vfile/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar VMessage = __webpack_require__(/*! vfile-message */ \"./node_modules/vfile-message/index.js\")\nvar VFile = __webpack_require__(/*! ./core.js */ \"./node_modules/vfile/core.js\")\n\nmodule.exports = VFile\n\nvar proto = VFile.prototype\n\nproto.message = message\nproto.info = info\nproto.fail = fail\n\n/* Slight backwards compatibility.  Remove in the future. */\nproto.warn = message\n\n/* Create a message with `reason` at `position`.\n * When an error is passed in as `reason`, copies the stack. */\nfunction message(reason, position, origin) {\n  var filePath = this.path\n  var message = new VMessage(reason, position, origin)\n\n  if (filePath) {\n    message.name = filePath + ':' + message.name\n    message.file = filePath\n  }\n\n  message.fatal = false\n\n  this.messages.push(message)\n\n  return message\n}\n\n/* Fail. Creates a vmessage, associates it with the file,\n * and throws it. */\nfunction fail() {\n  var message = this.message.apply(this, arguments)\n\n  message.fatal = true\n\n  throw message\n}\n\n/* Info. Creates a vmessage, associates it with the file,\n * and marks the fatality as null. */\nfunction info() {\n  var message = this.message.apply(this, arguments)\n\n  message.fatal = null\n\n  return message\n}\n\n\n//# sourceURL=webpack:///./node_modules/vfile/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/web-namespaces/index.json":
 /*!************************************************!*\
   !*** ./node_modules/web-namespaces/index.json ***!
@@ -523,6 +1968,17 @@ eval("\n\n/* eslint-disable max-params */\n\n/* Expose. */\nmodule.exports = is\
 /***/ (function(module) {
 
 eval("module.exports = {\"html\":\"http://www.w3.org/1999/xhtml\",\"mathml\":\"http://www.w3.org/1998/Math/MathML\",\"svg\":\"http://www.w3.org/2000/svg\",\"xlink\":\"http://www.w3.org/1999/xlink\",\"xml\":\"http://www.w3.org/XML/1998/namespace\",\"xmlns\":\"http://www.w3.org/2000/xmlns/\"};\n\n//# sourceURL=webpack:///./node_modules/web-namespaces/index.json?");
+
+/***/ }),
+
+/***/ "./node_modules/x-is-string/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/x-is-string/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("var toString = Object.prototype.toString\n\nmodule.exports = isString\n\nfunction isString(obj) {\n    return toString.call(obj) === \"[object String]\"\n}\n\n\n//# sourceURL=webpack:///./node_modules/x-is-string/index.js?");
 
 /***/ }),
 
@@ -544,18 +2000,7 @@ eval("module.exports = extend\n\nvar hasOwnProperty = Object.prototype.hasOwnPro
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./react */ \"./src/react.js\");\n// require('./react')\n// require('./react')\n\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/react.js":
-/*!**********************!*\
-  !*** ./src/react.js ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("const { createElement, Component } = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst { render } = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nconst hast2hyperscript = __webpack_require__(/*! hast-to-hyperscript */ \"./node_modules/hast-to-hyperscript/index.js\");\n\nclass Root extends Component {\n  constructor(props) {\n    super(props);\n    this.state = { checked: false };\n    this.onClick = this.onClick.bind(this);\n  }\n  onClick() {\n    this.setState({ checked: !this.state.checked });\n  }\n  render() {\n    return createElement(\n      \"div\",\n      null,\n      createElement(\"h1\", null, \"React\"),\n      createElement(\n        \"button\",\n        { onClick: this.onClick },\n        \"toggle(at first time logged error)\"\n      ),\n      hast2hyperscript(createElement, {\n        type: \"element\",\n        tagName: \"input\",\n        properties: {\n          type: \"checkbox\",\n          checked: this.state.checked\n        }\n      })\n    );\n  }\n}\n\nrender(createElement(Root), document.querySelector(\"#root-react\"));\n\n\n//# sourceURL=webpack:///./src/react.js?");
+eval("const { createElement, Component } = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst { render } = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nconst unified = __webpack_require__(/*! unified */ \"./node_modules/unified/index.js\");\nconst md2mdast = __webpack_require__(/*! remark-parse */ \"./node_modules/remark-parse/index.js\");\nconst mdast2hast = __webpack_require__(/*! remark-rehype */ \"./node_modules/remark-rehype/index.js\");\nconst hast2hyperscript = __webpack_require__(/*! hast-to-hyperscript */ \"./node_modules/hast-to-hyperscript/index.js\");\n\nconst CHECKED = \"- [x] checked\";\nconst UNCHECKED = \"- [ ] unchecked\";\n\nclass Root extends Component {\n  constructor(props) {\n    super(props);\n    this.state = { source: UNCHECKED };\n    this.assignCheckedMarkdown = this.assignCheckedMarkdown.bind(this);\n    this.assignUncheckedMarkdown = this.assignUncheckedMarkdown.bind(this);\n  }\n  assignCheckedMarkdown() {\n    this.setState({ source: CHECKED });\n  }\n  assignUncheckedMarkdown() {\n    this.setState({ source: UNCHECKED });\n  }\n  render() {\n    return createElement(\n      \"div\",\n      null,\n      createElement(\"h1\", null, \"React\"),\n      createElement(\n        \"button\",\n        { onClick: this.assignCheckedMarkdown },\n        \"change to checked markdown\"\n      ),\n      createElement(\n        \"button\",\n        { onClick: this.assignUncheckedMarkdown },\n        \"change to unchecked markdown\"\n      ),\n      unified()\n        .use(md2mdast)\n        .use(mdast2hast)\n        .use(function() {\n          this.Compiler = function(hast) {\n            return hast2hyperscript(createElement, hast);\n          };\n        })\n        .processSync(this.state.source).contents\n    );\n  }\n}\n\nrender(createElement(Root), document.querySelector(\"#root\"));\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
