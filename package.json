@@ -1,0 +1,26 @@
+{
+  "name": "survey-hast-to-hyperscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hast-to-hyperscript": "^5.0.0",
+    "hyperscript": "^2.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "remark-parse": "^5.0.0",
+    "remark-rehype": "^3.0.1",
+    "unified": "^7.0.0",
+    "virtual-dom": "^2.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
